@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>2026 Golf Pool Standings</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+<style>
+  /* ── Reset & Base ─────────────────────────────────────────────────────── */
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg:           #0d1117;
+    --surface:      #161b22;
+    --surface2:     #21262d;
+    --border:       #30363d;
+    --border-soft:  #21262d;
+    --green:        #238636;
+    --green-bright: #2ea043;
+    --green-glow:   rgba(35,134,54,0.18);
+    --gold:         #d4a30a;
+    --gold-dim:     rgba(212,163,10,0.15);
+    --major:        #1f6feb;
+    --major-dim:    rgba(31,111,235,0.12);
+    --small:        #8957e5;
+    --small-dim:    rgba(137,87,229,0.12);
+    --red:          #da3633;
+    --red-dim:      rgba(218,54,51,0.12);
+    --text:         #e6edf3;
+    --text-muted:   #7d8590;
+    --text-dim:     #484f58;
+    --rank1:        #ffd700;
+    --rank2:        #c0c0c0;
+    --rank3:        #cd7f32;
+    --penalty-bg:   rgba(218,54,51,0.08);
+    --upcoming-bg:  rgba(255,255,255,0.02);
+    --radius:       8px;
+    --font-display: 'Bebas Neue', sans-serif;
+    --font-body:    'DM Sans', sans-serif;
+    --font-mono:    'DM Mono', monospace;
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: var(--font-body);
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* ── Background texture ──────────────────────────────────────────────── */
+  body::before {
+    content: '';
+    position: fixed; inset: 0; z-index: 0;
+    background:
+      radial-gradient(ellipse 80% 50% at 50% -20%, rgba(35,134,54,0.08) 0%, transparent 60%),
+      radial-gradient(ellipse 40% 30% at 90% 80%, rgba(31,111,235,0.05) 0%, transparent 50%);
+    pointer-events: none;
+  }
+
+  /* ── Layout ──────────────────────────────────────────────────────────── */
+  .page { position: relative; z-index: 1; max-width: 1400px; margin: 0 auto; padding: 0 20px 60px; }
+
+  /* ── Header ──────────────────────────────────────────────────────────── */
+  header {
+    padding: 40px 0 28px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 28px;
+  }
+
+  .header-left { display: flex; align-items: center; gap: 16px; }
+
+  .logo {
+    width: 52px; height: 52px;
+    background: var(--green);
+    border-radius: 12px;
+    display: grid; place-items: center;
+    font-size: 28px;
+    box-shadow: 0 0 20px var(--green-glow);
+    flex-shrink: 0;
+  }
+
+  .header-titles h1 {
+    font-family: var(--font-display);
+    font-size: clamp(28px, 4vw, 48px);
+    letter-spacing: 2px;
+    line-height: 1;
+    color: var(--text);
+  }
+
+  .header-titles p {
+    font-size: 13px;
+    color: var(--text-muted);
+    margin-top: 4px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+  }
+
+  .updated-badge {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 6px 14px;
+    font-size: 11px;
+    color: var(--text-muted);
+    font-family: var(--font-mono);
+    white-space: nowrap;
+  }
+
+  .updated-badge span { color: var(--green-bright); }
+
+  /* ── Prize summary strip ─────────────────────────────────────────────── */
+  .prize-strip {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-bottom: 24px;
+  }
+
+  .prize-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 12px 20px;
+    flex: 1;
+    min-width: 140px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    transition: border-color 0.2s;
+  }
+
+  .prize-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 2px;
+  }
+
+  .prize-card.gold::before  { background: var(--rank1); }
+  .prize-card.silver::before { background: var(--rank2); }
+  .prize-card.bronze::before { background: var(--rank3); }
+
+  .prize-card .place { font-size: 11px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 4px; }
+  .prize-card .entry-name { font-size: 15px; font-weight: 600; color: var(--text); margin-bottom: 2px; }
+  .prize-card .total { font-family: var(--font-mono); font-size: 13px; color: var(--green-bright); }
+  .prize-card .medal { font-size: 22px; margin-bottom: 6px; }
+
+  /* ── Tabs ────────────────────────────────────────────────────────────── */
+  .tab-bar {
+    display: flex;
+    gap: 4px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 6px;
+  }
+
+  .tab {
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    color: var(--text-muted);
+    transition: all 0.15s;
+    letter-spacing: 0.3px;
+    white-space: nowrap;
+  }
+
+  .tab:hover { color: var(--text); background: var(--surface2); }
+
+  .tab.active {
+    background: var(--green);
+    color: #fff;
+    box-shadow: 0 0 12px var(--green-glow);
+  }
+
+  .tab.major-tab.active  { background: var(--major); box-shadow: 0 0 12px rgba(31,111,235,0.3); }
+  .tab.small-tab.active  { background: var(--small); box-shadow: 0 0 12px rgba(137,87,229,0.3); }
+
+  /* ── Legend ──────────────────────────────────────────────────────────── */
+  .legend {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 16px;
+    font-size: 11px;
+    color: var(--text-muted);
+  }
+
+  .legend-item { display: flex; align-items: center; gap: 6px; }
+  .legend-dot { width: 10px; height: 10px; border-radius: 2px; }
+
+  /* ── Table wrapper ───────────────────────────────────────────────────── */
+  .table-wrap {
+    overflow-x: auto;
+    border-radius: var(--radius);
+    border: 1px solid var(--border);
+    background: var(--surface);
+  }
+
+  /* ── Standings table ─────────────────────────────────────────────────── */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12px;
+  }
+
+  thead th {
+    background: var(--surface2);
+    color: var(--text-muted);
+    font-weight: 500;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    padding: 10px 10px;
+    text-align: center;
+    border-bottom: 1px solid var(--border);
+    white-space: nowrap;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+
+  thead th.col-rank  { width: 44px; }
+  thead th.col-entry { text-align: left; min-width: 160px; position: sticky; left: 0; z-index: 11; background: var(--surface2); }
+  thead th.col-total { width: 110px; }
+  thead th.col-tourn { min-width: 86px; }
+
+  thead th.major-col { background: rgba(31,111,235,0.18); color: #7db9f7; }
+  thead th.small-col { background: rgba(137,87,229,0.18); color: #b69fe8; }
+
+  .th-inner { display: flex; flex-direction: column; align-items: center; gap: 2px; }
+  .th-name  { font-size: 10px; white-space: normal; line-height: 1.2; text-align: center; }
+  .th-date  { font-size: 9px; color: var(--text-dim); font-family: var(--font-mono); }
+  .th-badge {
+    font-size: 8px;
+    padding: 1px 5px;
+    border-radius: 3px;
+    letter-spacing: 0.5px;
+    margin-top: 2px;
+  }
+  .th-badge.major { background: var(--major); color: #fff; }
+  .th-badge.small { background: var(--small); color: #fff; }
+  .th-badge.mult  { background: var(--gold); color: #000; }
+
+  tbody tr { border-bottom: 1px solid var(--border-soft); transition: background 0.1s; }
+  tbody tr:hover { background: rgba(255,255,255,0.02); }
+  tbody tr:last-child { border-bottom: none; }
+
+  /* Alternating rows */
+  tbody tr:nth-child(even) td { background: rgba(255,255,255,0.01); }
+  tbody tr:nth-child(even) td.sticky-col { background: rgba(22,27,34,0.97); }
+
+  td {
+    padding: 9px 10px;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  /* Rank cell */
+  td.rank-cell {
+    font-family: var(--font-display);
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    width: 44px;
+  }
+
+  .rank-1 { color: var(--rank1); text-shadow: 0 0 12px rgba(255,215,0,0.4); }
+  .rank-2 { color: var(--rank2); }
+  .rank-3 { color: var(--rank3); }
+
+  /* Entry name cell */
+  td.entry-cell {
+    text-align: left;
+    position: sticky;
+    left: 0;
+    z-index: 5;
+    background: var(--surface);
+    border-right: 1px solid var(--border);
+    padding-left: 14px;
+  }
+
+  .entry-name-main { font-weight: 600; font-size: 13px; color: var(--text); }
+  .entry-name-real { font-size: 10px; color: var(--text-muted); margin-top: 1px; }
+
+  /* Total cell */
+  td.total-cell {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--green-bright);
+    border-left: 1px solid var(--border);
+  }
+
+  td.total-cell.negative { color: var(--red); }
+
+  /* Score cells */
+  td.score-cell { font-family: var(--font-mono); font-size: 11px; }
+
+  td.score-penalty { background: var(--penalty-bg); color: var(--red); }
+  td.score-upcoming { background: var(--upcoming-bg); color: var(--text-dim); }
+  td.score-major    { background: var(--major-dim); }
+  td.score-major.score-penalty { background: rgba(218,54,51,0.15); }
+  td.score-small    { background: var(--small-dim); }
+
+  /* Podium rows */
+  tr.podium-1 td.entry-cell { border-left: 3px solid var(--rank1); }
+  tr.podium-2 td.entry-cell { border-left: 3px solid var(--rank2); }
+  tr.podium-3 td.entry-cell { border-left: 3px solid var(--rank3); }
+
+  /* ── Loading / Error states ──────────────────────────────────────────── */
+  .state-box {
+    text-align: center;
+    padding: 80px 20px;
+    color: var(--text-muted);
+  }
+
+  .state-box .icon { font-size: 40px; margin-bottom: 16px; }
+  .state-box h3 { font-size: 18px; margin-bottom: 8px; color: var(--text); }
+  .state-box p  { font-size: 13px; }
+
+  .spinner {
+    width: 32px; height: 32px;
+    border: 3px solid var(--border);
+    border-top-color: var(--green);
+    border-radius: 50%;
+    animation: spin 0.7s linear infinite;
+    margin: 0 auto 16px;
+  }
+
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  /* ── Tooltip ─────────────────────────────────────────────────────────── */
+  [data-tip] { position: relative; cursor: default; }
+  [data-tip]:hover::after {
+    content: attr(data-tip);
+    position: absolute;
+    bottom: calc(100% + 6px);
+    left: 50%;
+    transform: translateX(-50%);
+    background: #1c2128;
+    border: 1px solid var(--border);
+    color: var(--text);
+    font-size: 11px;
+    white-space: nowrap;
+    padding: 5px 10px;
+    border-radius: 5px;
+    pointer-events: none;
+    z-index: 100;
+    font-family: var(--font-mono);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.4);
+  }
+
+  /* ── Responsive ──────────────────────────────────────────────────────── */
+  @media (max-width: 640px) {
+    header { flex-direction: column; align-items: flex-start; }
+    .prize-card { min-width: 100%; }
+    .tab { font-size: 11px; padding: 6px 10px; }
+  }
+
+  /* ── Animations ──────────────────────────────────────────────────────── */
+  .fade-in { animation: fadeIn 0.3s ease; }
+  @keyframes fadeIn { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+
+  .row-enter { animation: rowIn 0.25s ease backwards; }
+  @keyframes rowIn { from { opacity: 0; } to { opacity: 1; } }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- Header -->
+  <header>
+    <div class="header-left">
+      <div class="logo">⛳</div>
+      <div class="header-titles">
+        <h1>2026 Golf Pool</h1>
+        <p>One-and-Done · 29 Tournaments · Season Standings</p>
+      </div>
+    </div>
+    <div class="updated-badge" id="updated-badge">Loading…</div>
+  </header>
+
+  <!-- Podium cards -->
+  <div class="prize-strip" id="prize-strip">
+    <div class="prize-card gold">
+      <div class="medal">🥇</div>
+      <div class="place">1st Place</div>
+      <div class="entry-name" id="p1-name">—</div>
+      <div class="total" id="p1-total">—</div>
+    </div>
+    <div class="prize-card silver">
+      <div class="medal">🥈</div>
+      <div class="place">2nd Place</div>
+      <div class="entry-name" id="p2-name">—</div>
+      <div class="total" id="p2-total">—</div>
+    </div>
+    <div class="prize-card bronze">
+      <div class="medal">🥉</div>
+      <div class="place">3rd Place</div>
+      <div class="entry-name" id="p3-name">—</div>
+      <div class="total" id="p3-total">—</div>
+    </div>
+  </div>
+
+  <!-- Tabs -->
+  <div class="tab-bar" id="tab-bar">
+    <button class="tab active" data-view="overall">Overall</button>
+    <button class="tab" data-view="seg1">Seg 1</button>
+    <button class="tab" data-view="seg2">Seg 2</button>
+    <button class="tab" data-view="seg3">Seg 3</button>
+    <button class="tab" data-view="seg4">Seg 4</button>
+    <button class="tab" data-view="seg5">Seg 5</button>
+    <button class="tab" data-view="seg6">Seg 6</button>
+    <button class="tab major-tab" data-view="majors">★ Majors</button>
+    <button class="tab small-tab" data-view="small">Small Purse</button>
+  </div>
+
+  <!-- Legend -->
+  <div class="legend">
+    <div class="legend-item"><div class="legend-dot" style="background:var(--major)"></div> Major (1.5×)</div>
+    <div class="legend-item"><div class="legend-dot" style="background:var(--small)"></div> Small Purse</div>
+    <div class="legend-item"><div class="legend-dot" style="background:var(--red)"></div> Penalty / Miss / No Pick (−$350K)</div>
+    <div class="legend-item"><div class="legend-dot" style="background:var(--surface2)"></div> Upcoming</div>
+  </div>
+
+  <!-- Table -->
+  <div class="table-wrap">
+    <div id="table-container">
+      <div class="state-box">
+        <div class="spinner"></div>
+        <h3>Loading Standings</h3>
+        <p>Fetching tournament data…</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+// ── State ─────────────────────────────────────────────────────────────────
+let DATA = null;
+let activeView = 'overall';
+
+const VIEW_LABELS = {
+  overall: 'Overall Season',
+  seg1: 'Segment 1 (Jan–Feb)',
+  seg2: 'Segment 2 (Mar–Apr)',
+  seg3: 'Segment 3 (Apr–May)',
+  seg4: 'Segment 4 (May–Jun)',
+  seg5: 'Segment 5 (Jun–Jul)',
+  seg6: 'Segment 6 (Jul–Aug)',
+  majors: 'Major Championships',
+  small:  'Small Purse Tournaments',
+};
+
+const VIEW_TOURNS = {
+  overall: t => true,
+  seg1: t => t.seg === 1,
+  seg2: t => t.seg === 2,
+  seg3: t => t.seg === 3,
+  seg4: t => t.seg === 4,
+  seg5: t => t.seg === 5,
+  seg6: t => t.seg === 6,
+  majors: t => t.major,
+  small:  t => t.small,
+};
+
+// ── Formatting ────────────────────────────────────────────────────────────
+function fmt(n) {
+  if (n === null || n === undefined) return '—';
+  const abs = Math.abs(n);
+  const s = Math.round(abs).toLocaleString('en-US');
+  return n < 0 ? `(${s})` : s;
+}
+
+function fmtTotal(n) {
+  if (n === null || n === undefined) return '—';
+  const abs = Math.abs(n);
+  let s;
+  if (abs >= 1_000_000) s = '$' + (abs / 1_000_000).toFixed(2) + 'M';
+  else s = '$' + Math.round(abs).toLocaleString('en-US');
+  return n < 0 ? `(${s})` : s;
+}
+
+// ── Render ────────────────────────────────────────────────────────────────
+function render() {
+  if (!DATA) return;
+
+  const tourns = DATA.tournaments.filter(VIEW_TOURNS[activeView]);
+  const rows   = DATA.standings[activeView];
+
+  // Update podium (always from overall)
+  const overall = DATA.standings.overall;
+  ['p1','p2','p3'].forEach((id, i) => {
+    const r = overall[i];
+    document.getElementById(`${id}-name`).textContent  = r ? r.entry : '—';
+    document.getElementById(`${id}-total`).textContent = r ? fmtTotal(r.total) : '—';
+  });
+
+  // Build table HTML
+  let html = `<table class="fade-in">
+  <thead>
+    <tr>
+      <th class="col-rank">Rank</th>
+      <th class="col-entry">Entry</th>`;
+
+  tourns.forEach(t => {
+    const cls = t.major ? 'major-col' : t.small ? 'small-col' : '';
+    html += `<th class="col-tourn ${cls}">
+      <div class="th-inner">
+        <span class="th-name">${t.short}</span>
+        <span class="th-date">${t.date}</span>`;
+    if (t.major) html += `<span class="th-badge major">MAJOR ${t.wt}×</span>`;
+    else if (t.wt > 1) html += `<span class="th-badge mult">${t.wt}×</span>`;
+    else if (t.small) html += `<span class="th-badge small">SMALL</span>`;
+    html += `</div></th>`;
+  });
+
+  html += `<th class="col-total">Total Pts</th>
+    </tr>
+  </thead>
+  <tbody>`;
+
+  rows.forEach((row, ri) => {
+    const podiumCls = row.rank <= 3 ? `podium-${row.rank}` : '';
+    const delay = Math.min(ri * 15, 300);
+    html += `<tr class="${podiumCls} row-enter" style="animation-delay:${delay}ms">
+      <td class="rank-cell ${row.rank <= 3 ? `rank-${row.rank}` : ''}">${row.rank}</td>
+      <td class="entry-cell sticky-col">
+        <div class="entry-name-main">${row.entry}</div>
+        <div class="entry-name-real">${row.name}</div>
+      </td>`;
+
+    // Find the scores for tournaments in this view
+    // rows[ri].scores is indexed to the view's tournament list
+    row.scores.forEach((sc, ti) => {
+      const t = tourns[ti];
+      if (!t) return;
+
+      let tdCls = 'score-cell';
+      let val = '—';
+      let tip = '';
+
+      if (sc.status === 'upcoming') {
+        tdCls += ' score-upcoming';
+        val = '·';
+      } else if (sc.status === 'penalty') {
+        tdCls += ' score-penalty';
+        if (t.major) tdCls += ' score-major';
+        val = fmt(sc.points);
+        tip = `Penalty: missed cut, WD, or no pick`;
+      } else {
+        if (t.major) tdCls += ' score-major';
+        else if (t.small) tdCls += ' score-small';
+        val = fmt(sc.points);
+        if (t.wt > 1 && sc.raw !== null) {
+          tip = `Raw: $${Math.round(sc.raw).toLocaleString()} × ${t.wt}`;
+        }
+      }
+
+      html += `<td class="${tdCls}" ${tip ? `data-tip="${tip}"` : ''}>${val}</td>`;
+    });
+
+    const totNeg = row.total < 0;
+    html += `<td class="total-cell ${totNeg ? 'negative' : ''}">${fmtTotal(row.total)}</td>
+    </tr>`;
+  });
+
+  html += `</tbody></table>`;
+  document.getElementById('table-container').innerHTML = html;
+}
+
+// ── Tab switching ─────────────────────────────────────────────────────────
+document.getElementById('tab-bar').addEventListener('click', e => {
+  const btn = e.target.closest('.tab');
+  if (!btn) return;
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  btn.classList.add('active');
+  activeView = btn.dataset.view;
+  render();
+});
+
+// ── Load data ─────────────────────────────────────────────────────────────
+async function loadData() {
+  try {
+    const res = await fetch('data/standings.json?v=' + Date.now());
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    DATA = await res.json();
+
+    document.getElementById('updated-badge').innerHTML =
+      `Updated <span>${DATA.generated}</span>`;
+
+    render();
+  } catch (err) {
+    document.getElementById('table-container').innerHTML = `
+      <div class="state-box">
+        <div class="icon">⚠️</div>
+        <h3>Could not load standings</h3>
+        <p>${err.message}</p>
+      </div>`;
+    document.getElementById('updated-badge').textContent = 'Error loading data';
+  }
+}
+
+loadData();
+</script>
+</body>
+</html>
