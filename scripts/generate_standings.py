@@ -6,9 +6,10 @@ Run automatically by GitHub Actions when new results are uploaded.
 
 import os, json, glob
 import pandas as pd
-from datetime import datetime
+from datetime import datetime, timezone
 
-PENALTY = -350_000
+PENALTY     = -350_000
+PENALTY_MAJ = -525_000  # -350,000 * 1.5
 
 TOURNAMENTS = [
     {"name": "Farmers Insurance Open",           "date": "Jan 29",  "short": "Farmers",       "wt": 1.0, "seg": 1, "major": False, "small": True},
@@ -44,7 +45,6 @@ TOURNAMENTS = [
 
 TAB_ALIASES = {
     "AT&T Pebble Beach Pro-Am": "AT&T Pebble Beach National Pro-Am",
-    "PGA Championship": "PGA Championship",
 }
 
 ACTIVE_ENTRIES = [
@@ -57,33 +57,16 @@ ACTIVE_ENTRIES = [
     "Texastank", "Therealjasondufner", "You Only LIV Twice", "larrymahomes",
 ]
 
-PARTICIPANT_NAMES = {
-    "ADAHMER": "Andrew Dahmer", "AustinAb": "Austin Abelbeck",
-    "BALL_IS_LIFE": "J.D. Meyer", "BENHAILE": "Benjamin Haile",
-    "BIG T": "Theresa Carlson", "BIRKSBADBOYZ": "Brandon Rich",
-    "CCRICHARDS83": "Chris Richards", "DILLY DILLY": "Patrick Cowden",
-    "D_PRICE": "Daniel Price", "FRUSCH": "Craig Fusch",
-    "Hershiness": "Adam Hersh", "J BROTHERS": "Jon Aronson",
-    "JBSMOOVE": "Josh Bauer", "JBSOUTHERLAND": "Brayden Southerland",
-    "KATT MUCHAR": "B G", "KENBAER": "Ken Baer",
-    "KNBETHUNE": "Kenneth Bethune", "KONRADE": "Eric Konrade",
-    "Lane Boy": "Your Boy", "MPRICE21": "Matthew Price",
-    "PALACEJ": "Justin Palace", "RISCHCO": "Andrew Rische",
-    "RYAN4371": "Ryan Lafield", "SEAGULL": "Kyle Siegel",
-    "STUMPCAT": "Russell Musgrove", "SWITZ AND GIGGLES": "Steve Switzer",
-    "TCRAWFORD": "Trey Crawford", "THIS FOOL RIGHT HERE": "Ryan Swanson",
-    "TSWANY05": "Tracy Swanson", "Texastank": "Jimmy Greene",
-    "Therealjasondufner": "Matt Kapoulas", "You Only LIV Twice": "Chris Simmons",
-    "larrymahomes": "Lawrence Kroenke",
-}
-
 
 def load_results(results_dir):
-    """Load all XLS/CSV result files from results/ folder."""
-    scores = {e: {} for e in ACTIVE_ENTRIES}
+    """Load all XLS/CSV result files. Returns:
+       scores[entry][tname]  = points (already weighted for positives; penalty applied for majors)
+       details[entry][tname] = {"golfer": "First Last", "position": N, "raw": dollars}
+    """
+    scores  = {e: {} for e in ACTIVE_ENTRIES}
+    details = {e: {} for e in ACTIVE_ENTRIES}
     loaded_tournaments = []
 
-    # Collect all result files
     files = (glob.glob(os.path.join(results_dir, "*.xls")) +
              glob.glob(os.path.join(results_dir, "*.xlsx")) +
              glob.glob(os.path.join(results_dir, "*.csv")))
@@ -94,58 +77,79 @@ def load_results(results_dir):
             sheets = pd.read_excel(fpath, sheet_name=None)
         else:
             df = pd.read_csv(fpath)
-            # Assume CSV tab name is the filename stem
             sheets = {os.path.splitext(os.path.basename(fpath))[0]: df}
 
         for tab_name, df in sheets.items():
+            # Strip whitespace from column names
+            df.columns = [c.strip() for c in df.columns]
+
             canonical = TAB_ALIASES.get(tab_name, tab_name)
             t_cfg = next((t for t in TOURNAMENTS if t["name"] == canonical), None)
             if t_cfg is None:
-                continue  # unknown tab, skip
+                continue
 
             if canonical not in loaded_tournaments:
                 loaded_tournaments.append(canonical)
 
-            # Build result map
+            is_major = t_cfg["major"]
+            penalty  = PENALTY_MAJ if is_major else PENALTY
+
             result_map = {}
             for _, row in df.iterrows():
                 ename = str(row.get("Entry Name", "")).strip()
-                if ename in ACTIVE_ENTRIES:
-                    w = row.get("Winnings", None)
-                    result_map[ename] = PENALTY if pd.isna(w) else float(w)
+                if ename not in ACTIVE_ENTRIES:
+                    continue
+
+                w    = row.get("Winnings", None)
+                fn   = str(row.get("First Name", "")).strip()
+                ln   = str(row.get("Last Name",  "")).strip()
+                pos  = row.get("Position", None)
+
+                golfer = f"{fn} {ln}".strip() if (fn or ln) else None
+                pos_val = int(pos) if pd.notna(pos) else None
+
+                if pd.isna(w):
+                    pts = penalty
+                    result_map[ename] = {"pts": pts, "golfer": golfer, "position": pos_val, "raw": penalty}
+                else:
+                    # Winnings already weighted in source file for positives
+                    result_map[ename] = {"pts": float(w), "golfer": golfer, "position": pos_val, "raw": float(w)}
 
             for e in ACTIVE_ENTRIES:
-                raw = result_map.get(e, PENALTY)  # no pick = penalty
-                scores[e][canonical] = raw
+                if e in result_map:
+                    r = result_map[e]
+                else:
+                    # No pick submitted
+                    r = {"pts": penalty, "golfer": None, "position": None, "raw": penalty}
 
-    return scores, loaded_tournaments
+                scores[e][canonical]  = r["pts"]
+                details[e][canonical] = {"golfer": r["golfer"], "position": r["position"], "raw": r["raw"]}
+
+    return scores, details, loaded_tournaments
 
 
-def compute_standings(scores, loaded_tournaments):
-    """Compute points (raw * wt) for each entry across all views."""
-
-    def pts(entry, tname):
-        raw = scores[entry].get(tname)
-        if raw is None:
-            return None
-        t = next(t for t in TOURNAMENTS if t["name"] == tname)
-        # Winnings from the results file are already weighted (1.5x applied at source).
-        # Only penalties need the multiplier applied here.
-        if raw == PENALTY:
-            return PENALTY * t["wt"]
-        return raw
+def compute_standings(scores, details, loaded_tournaments):
 
     def build_view(tournament_list):
-        totals = {}
+        played_tnames = [t["name"] for t in tournament_list if t["name"] in loaded_tournaments]
+        total_played  = len(played_tnames)
+
+        totals    = {}
+        cuts_made = {}
         for e in ACTIVE_ENTRIES:
-            total = sum(
-                pts(e, t["name"])
-                for t in tournament_list
-                if t["name"] in loaded_tournaments and pts(e, t["name"]) is not None
-            )
-            totals[e] = total
+            total = 0
+            cuts  = 0
+            for tname in played_tnames:
+                p = scores[e].get(tname, 0)
+                total += p
+                if p > 0:
+                    cuts += 1
+            totals[e]    = total
+            cuts_made[e] = cuts
 
         ranked = sorted(ACTIVE_ENTRIES, key=lambda e: -totals[e])
+        leader_total = totals[ranked[0]] if ranked else 0
+
         result = []
         prev_total, prev_rank = None, 0
         for i, e in enumerate(ranked):
@@ -154,70 +158,90 @@ def compute_standings(scores, loaded_tournaments):
 
             tourn_scores = []
             for t in tournament_list:
-                p = pts(e, t["name"])
-                if t["name"] not in loaded_tournaments:
-                    tourn_scores.append({"status": "upcoming", "points": None, "raw": None})
-                elif p is None:
-                    tourn_scores.append({"status": "upcoming", "points": None, "raw": None})
-                elif p < 0:
-                    tourn_scores.append({"status": "penalty", "points": p, "raw": scores[e].get(t["name"])})
+                tname = t["name"]
+                if tname not in loaded_tournaments:
+                    tourn_scores.append({"status": "upcoming", "points": None, "golfer": None, "position": None})
                 else:
-                    tourn_scores.append({"status": "scored", "points": p, "raw": scores[e].get(t["name"])})
+                    p   = scores[e].get(tname, 0)
+                    det = details[e].get(tname, {})
+                    if p < 0:
+                        status = "penalty"
+                    else:
+                        status = "scored"
+                    tourn_scores.append({
+                        "status":   status,
+                        "points":   p,
+                        "golfer":   det.get("golfer"),
+                        "position": det.get("position"),
+                    })
 
             result.append({
-                "rank": rank,
-                "entry": e,
-                "name": PARTICIPANT_NAMES.get(e, e),
-                "total": totals[e],
-                "scores": tourn_scores,
+                "rank":         rank,
+                "entry":        e,
+                "total":        totals[e],
+                "behind":       totals[e] - leader_total,  # negative = behind
+                "cuts_made":    cuts_made[e],
+                "total_played": total_played,
+                "scores":       tourn_scores,
             })
         return result
 
-    return {
-        "overall": build_view(TOURNAMENTS),
-        "seg1": build_view([t for t in TOURNAMENTS if t["seg"] == 1]),
-        "seg2": build_view([t for t in TOURNAMENTS if t["seg"] == 2]),
-        "seg3": build_view([t for t in TOURNAMENTS if t["seg"] == 3]),
-        "seg4": build_view([t for t in TOURNAMENTS if t["seg"] == 4]),
-        "seg5": build_view([t for t in TOURNAMENTS if t["seg"] == 5]),
-        "seg6": build_view([t for t in TOURNAMENTS if t["seg"] == 6]),
-        "majors": build_view([t for t in TOURNAMENTS if t["major"]]),
-        "small": build_view([t for t in TOURNAMENTS if t["small"]]),
+    seg_tourns = {
+        "seg1":   [t for t in TOURNAMENTS if t["seg"] == 1],
+        "seg2":   [t for t in TOURNAMENTS if t["seg"] == 2],
+        "seg3":   [t for t in TOURNAMENTS if t["seg"] == 3],
+        "seg4":   [t for t in TOURNAMENTS if t["seg"] == 4],
+        "seg5":   [t for t in TOURNAMENTS if t["seg"] == 5],
+        "seg6":   [t for t in TOURNAMENTS if t["seg"] == 6],
+        "majors": [t for t in TOURNAMENTS if t["major"]],
+        "small":  [t for t in TOURNAMENTS if t["small"]],
     }
+
+    views = {"overall": build_view(TOURNAMENTS)}
+    for key, tlist in seg_tourns.items():
+        views[key] = build_view(tlist)
+
+    # Determine completed segments (all tournaments in segment have been played)
+    completed_segs = {}
+    for key, tlist in seg_tourns.items():
+        all_played = all(t["name"] in loaded_tournaments for t in tlist)
+        completed_segs[key] = all_played
+
+    return views, completed_segs
 
 
 def main():
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-    repo_root = os.path.dirname(script_dir)
+    script_dir  = os.path.dirname(os.path.abspath(__file__))
+    repo_root   = os.path.dirname(script_dir)
     results_dir = os.path.join(repo_root, "results")
-    data_dir = os.path.join(repo_root, "data")
+    data_dir    = os.path.join(repo_root, "data")
     os.makedirs(data_dir, exist_ok=True)
 
     print(f"Loading results from: {results_dir}")
-    scores, loaded = load_results(results_dir)
+    scores, details, loaded = load_results(results_dir)
     print(f"Tournaments loaded: {loaded}")
 
-    standings = compute_standings(scores, loaded)
+    standings, completed_segs = compute_standings(scores, details, loaded)
 
-    # Tournament metadata for the frontend
     tourn_meta = [
         {
-            "name": t["name"],
-            "short": t["short"],
-            "date": t["date"],
-            "wt": t["wt"],
-            "seg": t["seg"],
-            "major": t["major"],
-            "small": t["small"],
+            "name":   t["name"],
+            "short":  t["short"],
+            "date":   t["date"],
+            "wt":     t["wt"],
+            "seg":    t["seg"],
+            "major":  t["major"],
+            "small":  t["small"],
             "played": t["name"] in loaded,
         }
         for t in TOURNAMENTS
     ]
 
     output = {
-        "generated": datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC"),
-        "tournaments": tourn_meta,
-        "standings": standings,
+        "generated":     datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
+        "tournaments":   tourn_meta,
+        "standings":     standings,
+        "completed_segs": completed_segs,
     }
 
     out_path = os.path.join(data_dir, "standings.json")
