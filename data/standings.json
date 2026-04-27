@@ -1,5 +1,5 @@
 {
-  "generated": "2026-04-27 17:50 UTC",
+  "generated": "2026-04-27 18:29 UTC",
   "tournaments": [
     {
       "name": "Farmers Insurance Open",
@@ -298,7 +298,7 @@
         "rank": 1,
         "entry": "MPRICE21",
         "name": "Matthew Price",
-        "total": 7084594.0,
+        "total": 5262094.0,
         "scores": [
           {
             "status": "scored",
@@ -352,7 +352,7 @@
           },
           {
             "status": "scored",
-            "points": 5467500.0,
+            "points": 3645000.0,
             "raw": 3645000.0
           },
           {
@@ -449,315 +449,9 @@
       },
       {
         "rank": 2,
-        "entry": "TCRAWFORD",
-        "name": "Trey Crawford",
-        "total": 6625874.0,
-        "scores": [
-          {
-            "status": "penalty",
-            "points": -350000.0,
-            "raw": -350000
-          },
-          {
-            "status": "scored",
-            "points": 46800.0,
-            "raw": 46800.0
-          },
-          {
-            "status": "scored",
-            "points": 78375.0,
-            "raw": 78375.0
-          },
-          {
-            "status": "penalty",
-            "points": -350000.0,
-            "raw": -350000
-          },
-          {
-            "status": "scored",
-            "points": 54816.0,
-            "raw": 54816.0
-          },
-          {
-            "status": "scored",
-            "points": 373200.0,
-            "raw": 373200.0
-          },
-          {
-            "status": "scored",
-            "points": 128250.0,
-            "raw": 128250.0
-          },
-          {
-            "status": "scored",
-            "points": 161525.0,
-            "raw": 161525.0
-          },
-          {
-            "status": "scored",
-            "points": 96525.0,
-            "raw": 96525.0
-          },
-          {
-            "status": "scored",
-            "points": 95550.0,
-            "raw": 95550.0
-          },
-          {
-            "status": "scored",
-            "points": 5467500.0,
-            "raw": 3645000.0
-          },
-          {
-            "status": "scored",
-            "points": 823333.0,
-            "raw": 823333.0
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          }
-        ]
-      },
-      {
-        "rank": 3,
-        "entry": "Lane Boy",
-        "name": "Your Boy",
-        "total": 5463858.0,
-        "scores": [
-          {
-            "status": "penalty",
-            "points": -350000.0,
-            "raw": -350000
-          },
-          {
-            "status": "scored",
-            "points": 1046400.0,
-            "raw": 1046400.0
-          },
-          {
-            "status": "scored",
-            "points": 877500.0,
-            "raw": 877500.0
-          },
-          {
-            "status": "penalty",
-            "points": -350000.0,
-            "raw": -350000
-          },
-          {
-            "status": "scored",
-            "points": 252000.0,
-            "raw": 252000.0
-          },
-          {
-            "status": "penalty",
-            "points": -350000.0,
-            "raw": -350000
-          },
-          {
-            "status": "scored",
-            "points": 1725000.0,
-            "raw": 1725000.0
-          },
-          {
-            "status": "penalty",
-            "points": -350000.0,
-            "raw": -350000
-          },
-          {
-            "status": "scored",
-            "points": 59625.0,
-            "raw": 59625.0
-          },
-          {
-            "status": "penalty",
-            "points": -350000.0,
-            "raw": -350000
-          },
-          {
-            "status": "scored",
-            "points": 2430000.0,
-            "raw": 1620000.0
-          },
-          {
-            "status": "scored",
-            "points": 823333.0,
-            "raw": 823333.0
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          }
-        ]
-      },
-      {
-        "rank": 4,
         "entry": "CCRICHARDS83",
         "name": "Chris Richards",
-        "total": 5314042.5,
+        "total": 5238105.0,
         "scores": [
           {
             "status": "scored",
@@ -811,7 +505,7 @@
           },
           {
             "status": "scored",
-            "points": 227812.5,
+            "points": 151875.0,
             "raw": 151875.0
           },
           {
@@ -907,10 +601,163 @@
         ]
       },
       {
-        "rank": 5,
+        "rank": 3,
+        "entry": "TCRAWFORD",
+        "name": "Trey Crawford",
+        "total": 4803374.0,
+        "scores": [
+          {
+            "status": "penalty",
+            "points": -350000.0,
+            "raw": -350000
+          },
+          {
+            "status": "scored",
+            "points": 46800.0,
+            "raw": 46800.0
+          },
+          {
+            "status": "scored",
+            "points": 78375.0,
+            "raw": 78375.0
+          },
+          {
+            "status": "penalty",
+            "points": -350000.0,
+            "raw": -350000
+          },
+          {
+            "status": "scored",
+            "points": 54816.0,
+            "raw": 54816.0
+          },
+          {
+            "status": "scored",
+            "points": 373200.0,
+            "raw": 373200.0
+          },
+          {
+            "status": "scored",
+            "points": 128250.0,
+            "raw": 128250.0
+          },
+          {
+            "status": "scored",
+            "points": 161525.0,
+            "raw": 161525.0
+          },
+          {
+            "status": "scored",
+            "points": 96525.0,
+            "raw": 96525.0
+          },
+          {
+            "status": "scored",
+            "points": 95550.0,
+            "raw": 95550.0
+          },
+          {
+            "status": "scored",
+            "points": 3645000.0,
+            "raw": 3645000.0
+          },
+          {
+            "status": "scored",
+            "points": 823333.0,
+            "raw": 823333.0
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          }
+        ]
+      },
+      {
+        "rank": 4,
         "entry": "TSWANY05",
         "name": "Tracy Swanson",
-        "total": 4839829.0,
+        "total": 4748704.0,
         "scores": [
           {
             "status": "scored",
@@ -964,7 +811,7 @@
           },
           {
             "status": "scored",
-            "points": 273375.0,
+            "points": 182250.0,
             "raw": 182250.0
           },
           {
@@ -1060,10 +907,163 @@
         ]
       },
       {
+        "rank": 5,
+        "entry": "Lane Boy",
+        "name": "Your Boy",
+        "total": 4653858.0,
+        "scores": [
+          {
+            "status": "penalty",
+            "points": -350000.0,
+            "raw": -350000
+          },
+          {
+            "status": "scored",
+            "points": 1046400.0,
+            "raw": 1046400.0
+          },
+          {
+            "status": "scored",
+            "points": 877500.0,
+            "raw": 877500.0
+          },
+          {
+            "status": "penalty",
+            "points": -350000.0,
+            "raw": -350000
+          },
+          {
+            "status": "scored",
+            "points": 252000.0,
+            "raw": 252000.0
+          },
+          {
+            "status": "penalty",
+            "points": -350000.0,
+            "raw": -350000
+          },
+          {
+            "status": "scored",
+            "points": 1725000.0,
+            "raw": 1725000.0
+          },
+          {
+            "status": "penalty",
+            "points": -350000.0,
+            "raw": -350000
+          },
+          {
+            "status": "scored",
+            "points": 59625.0,
+            "raw": 59625.0
+          },
+          {
+            "status": "penalty",
+            "points": -350000.0,
+            "raw": -350000
+          },
+          {
+            "status": "scored",
+            "points": 1620000.0,
+            "raw": 1620000.0
+          },
+          {
+            "status": "scored",
+            "points": 823333.0,
+            "raw": 823333.0
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          }
+        ]
+      },
+      {
         "rank": 6,
         "entry": "KONRADE",
         "name": "Eric Konrade",
-        "total": 4571801.0,
+        "total": 4335551.0,
         "scores": [
           {
             "status": "penalty",
@@ -1117,7 +1117,7 @@
           },
           {
             "status": "scored",
-            "points": 708750.0,
+            "points": 472500.0,
             "raw": 472500.0
           },
           {
@@ -1214,159 +1214,6 @@
       },
       {
         "rank": 7,
-        "entry": "SEAGULL",
-        "name": "Kyle Siegel",
-        "total": 4373156.0,
-        "scores": [
-          {
-            "status": "scored",
-            "points": 193029.0,
-            "raw": 193029.0
-          },
-          {
-            "status": "scored",
-            "points": 188000.0,
-            "raw": 188000.0
-          },
-          {
-            "status": "scored",
-            "points": 1760000.0,
-            "raw": 1760000.0
-          },
-          {
-            "status": "scored",
-            "points": 92250.0,
-            "raw": 92250.0
-          },
-          {
-            "status": "scored",
-            "points": 726400.0,
-            "raw": 726400.0
-          },
-          {
-            "status": "scored",
-            "points": 78000.0,
-            "raw": 78000.0
-          },
-          {
-            "status": "scored",
-            "points": 925000.0,
-            "raw": 925000.0
-          },
-          {
-            "status": "penalty",
-            "points": -350000.0,
-            "raw": -350000
-          },
-          {
-            "status": "scored",
-            "points": 322988.0,
-            "raw": 322988.0
-          },
-          {
-            "status": "scored",
-            "points": 21364.0,
-            "raw": 21364.0
-          },
-          {
-            "status": "scored",
-            "points": 273375.0,
-            "raw": 182250.0
-          },
-          {
-            "status": "scored",
-            "points": 142750.0,
-            "raw": 142750.0
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          }
-        ]
-      },
-      {
-        "rank": 8,
         "entry": "JBSOUTHERLAND",
         "name": "Brayden Southerland",
         "total": 4311232.0,
@@ -1519,10 +1366,163 @@
         ]
       },
       {
+        "rank": 8,
+        "entry": "SEAGULL",
+        "name": "Kyle Siegel",
+        "total": 4282031.0,
+        "scores": [
+          {
+            "status": "scored",
+            "points": 193029.0,
+            "raw": 193029.0
+          },
+          {
+            "status": "scored",
+            "points": 188000.0,
+            "raw": 188000.0
+          },
+          {
+            "status": "scored",
+            "points": 1760000.0,
+            "raw": 1760000.0
+          },
+          {
+            "status": "scored",
+            "points": 92250.0,
+            "raw": 92250.0
+          },
+          {
+            "status": "scored",
+            "points": 726400.0,
+            "raw": 726400.0
+          },
+          {
+            "status": "scored",
+            "points": 78000.0,
+            "raw": 78000.0
+          },
+          {
+            "status": "scored",
+            "points": 925000.0,
+            "raw": 925000.0
+          },
+          {
+            "status": "penalty",
+            "points": -350000.0,
+            "raw": -350000
+          },
+          {
+            "status": "scored",
+            "points": 322988.0,
+            "raw": 322988.0
+          },
+          {
+            "status": "scored",
+            "points": 21364.0,
+            "raw": 21364.0
+          },
+          {
+            "status": "scored",
+            "points": 182250.0,
+            "raw": 182250.0
+          },
+          {
+            "status": "scored",
+            "points": 142750.0,
+            "raw": 142750.0
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          }
+        ]
+      },
+      {
         "rank": 9,
         "entry": "JBSMOOVE",
         "name": "Josh Bauer",
-        "total": 4106919.0,
+        "total": 3634419.0,
         "scores": [
           {
             "status": "scored",
@@ -1576,7 +1576,7 @@
           },
           {
             "status": "scored",
-            "points": 1417500.0,
+            "points": 945000.0,
             "raw": 945000.0
           },
           {
@@ -1673,465 +1673,6 @@
       },
       {
         "rank": 10,
-        "entry": "Therealjasondufner",
-        "name": "Matt Kapoulas",
-        "total": 3759571.0,
-        "scores": [
-          {
-            "status": "scored",
-            "points": 41760.0,
-            "raw": 41760.0
-          },
-          {
-            "status": "scored",
-            "points": 1728000.0,
-            "raw": 1728000.0
-          },
-          {
-            "status": "scored",
-            "points": 78375.0,
-            "raw": 78375.0
-          },
-          {
-            "status": "scored",
-            "points": 136500.0,
-            "raw": 136500.0
-          },
-          {
-            "status": "scored",
-            "points": 726400.0,
-            "raw": 726400.0
-          },
-          {
-            "status": "scored",
-            "points": 373200.0,
-            "raw": 373200.0
-          },
-          {
-            "status": "penalty",
-            "points": -350000.0,
-            "raw": -350000
-          },
-          {
-            "status": "scored",
-            "points": 51142.0,
-            "raw": 51142.0
-          },
-          {
-            "status": "penalty",
-            "points": -350000.0,
-            "raw": -350000
-          },
-          {
-            "status": "penalty",
-            "points": -350000.0,
-            "raw": -350000
-          },
-          {
-            "status": "scored",
-            "points": 1417500.0,
-            "raw": 945000.0
-          },
-          {
-            "status": "scored",
-            "points": 256694.0,
-            "raw": 256694.0
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "entry": "You Only LIV Twice",
-        "name": "Chris Simmons",
-        "total": 3655811.0,
-        "scores": [
-          {
-            "status": "scored",
-            "points": 726400.0,
-            "raw": 726400.0
-          },
-          {
-            "status": "scored",
-            "points": 1728000.0,
-            "raw": 1728000.0
-          },
-          {
-            "status": "scored",
-            "points": 515000.0,
-            "raw": 515000.0
-          },
-          {
-            "status": "penalty",
-            "points": -350000.0,
-            "raw": -350000
-          },
-          {
-            "status": "penalty",
-            "points": -350000.0,
-            "raw": -350000
-          },
-          {
-            "status": "scored",
-            "points": 157000.0,
-            "raw": 157000.0
-          },
-          {
-            "status": "scored",
-            "points": 925000.0,
-            "raw": 925000.0
-          },
-          {
-            "status": "scored",
-            "points": 20657.0,
-            "raw": 20657.0
-          },
-          {
-            "status": "scored",
-            "points": 21879.0,
-            "raw": 21879.0
-          },
-          {
-            "status": "penalty",
-            "points": -350000.0,
-            "raw": -350000
-          },
-          {
-            "status": "scored",
-            "points": 961875.0,
-            "raw": 641250.0
-          },
-          {
-            "status": "penalty",
-            "points": -350000.0,
-            "raw": -350000
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          }
-        ]
-      },
-      {
-        "rank": 12,
-        "entry": "DILLY DILLY",
-        "name": "Patrick Cowden",
-        "total": 3574848.0,
-        "scores": [
-          {
-            "status": "scored",
-            "points": 41760.0,
-            "raw": 41760.0
-          },
-          {
-            "status": "scored",
-            "points": 242400.0,
-            "raw": 242400.0
-          },
-          {
-            "status": "scored",
-            "points": 235000.0,
-            "raw": 235000.0
-          },
-          {
-            "status": "scored",
-            "points": 603200.0,
-            "raw": 603200.0
-          },
-          {
-            "status": "scored",
-            "points": 324000.0,
-            "raw": 324000.0
-          },
-          {
-            "status": "scored",
-            "points": 78000.0,
-            "raw": 78000.0
-          },
-          {
-            "status": "penalty",
-            "points": -350000.0,
-            "raw": -350000
-          },
-          {
-            "status": "penalty",
-            "points": -350000.0,
-            "raw": -350000
-          },
-          {
-            "status": "scored",
-            "points": 322988.0,
-            "raw": 322988.0
-          },
-          {
-            "status": "penalty",
-            "points": -350000.0,
-            "raw": -350000
-          },
-          {
-            "status": "scored",
-            "points": 1417500.0,
-            "raw": 945000.0
-          },
-          {
-            "status": "scored",
-            "points": 1360000.0,
-            "raw": 1360000.0
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          }
-        ]
-      },
-      {
-        "rank": 13,
         "entry": "FRUSCH",
         "name": "Craig Fusch",
         "total": 3534901.0,
@@ -2284,35 +1825,25 @@
         ]
       },
       {
-        "rank": 14,
-        "entry": "BIRKSBADBOYZ",
-        "name": "Brandon Rich",
-        "total": 3462903.0,
+        "rank": 11,
+        "entry": "You Only LIV Twice",
+        "name": "Chris Simmons",
+        "total": 3335186.0,
         "scores": [
           {
             "status": "scored",
-            "points": 193029.0,
-            "raw": 193029.0
+            "points": 726400.0,
+            "raw": 726400.0
           },
           {
             "status": "scored",
-            "points": 439680.0,
-            "raw": 439680.0
+            "points": 1728000.0,
+            "raw": 1728000.0
           },
           {
             "status": "scored",
-            "points": 235000.0,
-            "raw": 235000.0
-          },
-          {
-            "status": "scored",
-            "points": 603200.0,
-            "raw": 603200.0
-          },
-          {
-            "status": "scored",
-            "points": 324000.0,
-            "raw": 324000.0
+            "points": 515000.0,
+            "raw": 515000.0
           },
           {
             "status": "penalty",
@@ -2326,28 +1857,38 @@
           },
           {
             "status": "scored",
-            "points": 51142.0,
-            "raw": 51142.0
+            "points": 157000.0,
+            "raw": 157000.0
           },
           {
             "status": "scored",
-            "points": 322988.0,
-            "raw": 322988.0
+            "points": 925000.0,
+            "raw": 925000.0
           },
           {
             "status": "scored",
-            "points": 21364.0,
-            "raw": 21364.0
+            "points": 20657.0,
+            "raw": 20657.0
           },
           {
             "status": "scored",
-            "points": 1417500.0,
-            "raw": 945000.0
+            "points": 21879.0,
+            "raw": 21879.0
+          },
+          {
+            "status": "penalty",
+            "points": -350000.0,
+            "raw": -350000
           },
           {
             "status": "scored",
-            "points": 555000.0,
-            "raw": 555000.0
+            "points": 641250.0,
+            "raw": 641250.0
+          },
+          {
+            "status": "penalty",
+            "points": -350000.0,
+            "raw": -350000
           },
           {
             "status": "upcoming",
@@ -2437,10 +1978,163 @@
         ]
       },
       {
-        "rank": 15,
+        "rank": 12,
+        "entry": "Therealjasondufner",
+        "name": "Matt Kapoulas",
+        "total": 3287071.0,
+        "scores": [
+          {
+            "status": "scored",
+            "points": 41760.0,
+            "raw": 41760.0
+          },
+          {
+            "status": "scored",
+            "points": 1728000.0,
+            "raw": 1728000.0
+          },
+          {
+            "status": "scored",
+            "points": 78375.0,
+            "raw": 78375.0
+          },
+          {
+            "status": "scored",
+            "points": 136500.0,
+            "raw": 136500.0
+          },
+          {
+            "status": "scored",
+            "points": 726400.0,
+            "raw": 726400.0
+          },
+          {
+            "status": "scored",
+            "points": 373200.0,
+            "raw": 373200.0
+          },
+          {
+            "status": "penalty",
+            "points": -350000.0,
+            "raw": -350000
+          },
+          {
+            "status": "scored",
+            "points": 51142.0,
+            "raw": 51142.0
+          },
+          {
+            "status": "penalty",
+            "points": -350000.0,
+            "raw": -350000
+          },
+          {
+            "status": "penalty",
+            "points": -350000.0,
+            "raw": -350000
+          },
+          {
+            "status": "scored",
+            "points": 945000.0,
+            "raw": 945000.0
+          },
+          {
+            "status": "scored",
+            "points": 256694.0,
+            "raw": 256694.0
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          }
+        ]
+      },
+      {
+        "rank": 13,
         "entry": "Texastank",
         "name": "Jimmy Greene",
-        "total": 3372760.0,
+        "total": 3183760.0,
         "scores": [
           {
             "status": "scored",
@@ -2494,7 +2188,7 @@
           },
           {
             "status": "scored",
-            "points": 567000.0,
+            "points": 378000.0,
             "raw": 378000.0
           },
           {
@@ -2590,10 +2284,163 @@
         ]
       },
       {
-        "rank": 16,
+        "rank": 14,
+        "entry": "DILLY DILLY",
+        "name": "Patrick Cowden",
+        "total": 3102348.0,
+        "scores": [
+          {
+            "status": "scored",
+            "points": 41760.0,
+            "raw": 41760.0
+          },
+          {
+            "status": "scored",
+            "points": 242400.0,
+            "raw": 242400.0
+          },
+          {
+            "status": "scored",
+            "points": 235000.0,
+            "raw": 235000.0
+          },
+          {
+            "status": "scored",
+            "points": 603200.0,
+            "raw": 603200.0
+          },
+          {
+            "status": "scored",
+            "points": 324000.0,
+            "raw": 324000.0
+          },
+          {
+            "status": "scored",
+            "points": 78000.0,
+            "raw": 78000.0
+          },
+          {
+            "status": "penalty",
+            "points": -350000.0,
+            "raw": -350000
+          },
+          {
+            "status": "penalty",
+            "points": -350000.0,
+            "raw": -350000
+          },
+          {
+            "status": "scored",
+            "points": 322988.0,
+            "raw": 322988.0
+          },
+          {
+            "status": "penalty",
+            "points": -350000.0,
+            "raw": -350000
+          },
+          {
+            "status": "scored",
+            "points": 945000.0,
+            "raw": 945000.0
+          },
+          {
+            "status": "scored",
+            "points": 1360000.0,
+            "raw": 1360000.0
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          }
+        ]
+      },
+      {
+        "rank": 15,
         "entry": "KENBAER",
         "name": "Ken Baer",
-        "total": 3092437.5,
+        "total": 3016500.0,
         "scores": [
           {
             "status": "penalty",
@@ -2647,7 +2494,7 @@
           },
           {
             "status": "scored",
-            "points": 227812.5,
+            "points": 151875.0,
             "raw": 151875.0
           },
           {
@@ -2743,10 +2590,163 @@
         ]
       },
       {
+        "rank": 16,
+        "entry": "BIRKSBADBOYZ",
+        "name": "Brandon Rich",
+        "total": 2990403.0,
+        "scores": [
+          {
+            "status": "scored",
+            "points": 193029.0,
+            "raw": 193029.0
+          },
+          {
+            "status": "scored",
+            "points": 439680.0,
+            "raw": 439680.0
+          },
+          {
+            "status": "scored",
+            "points": 235000.0,
+            "raw": 235000.0
+          },
+          {
+            "status": "scored",
+            "points": 603200.0,
+            "raw": 603200.0
+          },
+          {
+            "status": "scored",
+            "points": 324000.0,
+            "raw": 324000.0
+          },
+          {
+            "status": "penalty",
+            "points": -350000.0,
+            "raw": -350000
+          },
+          {
+            "status": "penalty",
+            "points": -350000.0,
+            "raw": -350000
+          },
+          {
+            "status": "scored",
+            "points": 51142.0,
+            "raw": 51142.0
+          },
+          {
+            "status": "scored",
+            "points": 322988.0,
+            "raw": 322988.0
+          },
+          {
+            "status": "scored",
+            "points": 21364.0,
+            "raw": 21364.0
+          },
+          {
+            "status": "scored",
+            "points": 945000.0,
+            "raw": 945000.0
+          },
+          {
+            "status": "scored",
+            "points": 555000.0,
+            "raw": 555000.0
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          }
+        ]
+      },
+      {
         "rank": 17,
         "entry": "PALACEJ",
         "name": "Justin Palace",
-        "total": 3089084.0,
+        "total": 2900084.0,
         "scores": [
           {
             "status": "scored",
@@ -2800,7 +2800,7 @@
           },
           {
             "status": "scored",
-            "points": 567000.0,
+            "points": 378000.0,
             "raw": 378000.0
           },
           {
@@ -2899,7 +2899,7 @@
         "rank": 18,
         "entry": "SWITZ AND GIGGLES",
         "name": "Steve Switzer",
-        "total": 3048006.0,
+        "total": 2859006.0,
         "scores": [
           {
             "status": "scored",
@@ -2953,7 +2953,7 @@
           },
           {
             "status": "scored",
-            "points": 567000.0,
+            "points": 378000.0,
             "raw": 378000.0
           },
           {
@@ -3050,24 +3050,24 @@
       },
       {
         "rank": 19,
-        "entry": "KATT MUCHAR",
-        "name": "B G",
-        "total": 2845750.0,
+        "entry": "D_PRICE",
+        "name": "Daniel Price",
+        "total": 2692081.0,
         "scores": [
           {
-            "status": "scored",
-            "points": 726400.0,
-            "raw": 726400.0
+            "status": "penalty",
+            "points": -350000.0,
+            "raw": -350000
           },
           {
             "status": "scored",
-            "points": 122720.0,
-            "raw": 122720.0
+            "points": 1728000.0,
+            "raw": 1728000.0
           },
           {
             "status": "scored",
-            "points": 162000.0,
-            "raw": 162000.0
+            "points": 78375.0,
+            "raw": 78375.0
           },
           {
             "status": "scored",
@@ -3076,13 +3076,28 @@
           },
           {
             "status": "scored",
-            "points": 324000.0,
-            "raw": 324000.0
+            "points": 54816.0,
+            "raw": 54816.0
           },
           {
             "status": "scored",
-            "points": 78000.0,
-            "raw": 78000.0
+            "points": 157000.0,
+            "raw": 157000.0
+          },
+          {
+            "status": "scored",
+            "points": 271250.0,
+            "raw": 271250.0
+          },
+          {
+            "status": "scored",
+            "points": 108290.0,
+            "raw": 108290.0
+          },
+          {
+            "status": "scored",
+            "points": 96525.0,
+            "raw": 96525.0
           },
           {
             "status": "penalty",
@@ -3091,23 +3106,8 @@
           },
           {
             "status": "scored",
-            "points": 51142.0,
-            "raw": 51142.0
-          },
-          {
-            "status": "scored",
-            "points": 322988.0,
-            "raw": 322988.0
-          },
-          {
-            "status": "scored",
-            "points": 95550.0,
-            "raw": 95550.0
-          },
-          {
-            "status": "scored",
-            "points": 567000.0,
-            "raw": 378000.0
+            "points": 151875.0,
+            "raw": 151875.0
           },
           {
             "status": "scored",
@@ -3203,24 +3203,24 @@
       },
       {
         "rank": 20,
-        "entry": "D_PRICE",
-        "name": "Daniel Price",
-        "total": 2768018.5,
+        "entry": "KATT MUCHAR",
+        "name": "B G",
+        "total": 2656750.0,
         "scores": [
           {
-            "status": "penalty",
-            "points": -350000.0,
-            "raw": -350000
+            "status": "scored",
+            "points": 726400.0,
+            "raw": 726400.0
           },
           {
             "status": "scored",
-            "points": 1728000.0,
-            "raw": 1728000.0
+            "points": 122720.0,
+            "raw": 122720.0
           },
           {
             "status": "scored",
-            "points": 78375.0,
-            "raw": 78375.0
+            "points": 162000.0,
+            "raw": 162000.0
           },
           {
             "status": "scored",
@@ -3229,28 +3229,13 @@
           },
           {
             "status": "scored",
-            "points": 54816.0,
-            "raw": 54816.0
+            "points": 324000.0,
+            "raw": 324000.0
           },
           {
             "status": "scored",
-            "points": 157000.0,
-            "raw": 157000.0
-          },
-          {
-            "status": "scored",
-            "points": 271250.0,
-            "raw": 271250.0
-          },
-          {
-            "status": "scored",
-            "points": 108290.0,
-            "raw": 108290.0
-          },
-          {
-            "status": "scored",
-            "points": 96525.0,
-            "raw": 96525.0
+            "points": 78000.0,
+            "raw": 78000.0
           },
           {
             "status": "penalty",
@@ -3259,8 +3244,23 @@
           },
           {
             "status": "scored",
-            "points": 227812.5,
-            "raw": 151875.0
+            "points": 51142.0,
+            "raw": 51142.0
+          },
+          {
+            "status": "scored",
+            "points": 322988.0,
+            "raw": 322988.0
+          },
+          {
+            "status": "scored",
+            "points": 95550.0,
+            "raw": 95550.0
+          },
+          {
+            "status": "scored",
+            "points": 378000.0,
+            "raw": 378000.0
           },
           {
             "status": "scored",
@@ -3358,7 +3358,7 @@
         "rank": 21,
         "entry": "larrymahomes",
         "name": "Lawrence Kroenke",
-        "total": 2608744.0,
+        "total": 2372494.0,
         "scores": [
           {
             "status": "penalty",
@@ -3412,7 +3412,7 @@
           },
           {
             "status": "scored",
-            "points": 708750.0,
+            "points": 472500.0,
             "raw": 472500.0
           },
           {
@@ -3662,312 +3662,6 @@
       },
       {
         "rank": 23,
-        "entry": "THIS FOOL RIGHT HERE",
-        "name": "Ryan Swanson",
-        "total": 2030875.0,
-        "scores": [
-          {
-            "status": "penalty",
-            "points": -350000.0,
-            "raw": -350000
-          },
-          {
-            "status": "scored",
-            "points": 122720.0,
-            "raw": 122720.0
-          },
-          {
-            "status": "scored",
-            "points": 33125.0,
-            "raw": 33125.0
-          },
-          {
-            "status": "scored",
-            "points": 92250.0,
-            "raw": 92250.0
-          },
-          {
-            "status": "scored",
-            "points": 726400.0,
-            "raw": 726400.0
-          },
-          {
-            "status": "penalty",
-            "points": -350000.0,
-            "raw": -350000
-          },
-          {
-            "status": "scored",
-            "points": 271250.0,
-            "raw": 271250.0
-          },
-          {
-            "status": "scored",
-            "points": 51142.0,
-            "raw": 51142.0
-          },
-          {
-            "status": "scored",
-            "points": 322988.0,
-            "raw": 322988.0
-          },
-          {
-            "status": "penalty",
-            "points": -350000.0,
-            "raw": -350000
-          },
-          {
-            "status": "scored",
-            "points": 1417500.0,
-            "raw": 945000.0
-          },
-          {
-            "status": "scored",
-            "points": 43500.0,
-            "raw": 43500.0
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          }
-        ]
-      },
-      {
-        "rank": 24,
-        "entry": "RYAN4371",
-        "name": "Ryan Lafield",
-        "total": 2021096.5,
-        "scores": [
-          {
-            "status": "scored",
-            "points": 41760.0,
-            "raw": 41760.0
-          },
-          {
-            "status": "scored",
-            "points": 122720.0,
-            "raw": 122720.0
-          },
-          {
-            "status": "scored",
-            "points": 342750.0,
-            "raw": 342750.0
-          },
-          {
-            "status": "scored",
-            "points": 603200.0,
-            "raw": 603200.0
-          },
-          {
-            "status": "penalty",
-            "points": -350000.0,
-            "raw": -350000
-          },
-          {
-            "status": "scored",
-            "points": 373200.0,
-            "raw": 373200.0
-          },
-          {
-            "status": "scored",
-            "points": 271250.0,
-            "raw": 271250.0
-          },
-          {
-            "status": "scored",
-            "points": 161525.0,
-            "raw": 161525.0
-          },
-          {
-            "status": "scored",
-            "points": 21879.0,
-            "raw": 21879.0
-          },
-          {
-            "status": "penalty",
-            "points": -350000.0,
-            "raw": -350000
-          },
-          {
-            "status": "scored",
-            "points": 227812.5,
-            "raw": 151875.0
-          },
-          {
-            "status": "scored",
-            "points": 555000.0,
-            "raw": 555000.0
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          }
-        ]
-      },
-      {
-        "rank": 25,
         "entry": "RISCHCO",
         "name": "Andrew Rische",
         "total": 1960550.0,
@@ -4120,10 +3814,163 @@
         ]
       },
       {
-        "rank": 26,
+        "rank": 24,
+        "entry": "RYAN4371",
+        "name": "Ryan Lafield",
+        "total": 1945159.0,
+        "scores": [
+          {
+            "status": "scored",
+            "points": 41760.0,
+            "raw": 41760.0
+          },
+          {
+            "status": "scored",
+            "points": 122720.0,
+            "raw": 122720.0
+          },
+          {
+            "status": "scored",
+            "points": 342750.0,
+            "raw": 342750.0
+          },
+          {
+            "status": "scored",
+            "points": 603200.0,
+            "raw": 603200.0
+          },
+          {
+            "status": "penalty",
+            "points": -350000.0,
+            "raw": -350000
+          },
+          {
+            "status": "scored",
+            "points": 373200.0,
+            "raw": 373200.0
+          },
+          {
+            "status": "scored",
+            "points": 271250.0,
+            "raw": 271250.0
+          },
+          {
+            "status": "scored",
+            "points": 161525.0,
+            "raw": 161525.0
+          },
+          {
+            "status": "scored",
+            "points": 21879.0,
+            "raw": 21879.0
+          },
+          {
+            "status": "penalty",
+            "points": -350000.0,
+            "raw": -350000
+          },
+          {
+            "status": "scored",
+            "points": 151875.0,
+            "raw": 151875.0
+          },
+          {
+            "status": "scored",
+            "points": 555000.0,
+            "raw": 555000.0
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          }
+        ]
+      },
+      {
+        "rank": 25,
         "entry": "BENHAILE",
         "name": "Benjamin Haile",
-        "total": 1920852.0,
+        "total": 1731852.0,
         "scores": [
           {
             "status": "scored",
@@ -4177,7 +4024,7 @@
           },
           {
             "status": "scored",
-            "points": 567000.0,
+            "points": 378000.0,
             "raw": 378000.0
           },
           {
@@ -4273,35 +4120,35 @@
         ]
       },
       {
-        "rank": 27,
-        "entry": "STUMPCAT",
-        "name": "Russell Musgrove",
-        "total": 1602917.0,
+        "rank": 26,
+        "entry": "THIS FOOL RIGHT HERE",
+        "name": "Ryan Swanson",
+        "total": 1558375.0,
         "scores": [
           {
-            "status": "scored",
-            "points": 370800.0,
-            "raw": 370800.0
+            "status": "penalty",
+            "points": -350000.0,
+            "raw": -350000
           },
           {
             "status": "scored",
-            "points": 188000.0,
-            "raw": 188000.0
+            "points": 122720.0,
+            "raw": 122720.0
           },
           {
             "status": "scored",
-            "points": 162000.0,
-            "raw": 162000.0
+            "points": 33125.0,
+            "raw": 33125.0
           },
           {
             "status": "scored",
-            "points": 603200.0,
-            "raw": 603200.0
+            "points": 92250.0,
+            "raw": 92250.0
           },
           {
             "status": "scored",
-            "points": 77600.0,
-            "raw": 77600.0
+            "points": 726400.0,
+            "raw": 726400.0
           },
           {
             "status": "penalty",
@@ -4309,9 +4156,9 @@
             "raw": -350000
           },
           {
-            "status": "penalty",
-            "points": -350000.0,
-            "raw": -350000
+            "status": "scored",
+            "points": 271250.0,
+            "raw": 271250.0
           },
           {
             "status": "scored",
@@ -4319,19 +4166,172 @@
             "raw": 51142.0
           },
           {
+            "status": "scored",
+            "points": 322988.0,
+            "raw": 322988.0
+          },
+          {
             "status": "penalty",
             "points": -350000.0,
             "raw": -350000
           },
           {
             "status": "scored",
-            "points": 95550.0,
-            "raw": 95550.0
+            "points": 945000.0,
+            "raw": 945000.0
           },
           {
             "status": "scored",
-            "points": 961875.0,
-            "raw": 641250.0
+            "points": 43500.0,
+            "raw": 43500.0
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          }
+        ]
+      },
+      {
+        "rank": 27,
+        "entry": "Hershiness",
+        "name": "Adam Hersh",
+        "total": 1317662.0,
+        "scores": [
+          {
+            "status": "scored",
+            "points": 41760.0,
+            "raw": 41760.0
+          },
+          {
+            "status": "scored",
+            "points": 1046400.0,
+            "raw": 1046400.0
+          },
+          {
+            "status": "scored",
+            "points": 78375.0,
+            "raw": 78375.0
+          },
+          {
+            "status": "scored",
+            "points": 92250.0,
+            "raw": 92250.0
+          },
+          {
+            "status": "penalty",
+            "points": -350000.0,
+            "raw": -350000
+          },
+          {
+            "status": "scored",
+            "points": 157000.0,
+            "raw": 157000.0
+          },
+          {
+            "status": "scored",
+            "points": 128250.0,
+            "raw": 128250.0
+          },
+          {
+            "status": "scored",
+            "points": 161525.0,
+            "raw": 161525.0
+          },
+          {
+            "status": "scored",
+            "points": 322988.0,
+            "raw": 322988.0
+          },
+          {
+            "status": "scored",
+            "points": 21364.0,
+            "raw": 21364.0
+          },
+          {
+            "status": "penalty",
+            "points": -525000.0,
+            "raw": -350000
           },
           {
             "status": "scored",
@@ -4427,29 +4427,39 @@
       },
       {
         "rank": 28,
-        "entry": "Hershiness",
-        "name": "Adam Hersh",
-        "total": 1317662.0,
+        "entry": "STUMPCAT",
+        "name": "Russell Musgrove",
+        "total": 1282292.0,
         "scores": [
           {
             "status": "scored",
-            "points": 41760.0,
-            "raw": 41760.0
+            "points": 370800.0,
+            "raw": 370800.0
           },
           {
             "status": "scored",
-            "points": 1046400.0,
-            "raw": 1046400.0
+            "points": 188000.0,
+            "raw": 188000.0
           },
           {
             "status": "scored",
-            "points": 78375.0,
-            "raw": 78375.0
+            "points": 162000.0,
+            "raw": 162000.0
           },
           {
             "status": "scored",
-            "points": 92250.0,
-            "raw": 92250.0
+            "points": 603200.0,
+            "raw": 603200.0
+          },
+          {
+            "status": "scored",
+            "points": 77600.0,
+            "raw": 77600.0
+          },
+          {
+            "status": "penalty",
+            "points": -350000.0,
+            "raw": -350000
           },
           {
             "status": "penalty",
@@ -4458,33 +4468,23 @@
           },
           {
             "status": "scored",
-            "points": 157000.0,
-            "raw": 157000.0
-          },
-          {
-            "status": "scored",
-            "points": 128250.0,
-            "raw": 128250.0
-          },
-          {
-            "status": "scored",
-            "points": 161525.0,
-            "raw": 161525.0
-          },
-          {
-            "status": "scored",
-            "points": 322988.0,
-            "raw": 322988.0
-          },
-          {
-            "status": "scored",
-            "points": 21364.0,
-            "raw": 21364.0
+            "points": 51142.0,
+            "raw": 51142.0
           },
           {
             "status": "penalty",
-            "points": -525000.0,
+            "points": -350000.0,
             "raw": -350000
+          },
+          {
+            "status": "scored",
+            "points": 95550.0,
+            "raw": 95550.0
+          },
+          {
+            "status": "scored",
+            "points": 641250.0,
+            "raw": 641250.0
           },
           {
             "status": "scored",
@@ -7531,11 +7531,11 @@
         "rank": 1,
         "entry": "TCRAWFORD",
         "name": "Trey Crawford",
-        "total": 6290833.0,
+        "total": 4468333.0,
         "scores": [
           {
             "status": "scored",
-            "points": 5467500.0,
+            "points": 3645000.0,
             "raw": 3645000.0
           },
           {
@@ -7564,11 +7564,11 @@
         "rank": 2,
         "entry": "MPRICE21",
         "name": "Matthew Price",
-        "total": 5117500.0,
+        "total": 3295000.0,
         "scores": [
           {
             "status": "scored",
-            "points": 5467500.0,
+            "points": 3645000.0,
             "raw": 3645000.0
           },
           {
@@ -7595,39 +7595,6 @@
       },
       {
         "rank": 3,
-        "entry": "Lane Boy",
-        "name": "Your Boy",
-        "total": 3253333.0,
-        "scores": [
-          {
-            "status": "scored",
-            "points": 2430000.0,
-            "raw": 1620000.0
-          },
-          {
-            "status": "scored",
-            "points": 823333.0,
-            "raw": 823333.0
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          }
-        ]
-      },
-      {
-        "rank": 4,
         "entry": "JBSOUTHERLAND",
         "name": "Brayden Southerland",
         "total": 3075000.0,
@@ -7660,14 +7627,47 @@
         ]
       },
       {
-        "rank": 5,
-        "entry": "DILLY DILLY",
-        "name": "Patrick Cowden",
-        "total": 2777500.0,
+        "rank": 4,
+        "entry": "Lane Boy",
+        "name": "Your Boy",
+        "total": 2443333.0,
         "scores": [
           {
             "status": "scored",
-            "points": 1417500.0,
+            "points": 1620000.0,
+            "raw": 1620000.0
+          },
+          {
+            "status": "scored",
+            "points": 823333.0,
+            "raw": 823333.0
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          }
+        ]
+      },
+      {
+        "rank": 5,
+        "entry": "DILLY DILLY",
+        "name": "Patrick Cowden",
+        "total": 2305000.0,
+        "scores": [
+          {
+            "status": "scored",
+            "points": 945000.0,
             "raw": 945000.0
           },
           {
@@ -7694,105 +7694,6 @@
       },
       {
         "rank": 6,
-        "entry": "BIRKSBADBOYZ",
-        "name": "Brandon Rich",
-        "total": 1972500.0,
-        "scores": [
-          {
-            "status": "scored",
-            "points": 1417500.0,
-            "raw": 945000.0
-          },
-          {
-            "status": "scored",
-            "points": 555000.0,
-            "raw": 555000.0
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          }
-        ]
-      },
-      {
-        "rank": 6,
-        "entry": "JBSMOOVE",
-        "name": "Josh Bauer",
-        "total": 1972500.0,
-        "scores": [
-          {
-            "status": "scored",
-            "points": 1417500.0,
-            "raw": 945000.0
-          },
-          {
-            "status": "scored",
-            "points": 555000.0,
-            "raw": 555000.0
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          }
-        ]
-      },
-      {
-        "rank": 8,
-        "entry": "Therealjasondufner",
-        "name": "Matt Kapoulas",
-        "total": 1674194.0,
-        "scores": [
-          {
-            "status": "scored",
-            "points": 1417500.0,
-            "raw": 945000.0
-          },
-          {
-            "status": "scored",
-            "points": 256694.0,
-            "raw": 256694.0
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          }
-        ]
-      },
-      {
-        "rank": 9,
         "entry": "BALL_IS_LIFE",
         "name": "J.D. Meyer",
         "total": 1635000.0,
@@ -7825,14 +7726,113 @@
         ]
       },
       {
-        "rank": 10,
-        "entry": "THIS FOOL RIGHT HERE",
-        "name": "Ryan Swanson",
-        "total": 1461000.0,
+        "rank": 7,
+        "entry": "BIRKSBADBOYZ",
+        "name": "Brandon Rich",
+        "total": 1500000.0,
         "scores": [
           {
             "status": "scored",
-            "points": 1417500.0,
+            "points": 945000.0,
+            "raw": 945000.0
+          },
+          {
+            "status": "scored",
+            "points": 555000.0,
+            "raw": 555000.0
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          }
+        ]
+      },
+      {
+        "rank": 7,
+        "entry": "JBSMOOVE",
+        "name": "Josh Bauer",
+        "total": 1500000.0,
+        "scores": [
+          {
+            "status": "scored",
+            "points": 945000.0,
+            "raw": 945000.0
+          },
+          {
+            "status": "scored",
+            "points": 555000.0,
+            "raw": 555000.0
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          }
+        ]
+      },
+      {
+        "rank": 9,
+        "entry": "Therealjasondufner",
+        "name": "Matt Kapoulas",
+        "total": 1201694.0,
+        "scores": [
+          {
+            "status": "scored",
+            "points": 945000.0,
+            "raw": 945000.0
+          },
+          {
+            "status": "scored",
+            "points": 256694.0,
+            "raw": 256694.0
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          }
+        ]
+      },
+      {
+        "rank": 10,
+        "entry": "THIS FOOL RIGHT HERE",
+        "name": "Ryan Swanson",
+        "total": 988500.0,
+        "scores": [
+          {
+            "status": "scored",
+            "points": 945000.0,
             "raw": 945000.0
           },
           {
@@ -7861,11 +7861,11 @@
         "rank": 11,
         "entry": "PALACEJ",
         "name": "Justin Palace",
-        "total": 1122000.0,
+        "total": 933000.0,
         "scores": [
           {
             "status": "scored",
-            "points": 567000.0,
+            "points": 378000.0,
             "raw": 378000.0
           },
           {
@@ -7894,11 +7894,11 @@
         "rank": 12,
         "entry": "STUMPCAT",
         "name": "Russell Musgrove",
-        "total": 1104625.0,
+        "total": 784000.0,
         "scores": [
           {
             "status": "scored",
-            "points": 961875.0,
+            "points": 641250.0,
             "raw": 641250.0
           },
           {
@@ -7927,11 +7927,11 @@
         "rank": 13,
         "entry": "BENHAILE",
         "name": "Benjamin Haile",
-        "total": 966250.0,
+        "total": 777250.0,
         "scores": [
           {
             "status": "scored",
-            "points": 567000.0,
+            "points": 378000.0,
             "raw": 378000.0
           },
           {
@@ -7960,11 +7960,11 @@
         "rank": 14,
         "entry": "TSWANY05",
         "name": "Tracy Swanson",
-        "total": 828375.0,
+        "total": 737250.0,
         "scores": [
           {
             "status": "scored",
-            "points": 273375.0,
+            "points": 182250.0,
             "raw": 182250.0
           },
           {
@@ -7993,11 +7993,11 @@
         "rank": 15,
         "entry": "RYAN4371",
         "name": "Ryan Lafield",
-        "total": 782812.5,
+        "total": 706875.0,
         "scores": [
           {
             "status": "scored",
-            "points": 227812.5,
+            "points": 151875.0,
             "raw": 151875.0
           },
           {
@@ -8024,13 +8024,112 @@
       },
       {
         "rank": 16,
-        "entry": "KONRADE",
-        "name": "Eric Konrade",
-        "total": 752250.0,
+        "entry": "KATT MUCHAR",
+        "name": "B G",
+        "total": 520750.0,
         "scores": [
           {
             "status": "scored",
-            "points": 708750.0,
+            "points": 378000.0,
+            "raw": 378000.0
+          },
+          {
+            "status": "scored",
+            "points": 142750.0,
+            "raw": 142750.0
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          }
+        ]
+      },
+      {
+        "rank": 16,
+        "entry": "SWITZ AND GIGGLES",
+        "name": "Steve Switzer",
+        "total": 520750.0,
+        "scores": [
+          {
+            "status": "scored",
+            "points": 378000.0,
+            "raw": 378000.0
+          },
+          {
+            "status": "scored",
+            "points": 142750.0,
+            "raw": 142750.0
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          }
+        ]
+      },
+      {
+        "rank": 16,
+        "entry": "Texastank",
+        "name": "Jimmy Greene",
+        "total": 520750.0,
+        "scores": [
+          {
+            "status": "scored",
+            "points": 378000.0,
+            "raw": 378000.0
+          },
+          {
+            "status": "scored",
+            "points": 142750.0,
+            "raw": 142750.0
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          }
+        ]
+      },
+      {
+        "rank": 19,
+        "entry": "KONRADE",
+        "name": "Eric Konrade",
+        "total": 516000.0,
+        "scores": [
+          {
+            "status": "scored",
+            "points": 472500.0,
             "raw": 472500.0
           },
           {
@@ -8056,14 +8155,14 @@
         ]
       },
       {
-        "rank": 17,
+        "rank": 20,
         "entry": "larrymahomes",
         "name": "Lawrence Kroenke",
-        "total": 740500.0,
+        "total": 504250.0,
         "scores": [
           {
             "status": "scored",
-            "points": 708750.0,
+            "points": 472500.0,
             "raw": 472500.0
           },
           {
@@ -8089,146 +8188,14 @@
         ]
       },
       {
-        "rank": 18,
-        "entry": "KATT MUCHAR",
-        "name": "B G",
-        "total": 709750.0,
-        "scores": [
-          {
-            "status": "scored",
-            "points": 567000.0,
-            "raw": 378000.0
-          },
-          {
-            "status": "scored",
-            "points": 142750.0,
-            "raw": 142750.0
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "entry": "SWITZ AND GIGGLES",
-        "name": "Steve Switzer",
-        "total": 709750.0,
-        "scores": [
-          {
-            "status": "scored",
-            "points": 567000.0,
-            "raw": 378000.0
-          },
-          {
-            "status": "scored",
-            "points": 142750.0,
-            "raw": 142750.0
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          }
-        ]
-      },
-      {
-        "rank": 18,
-        "entry": "Texastank",
-        "name": "Jimmy Greene",
-        "total": 709750.0,
-        "scores": [
-          {
-            "status": "scored",
-            "points": 567000.0,
-            "raw": 378000.0
-          },
-          {
-            "status": "scored",
-            "points": 142750.0,
-            "raw": 142750.0
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          }
-        ]
-      },
-      {
         "rank": 21,
-        "entry": "You Only LIV Twice",
-        "name": "Chris Simmons",
-        "total": 611875.0,
-        "scores": [
-          {
-            "status": "scored",
-            "points": 961875.0,
-            "raw": 641250.0
-          },
-          {
-            "status": "penalty",
-            "points": -350000.0,
-            "raw": -350000
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "raw": null
-          }
-        ]
-      },
-      {
-        "rank": 22,
         "entry": "SEAGULL",
         "name": "Kyle Siegel",
-        "total": 416125.0,
+        "total": 325000.0,
         "scores": [
           {
             "status": "scored",
-            "points": 273375.0,
+            "points": 182250.0,
             "raw": 182250.0
           },
           {
@@ -8254,14 +8221,14 @@
         ]
       },
       {
-        "rank": 23,
+        "rank": 22,
         "entry": "CCRICHARDS83",
         "name": "Chris Richards",
-        "total": 370562.5,
+        "total": 294625.0,
         "scores": [
           {
             "status": "scored",
-            "points": 227812.5,
+            "points": 151875.0,
             "raw": 151875.0
           },
           {
@@ -8287,20 +8254,53 @@
         ]
       },
       {
-        "rank": 23,
+        "rank": 22,
         "entry": "D_PRICE",
         "name": "Daniel Price",
-        "total": 370562.5,
+        "total": 294625.0,
         "scores": [
           {
             "status": "scored",
-            "points": 227812.5,
+            "points": 151875.0,
             "raw": 151875.0
           },
           {
             "status": "scored",
             "points": 142750.0,
             "raw": 142750.0
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "raw": null
+          }
+        ]
+      },
+      {
+        "rank": 24,
+        "entry": "You Only LIV Twice",
+        "name": "Chris Simmons",
+        "total": 291250.0,
+        "scores": [
+          {
+            "status": "scored",
+            "points": 641250.0,
+            "raw": 641250.0
+          },
+          {
+            "status": "penalty",
+            "points": -350000.0,
+            "raw": -350000
           },
           {
             "status": "upcoming",
@@ -8389,11 +8389,11 @@
         "rank": 27,
         "entry": "KENBAER",
         "name": "Ken Baer",
-        "total": -122187.5,
+        "total": -198125.0,
         "scores": [
           {
             "status": "scored",
-            "points": 227812.5,
+            "points": 151875.0,
             "raw": 151875.0
           },
           {
@@ -11730,11 +11730,11 @@
         "rank": 1,
         "entry": "MPRICE21",
         "name": "Matthew Price",
-        "total": 5467500.0,
+        "total": 3645000.0,
         "scores": [
           {
             "status": "scored",
-            "points": 5467500.0,
+            "points": 3645000.0,
             "raw": 3645000.0
           },
           {
@@ -11758,11 +11758,11 @@
         "rank": 1,
         "entry": "TCRAWFORD",
         "name": "Trey Crawford",
-        "total": 5467500.0,
+        "total": 3645000.0,
         "scores": [
           {
             "status": "scored",
-            "points": 5467500.0,
+            "points": 3645000.0,
             "raw": 3645000.0
           },
           {
@@ -11786,11 +11786,11 @@
         "rank": 3,
         "entry": "Lane Boy",
         "name": "Your Boy",
-        "total": 2430000.0,
+        "total": 1620000.0,
         "scores": [
           {
             "status": "scored",
-            "points": 2430000.0,
+            "points": 1620000.0,
             "raw": 1620000.0
           },
           {
@@ -11814,11 +11814,11 @@
         "rank": 4,
         "entry": "BIRKSBADBOYZ",
         "name": "Brandon Rich",
-        "total": 1417500.0,
+        "total": 945000.0,
         "scores": [
           {
             "status": "scored",
-            "points": 1417500.0,
+            "points": 945000.0,
             "raw": 945000.0
           },
           {
@@ -11842,11 +11842,11 @@
         "rank": 4,
         "entry": "DILLY DILLY",
         "name": "Patrick Cowden",
-        "total": 1417500.0,
+        "total": 945000.0,
         "scores": [
           {
             "status": "scored",
-            "points": 1417500.0,
+            "points": 945000.0,
             "raw": 945000.0
           },
           {
@@ -11870,11 +11870,11 @@
         "rank": 4,
         "entry": "JBSMOOVE",
         "name": "Josh Bauer",
-        "total": 1417500.0,
+        "total": 945000.0,
         "scores": [
           {
             "status": "scored",
-            "points": 1417500.0,
+            "points": 945000.0,
             "raw": 945000.0
           },
           {
@@ -11898,11 +11898,11 @@
         "rank": 4,
         "entry": "THIS FOOL RIGHT HERE",
         "name": "Ryan Swanson",
-        "total": 1417500.0,
+        "total": 945000.0,
         "scores": [
           {
             "status": "scored",
-            "points": 1417500.0,
+            "points": 945000.0,
             "raw": 945000.0
           },
           {
@@ -11926,11 +11926,11 @@
         "rank": 4,
         "entry": "Therealjasondufner",
         "name": "Matt Kapoulas",
-        "total": 1417500.0,
+        "total": 945000.0,
         "scores": [
           {
             "status": "scored",
-            "points": 1417500.0,
+            "points": 945000.0,
             "raw": 945000.0
           },
           {
@@ -11954,11 +11954,11 @@
         "rank": 9,
         "entry": "STUMPCAT",
         "name": "Russell Musgrove",
-        "total": 961875.0,
+        "total": 641250.0,
         "scores": [
           {
             "status": "scored",
-            "points": 961875.0,
+            "points": 641250.0,
             "raw": 641250.0
           },
           {
@@ -11982,11 +11982,11 @@
         "rank": 9,
         "entry": "You Only LIV Twice",
         "name": "Chris Simmons",
-        "total": 961875.0,
+        "total": 641250.0,
         "scores": [
           {
             "status": "scored",
-            "points": 961875.0,
+            "points": 641250.0,
             "raw": 641250.0
           },
           {
@@ -12010,11 +12010,11 @@
         "rank": 11,
         "entry": "KONRADE",
         "name": "Eric Konrade",
-        "total": 708750.0,
+        "total": 472500.0,
         "scores": [
           {
             "status": "scored",
-            "points": 708750.0,
+            "points": 472500.0,
             "raw": 472500.0
           },
           {
@@ -12038,11 +12038,11 @@
         "rank": 11,
         "entry": "larrymahomes",
         "name": "Lawrence Kroenke",
-        "total": 708750.0,
+        "total": 472500.0,
         "scores": [
           {
             "status": "scored",
-            "points": 708750.0,
+            "points": 472500.0,
             "raw": 472500.0
           },
           {
@@ -12066,11 +12066,11 @@
         "rank": 13,
         "entry": "BENHAILE",
         "name": "Benjamin Haile",
-        "total": 567000.0,
+        "total": 378000.0,
         "scores": [
           {
             "status": "scored",
-            "points": 567000.0,
+            "points": 378000.0,
             "raw": 378000.0
           },
           {
@@ -12094,11 +12094,11 @@
         "rank": 13,
         "entry": "KATT MUCHAR",
         "name": "B G",
-        "total": 567000.0,
+        "total": 378000.0,
         "scores": [
           {
             "status": "scored",
-            "points": 567000.0,
+            "points": 378000.0,
             "raw": 378000.0
           },
           {
@@ -12122,11 +12122,11 @@
         "rank": 13,
         "entry": "PALACEJ",
         "name": "Justin Palace",
-        "total": 567000.0,
+        "total": 378000.0,
         "scores": [
           {
             "status": "scored",
-            "points": 567000.0,
+            "points": 378000.0,
             "raw": 378000.0
           },
           {
@@ -12150,11 +12150,11 @@
         "rank": 13,
         "entry": "SWITZ AND GIGGLES",
         "name": "Steve Switzer",
-        "total": 567000.0,
+        "total": 378000.0,
         "scores": [
           {
             "status": "scored",
-            "points": 567000.0,
+            "points": 378000.0,
             "raw": 378000.0
           },
           {
@@ -12178,11 +12178,11 @@
         "rank": 13,
         "entry": "Texastank",
         "name": "Jimmy Greene",
-        "total": 567000.0,
+        "total": 378000.0,
         "scores": [
           {
             "status": "scored",
-            "points": 567000.0,
+            "points": 378000.0,
             "raw": 378000.0
           },
           {
@@ -12206,11 +12206,11 @@
         "rank": 18,
         "entry": "SEAGULL",
         "name": "Kyle Siegel",
-        "total": 273375.0,
+        "total": 182250.0,
         "scores": [
           {
             "status": "scored",
-            "points": 273375.0,
+            "points": 182250.0,
             "raw": 182250.0
           },
           {
@@ -12234,11 +12234,11 @@
         "rank": 18,
         "entry": "TSWANY05",
         "name": "Tracy Swanson",
-        "total": 273375.0,
+        "total": 182250.0,
         "scores": [
           {
             "status": "scored",
-            "points": 273375.0,
+            "points": 182250.0,
             "raw": 182250.0
           },
           {
@@ -12262,11 +12262,11 @@
         "rank": 20,
         "entry": "CCRICHARDS83",
         "name": "Chris Richards",
-        "total": 227812.5,
+        "total": 151875.0,
         "scores": [
           {
             "status": "scored",
-            "points": 227812.5,
+            "points": 151875.0,
             "raw": 151875.0
           },
           {
@@ -12290,11 +12290,11 @@
         "rank": 20,
         "entry": "D_PRICE",
         "name": "Daniel Price",
-        "total": 227812.5,
+        "total": 151875.0,
         "scores": [
           {
             "status": "scored",
-            "points": 227812.5,
+            "points": 151875.0,
             "raw": 151875.0
           },
           {
@@ -12318,11 +12318,11 @@
         "rank": 20,
         "entry": "KENBAER",
         "name": "Ken Baer",
-        "total": 227812.5,
+        "total": 151875.0,
         "scores": [
           {
             "status": "scored",
-            "points": 227812.5,
+            "points": 151875.0,
             "raw": 151875.0
           },
           {
@@ -12346,11 +12346,11 @@
         "rank": 20,
         "entry": "RYAN4371",
         "name": "Ryan Lafield",
-        "total": 227812.5,
+        "total": 151875.0,
         "scores": [
           {
             "status": "scored",
-            "points": 227812.5,
+            "points": 151875.0,
             "raw": 151875.0
           },
           {

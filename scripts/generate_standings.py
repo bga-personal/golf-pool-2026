@@ -129,7 +129,11 @@ def compute_standings(scores, loaded_tournaments):
         if raw is None:
             return None
         t = next(t for t in TOURNAMENTS if t["name"] == tname)
-        return raw * t["wt"]
+        # Winnings from the results file are already weighted (1.5x applied at source).
+        # Only penalties need the multiplier applied here.
+        if raw == PENALTY:
+            return PENALTY * t["wt"]
+        return raw
 
     def build_view(tournament_list):
         totals = {}
