@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-22 15:47 UTC",
+  "generated": "2026-06-29 14:45 UTC",
   "tournaments": [
     {
       "name": "Farmers Insurance Open",
@@ -209,7 +209,7 @@
       "seg": 5,
       "major": false,
       "small": false,
-      "played": false
+      "played": true
     },
     {
       "name": "John Deere Classic",
@@ -297,10 +297,10 @@
       {
         "rank": 1,
         "entry": "BALL_IS_LIFE",
-        "total": 10540102.0,
+        "total": 10190102.0,
         "behind": 0.0,
         "cuts_made": 16,
-        "total_played": 20,
+        "total_played": 21,
         "scores": [
           {
             "status": "scored",
@@ -423,10 +423,10 @@
             "position": 7
           },
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Xander Schauffele",
+            "position": 51
           },
           {
             "status": "upcoming",
@@ -481,10 +481,10 @@
       {
         "rank": 2,
         "entry": "KATT MUCHAR",
-        "total": 8283425.5,
+        "total": 7933425.5,
         "behind": -2256676.5,
         "cuts_made": 19,
-        "total_played": 20,
+        "total_played": 21,
         "scores": [
           {
             "status": "scored",
@@ -607,10 +607,10 @@
             "position": 32
           },
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Aaron Rai",
+            "position": 30
           },
           {
             "status": "upcoming",
@@ -665,10 +665,10 @@
       {
         "rank": 3,
         "entry": "JBSOUTHERLAND",
-        "total": 8263609.5,
+        "total": 7913609.5,
         "behind": -2276492.5,
         "cuts_made": 18,
-        "total_played": 20,
+        "total_played": 21,
         "scores": [
           {
             "status": "scored",
@@ -791,10 +791,10 @@
             "position": 11
           },
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Brian Harman",
+            "position": 25
           },
           {
             "status": "upcoming",
@@ -849,10 +849,10 @@
       {
         "rank": 4,
         "entry": "Texastank",
-        "total": 8156752.0,
+        "total": 7806752.0,
         "behind": -2383350.0,
         "cuts_made": 17,
-        "total_played": 20,
+        "total_played": 21,
         "scores": [
           {
             "status": "scored",
@@ -975,10 +975,10 @@
             "position": 86
           },
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Tommy Fleetwood",
+            "position": 14
           },
           {
             "status": "upcoming",
@@ -1033,10 +1033,10 @@
       {
         "rank": 5,
         "entry": "TCRAWFORD",
-        "total": 8096398.0,
+        "total": 7746398.0,
         "behind": -2443704.0,
         "cuts_made": 17,
-        "total_played": 20,
+        "total_played": 21,
         "scores": [
           {
             "status": "penalty",
@@ -1159,10 +1159,10 @@
             "position": 32
           },
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Collin Morikawa",
+            "position": 3
           },
           {
             "status": "upcoming",
@@ -1217,10 +1217,10 @@
       {
         "rank": 6,
         "entry": "Therealjasondufner",
-        "total": 7857420.0,
+        "total": 7507420.0,
         "behind": -2682682.0,
         "cuts_made": 16,
-        "total_played": 20,
+        "total_played": 21,
         "scores": [
           {
             "status": "scored",
@@ -1343,10 +1343,10 @@
             "position": 11
           },
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Alex Fitzpatrick",
+            "position": 7
           },
           {
             "status": "upcoming",
@@ -1401,10 +1401,10 @@
       {
         "rank": 7,
         "entry": "JBSMOOVE",
-        "total": 7785274.0,
+        "total": 7435274.0,
         "behind": -2754828.0,
         "cuts_made": 19,
-        "total_played": 20,
+        "total_played": 21,
         "scores": [
           {
             "status": "scored",
@@ -1527,10 +1527,10 @@
             "position": 22
           },
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Justin Thomas",
+            "position": 14
           },
           {
             "status": "upcoming",
@@ -1585,10 +1585,10 @@
       {
         "rank": 8,
         "entry": "larrymahomes",
-        "total": 7716803.5,
+        "total": 7366803.5,
         "behind": -2823298.5,
         "cuts_made": 16,
-        "total_played": 20,
+        "total_played": 21,
         "scores": [
           {
             "status": "penalty",
@@ -1711,10 +1711,10 @@
             "position": 11
           },
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Sam Burns",
+            "position": 12
           },
           {
             "status": "upcoming",
@@ -1769,10 +1769,10 @@
       {
         "rank": 9,
         "entry": "BIRKSBADBOYZ",
-        "total": 7664228.5,
+        "total": 7314228.5,
         "behind": -2875873.5,
         "cuts_made": 16,
-        "total_played": 20,
+        "total_played": 21,
         "scores": [
           {
             "status": "scored",
@@ -1895,10 +1895,10 @@
             "position": 86
           },
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Justin Thomas",
+            "position": 14
           },
           {
             "status": "upcoming",
@@ -1953,10 +1953,10 @@
       {
         "rank": 10,
         "entry": "Lane Boy",
-        "total": 6426963.0,
+        "total": 6076963.0,
         "behind": -4113139.0,
         "cuts_made": 14,
-        "total_played": 20,
+        "total_played": 21,
         "scores": [
           {
             "status": "penalty",
@@ -2079,10 +2079,10 @@
             "position": 4
           },
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Justin Thomas",
+            "position": 14
           },
           {
             "status": "upcoming",
@@ -2137,10 +2137,10 @@
       {
         "rank": 11,
         "entry": "Hershiness",
-        "total": 6333965.5,
+        "total": 5983965.5,
         "behind": -4206136.5,
         "cuts_made": 18,
-        "total_played": 20,
+        "total_played": 21,
         "scores": [
           {
             "status": "scored",
@@ -2263,10 +2263,10 @@
             "position": 22
           },
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Tommy Fleetwood",
+            "position": 14
           },
           {
             "status": "upcoming",
@@ -2321,10 +2321,10 @@
       {
         "rank": 12,
         "entry": "MPRICE21",
-        "total": 6283221.0,
+        "total": 5933221.0,
         "behind": -4256881.0,
         "cuts_made": 16,
-        "total_played": 20,
+        "total_played": 21,
         "scores": [
           {
             "status": "scored",
@@ -2447,8 +2447,8 @@
             "position": null
           },
           {
-            "status": "upcoming",
-            "points": null,
+            "status": "penalty",
+            "points": -350000,
             "golfer": null,
             "position": null
           },
@@ -2505,10 +2505,10 @@
       {
         "rank": 13,
         "entry": "AustinAb",
-        "total": 6276559.5,
+        "total": 5926559.5,
         "behind": -4263542.5,
         "cuts_made": 17,
-        "total_played": 20,
+        "total_played": 21,
         "scores": [
           {
             "status": "scored",
@@ -2631,10 +2631,10 @@
             "position": 32
           },
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Sam Burns",
+            "position": 12
           },
           {
             "status": "upcoming",
@@ -2689,10 +2689,10 @@
       {
         "rank": 14,
         "entry": "TSWANY05",
-        "total": 6017229.5,
+        "total": 5667229.5,
         "behind": -4522872.5,
         "cuts_made": 18,
-        "total_played": 20,
+        "total_played": 21,
         "scores": [
           {
             "status": "scored",
@@ -2815,10 +2815,10 @@
             "position": 43
           },
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Samuel Stevens",
+            "position": 62
           },
           {
             "status": "upcoming",
@@ -2873,10 +2873,10 @@
       {
         "rank": 15,
         "entry": "FRUSCH",
-        "total": 5449458.5,
+        "total": 5099458.5,
         "behind": -5090643.5,
         "cuts_made": 17,
-        "total_played": 20,
+        "total_played": 21,
         "scores": [
           {
             "status": "scored",
@@ -2999,10 +2999,10 @@
             "position": 43
           },
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Russell Henley",
+            "position": 12
           },
           {
             "status": "upcoming",
@@ -3057,10 +3057,10 @@
       {
         "rank": 16,
         "entry": "PALACEJ",
-        "total": 5266315.5,
+        "total": 4916315.5,
         "behind": -5273786.5,
         "cuts_made": 18,
-        "total_played": 20,
+        "total_played": 21,
         "scores": [
           {
             "status": "scored",
@@ -3183,10 +3183,10 @@
             "position": 32
           },
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Tommy Fleetwood",
+            "position": 14
           },
           {
             "status": "upcoming",
@@ -3241,10 +3241,10 @@
       {
         "rank": 17,
         "entry": "D_PRICE",
-        "total": 5247213.5,
+        "total": 4897213.5,
         "behind": -5292888.5,
         "cuts_made": 18,
-        "total_played": 20,
+        "total_played": 21,
         "scores": [
           {
             "status": "penalty",
@@ -3367,10 +3367,10 @@
             "position": 43
           },
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Aaron Rai",
+            "position": 30
           },
           {
             "status": "upcoming",
@@ -3425,10 +3425,10 @@
       {
         "rank": 18,
         "entry": "You Only LIV Twice",
-        "total": 5210535.5,
+        "total": 4860535.5,
         "behind": -5329566.5,
         "cuts_made": 14,
-        "total_played": 20,
+        "total_played": 21,
         "scores": [
           {
             "status": "scored",
@@ -3551,10 +3551,10 @@
             "position": 22
           },
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Sam Burns",
+            "position": 12
           },
           {
             "status": "upcoming",
@@ -3609,10 +3609,10 @@
       {
         "rank": 19,
         "entry": "DILLY DILLY",
-        "total": 5044088.5,
+        "total": 4694088.5,
         "behind": -5496013.5,
         "cuts_made": 17,
-        "total_played": 20,
+        "total_played": 21,
         "scores": [
           {
             "status": "scored",
@@ -3735,10 +3735,10 @@
             "position": 32
           },
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Sam Burns",
+            "position": 12
           },
           {
             "status": "upcoming",
@@ -3793,10 +3793,10 @@
       {
         "rank": 20,
         "entry": "CCRICHARDS83",
-        "total": 5031950.0,
+        "total": 4681950.0,
         "behind": -5508152.0,
         "cuts_made": 15,
-        "total_played": 20,
+        "total_played": 21,
         "scores": [
           {
             "status": "scored",
@@ -3919,10 +3919,10 @@
             "position": 43
           },
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Xander Schauffele",
+            "position": 51
           },
           {
             "status": "upcoming",
@@ -3977,10 +3977,10 @@
       {
         "rank": 21,
         "entry": "KONRADE",
-        "total": 4914087.0,
+        "total": 4564087.0,
         "behind": -5626015.0,
         "cuts_made": 15,
-        "total_played": 20,
+        "total_played": 21,
         "scores": [
           {
             "status": "penalty",
@@ -4103,10 +4103,10 @@
             "position": 86
           },
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Russell Henley",
+            "position": 12
           },
           {
             "status": "upcoming",
@@ -4161,10 +4161,10 @@
       {
         "rank": 22,
         "entry": "SEAGULL",
-        "total": 4857827.5,
+        "total": 4507827.5,
         "behind": -5682274.5,
         "cuts_made": 16,
-        "total_played": 20,
+        "total_played": 21,
         "scores": [
           {
             "status": "scored",
@@ -4287,10 +4287,10 @@
             "position": 43
           },
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Collin Morikawa",
+            "position": 3
           },
           {
             "status": "upcoming",
@@ -4345,10 +4345,10 @@
       {
         "rank": 23,
         "entry": "KENBAER",
-        "total": 4539577.5,
+        "total": 4189577.5,
         "behind": -6000524.5,
         "cuts_made": 14,
-        "total_played": 20,
+        "total_played": 21,
         "scores": [
           {
             "status": "penalty",
@@ -4471,10 +4471,10 @@
             "position": 11
           },
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Russell Henley",
+            "position": 12
           },
           {
             "status": "upcoming",
@@ -4529,10 +4529,10 @@
       {
         "rank": 24,
         "entry": "BENHAILE",
-        "total": 4231190.5,
+        "total": 3881190.5,
         "behind": -6308911.5,
         "cuts_made": 17,
-        "total_played": 20,
+        "total_played": 21,
         "scores": [
           {
             "status": "scored",
@@ -4655,10 +4655,10 @@
             "position": 86
           },
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Justin Thomas",
+            "position": 14
           },
           {
             "status": "upcoming",
@@ -4713,10 +4713,10 @@
       {
         "rank": 25,
         "entry": "BIG T",
-        "total": 4159299.0,
+        "total": 3809299.0,
         "behind": -6380803.0,
         "cuts_made": 16,
-        "total_played": 20,
+        "total_played": 21,
         "scores": [
           {
             "status": "scored",
@@ -4839,10 +4839,10 @@
             "position": 86
           },
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Russell Henley",
+            "position": 12
           },
           {
             "status": "upcoming",
@@ -4897,10 +4897,10 @@
       {
         "rank": 26,
         "entry": "ADAHMER",
-        "total": 3934388.5,
+        "total": 3584388.5,
         "behind": -6605713.5,
         "cuts_made": 15,
-        "total_played": 20,
+        "total_played": 21,
         "scores": [
           {
             "status": "penalty",
@@ -5023,10 +5023,10 @@
             "position": 4
           },
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Aaron Rai",
+            "position": 30
           },
           {
             "status": "upcoming",
@@ -5081,10 +5081,10 @@
       {
         "rank": 27,
         "entry": "STUMPCAT",
-        "total": 3375977.5,
+        "total": 3025977.5,
         "behind": -7164124.5,
         "cuts_made": 17,
-        "total_played": 20,
+        "total_played": 21,
         "scores": [
           {
             "status": "scored",
@@ -5207,10 +5207,10 @@
             "position": 32
           },
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Matthew Fitzpatrick",
+            "position": 4
           },
           {
             "status": "upcoming",
@@ -5265,10 +5265,10 @@
       {
         "rank": 28,
         "entry": "SWITZ AND GIGGLES",
-        "total": 2984378.5,
+        "total": 2634378.5,
         "behind": -7555723.5,
         "cuts_made": 17,
-        "total_played": 20,
+        "total_played": 21,
         "scores": [
           {
             "status": "scored",
@@ -5391,10 +5391,10 @@
             "position": 126
           },
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Matthew Fitzpatrick",
+            "position": 4
           },
           {
             "status": "upcoming",
@@ -5449,10 +5449,10 @@
       {
         "rank": 29,
         "entry": "THIS FOOL RIGHT HERE",
-        "total": 2817591.5,
+        "total": 2467591.5,
         "behind": -7722510.5,
         "cuts_made": 16,
-        "total_played": 20,
+        "total_played": 21,
         "scores": [
           {
             "status": "penalty",
@@ -5575,10 +5575,10 @@
             "position": 73
           },
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Brian Harman",
+            "position": 25
           },
           {
             "status": "upcoming",
@@ -5633,10 +5633,10 @@
       {
         "rank": 30,
         "entry": "J BROTHERS",
-        "total": 2444295.5,
+        "total": 2094295.5,
         "behind": -8095806.5,
         "cuts_made": 14,
-        "total_played": 20,
+        "total_played": 21,
         "scores": [
           {
             "status": "scored",
@@ -5759,10 +5759,10 @@
             "position": 4
           },
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Russell Henley",
+            "position": 12
           },
           {
             "status": "upcoming",
@@ -5817,10 +5817,10 @@
       {
         "rank": 31,
         "entry": "RYAN4371",
-        "total": 422295.0,
+        "total": 72295.0,
         "behind": -10117807.0,
         "cuts_made": 14,
-        "total_played": 20,
+        "total_played": 21,
         "scores": [
           {
             "status": "scored",
@@ -5943,10 +5943,10 @@
             "position": null
           },
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Cameron Young",
+            "position": 47
           },
           {
             "status": "upcoming",
@@ -6001,10 +6001,10 @@
       {
         "rank": 32,
         "entry": "RISCHCO",
-        "total": 200738.0,
+        "total": -149262.0,
         "behind": -10339364.0,
         "cuts_made": 12,
-        "total_played": 20,
+        "total_played": 21,
         "scores": [
           {
             "status": "penalty",
@@ -6127,8 +6127,8 @@
             "position": null
           },
           {
-            "status": "upcoming",
-            "points": null,
+            "status": "penalty",
+            "points": -350000,
             "golfer": null,
             "position": null
           },
@@ -6185,10 +6185,10 @@
       {
         "rank": 33,
         "entry": "KNBETHUNE",
-        "total": -5570875.0,
+        "total": -5920875.0,
         "behind": -16110977.0,
         "cuts_made": 4,
-        "total_played": 20,
+        "total_played": 21,
         "scores": [
           {
             "status": "penalty",
@@ -6311,8 +6311,8 @@
             "position": null
           },
           {
-            "status": "upcoming",
-            "points": null,
+            "status": "penalty",
+            "points": -350000,
             "golfer": null,
             "position": null
           },
@@ -11659,16 +11659,16 @@
       {
         "rank": 1,
         "entry": "ADAHMER",
-        "total": 0,
+        "total": -350000,
         "behind": 0,
         "cuts_made": 0,
-        "total_played": 0,
+        "total_played": 1,
         "scores": [
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Aaron Rai",
+            "position": 30
           },
           {
             "status": "upcoming",
@@ -11699,16 +11699,16 @@
       {
         "rank": 1,
         "entry": "AustinAb",
-        "total": 0,
+        "total": -350000,
         "behind": 0,
         "cuts_made": 0,
-        "total_played": 0,
+        "total_played": 1,
         "scores": [
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Sam Burns",
+            "position": 12
           },
           {
             "status": "upcoming",
@@ -11739,16 +11739,16 @@
       {
         "rank": 1,
         "entry": "BALL_IS_LIFE",
-        "total": 0,
+        "total": -350000,
         "behind": 0,
         "cuts_made": 0,
-        "total_played": 0,
+        "total_played": 1,
         "scores": [
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Xander Schauffele",
+            "position": 51
           },
           {
             "status": "upcoming",
@@ -11779,16 +11779,16 @@
       {
         "rank": 1,
         "entry": "BENHAILE",
-        "total": 0,
+        "total": -350000,
         "behind": 0,
         "cuts_made": 0,
-        "total_played": 0,
+        "total_played": 1,
         "scores": [
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Justin Thomas",
+            "position": 14
           },
           {
             "status": "upcoming",
@@ -11819,16 +11819,16 @@
       {
         "rank": 1,
         "entry": "BIG T",
-        "total": 0,
+        "total": -350000,
         "behind": 0,
         "cuts_made": 0,
-        "total_played": 0,
+        "total_played": 1,
         "scores": [
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Russell Henley",
+            "position": 12
           },
           {
             "status": "upcoming",
@@ -11859,16 +11859,16 @@
       {
         "rank": 1,
         "entry": "BIRKSBADBOYZ",
-        "total": 0,
+        "total": -350000,
         "behind": 0,
         "cuts_made": 0,
-        "total_played": 0,
+        "total_played": 1,
         "scores": [
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Justin Thomas",
+            "position": 14
           },
           {
             "status": "upcoming",
@@ -11899,16 +11899,16 @@
       {
         "rank": 1,
         "entry": "CCRICHARDS83",
-        "total": 0,
+        "total": -350000,
         "behind": 0,
         "cuts_made": 0,
-        "total_played": 0,
+        "total_played": 1,
         "scores": [
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Xander Schauffele",
+            "position": 51
           },
           {
             "status": "upcoming",
@@ -11939,16 +11939,16 @@
       {
         "rank": 1,
         "entry": "DILLY DILLY",
-        "total": 0,
+        "total": -350000,
         "behind": 0,
         "cuts_made": 0,
-        "total_played": 0,
+        "total_played": 1,
         "scores": [
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Sam Burns",
+            "position": 12
           },
           {
             "status": "upcoming",
@@ -11979,16 +11979,16 @@
       {
         "rank": 1,
         "entry": "D_PRICE",
-        "total": 0,
+        "total": -350000,
         "behind": 0,
         "cuts_made": 0,
-        "total_played": 0,
+        "total_played": 1,
         "scores": [
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Aaron Rai",
+            "position": 30
           },
           {
             "status": "upcoming",
@@ -12019,16 +12019,16 @@
       {
         "rank": 1,
         "entry": "FRUSCH",
-        "total": 0,
+        "total": -350000,
         "behind": 0,
         "cuts_made": 0,
-        "total_played": 0,
+        "total_played": 1,
         "scores": [
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Russell Henley",
+            "position": 12
           },
           {
             "status": "upcoming",
@@ -12059,16 +12059,16 @@
       {
         "rank": 1,
         "entry": "Hershiness",
-        "total": 0,
+        "total": -350000,
         "behind": 0,
         "cuts_made": 0,
-        "total_played": 0,
+        "total_played": 1,
         "scores": [
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Tommy Fleetwood",
+            "position": 14
           },
           {
             "status": "upcoming",
@@ -12099,16 +12099,16 @@
       {
         "rank": 1,
         "entry": "J BROTHERS",
-        "total": 0,
+        "total": -350000,
         "behind": 0,
         "cuts_made": 0,
-        "total_played": 0,
+        "total_played": 1,
         "scores": [
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Russell Henley",
+            "position": 12
           },
           {
             "status": "upcoming",
@@ -12139,16 +12139,16 @@
       {
         "rank": 1,
         "entry": "JBSMOOVE",
-        "total": 0,
+        "total": -350000,
         "behind": 0,
         "cuts_made": 0,
-        "total_played": 0,
+        "total_played": 1,
         "scores": [
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Justin Thomas",
+            "position": 14
           },
           {
             "status": "upcoming",
@@ -12179,16 +12179,16 @@
       {
         "rank": 1,
         "entry": "JBSOUTHERLAND",
-        "total": 0,
+        "total": -350000,
         "behind": 0,
         "cuts_made": 0,
-        "total_played": 0,
+        "total_played": 1,
         "scores": [
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Brian Harman",
+            "position": 25
           },
           {
             "status": "upcoming",
@@ -12219,16 +12219,16 @@
       {
         "rank": 1,
         "entry": "KATT MUCHAR",
-        "total": 0,
+        "total": -350000,
         "behind": 0,
         "cuts_made": 0,
-        "total_played": 0,
+        "total_played": 1,
         "scores": [
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Aaron Rai",
+            "position": 30
           },
           {
             "status": "upcoming",
@@ -12259,16 +12259,16 @@
       {
         "rank": 1,
         "entry": "KENBAER",
-        "total": 0,
+        "total": -350000,
         "behind": 0,
         "cuts_made": 0,
-        "total_played": 0,
+        "total_played": 1,
         "scores": [
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Russell Henley",
+            "position": 12
           },
           {
             "status": "upcoming",
@@ -12299,14 +12299,14 @@
       {
         "rank": 1,
         "entry": "KNBETHUNE",
-        "total": 0,
+        "total": -350000,
         "behind": 0,
         "cuts_made": 0,
-        "total_played": 0,
+        "total_played": 1,
         "scores": [
           {
-            "status": "upcoming",
-            "points": null,
+            "status": "penalty",
+            "points": -350000,
             "golfer": null,
             "position": null
           },
@@ -12339,16 +12339,16 @@
       {
         "rank": 1,
         "entry": "KONRADE",
-        "total": 0,
+        "total": -350000,
         "behind": 0,
         "cuts_made": 0,
-        "total_played": 0,
+        "total_played": 1,
         "scores": [
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Russell Henley",
+            "position": 12
           },
           {
             "status": "upcoming",
@@ -12379,16 +12379,16 @@
       {
         "rank": 1,
         "entry": "Lane Boy",
-        "total": 0,
+        "total": -350000,
         "behind": 0,
         "cuts_made": 0,
-        "total_played": 0,
+        "total_played": 1,
         "scores": [
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Justin Thomas",
+            "position": 14
           },
           {
             "status": "upcoming",
@@ -12419,14 +12419,14 @@
       {
         "rank": 1,
         "entry": "MPRICE21",
-        "total": 0,
+        "total": -350000,
         "behind": 0,
         "cuts_made": 0,
-        "total_played": 0,
+        "total_played": 1,
         "scores": [
           {
-            "status": "upcoming",
-            "points": null,
+            "status": "penalty",
+            "points": -350000,
             "golfer": null,
             "position": null
           },
@@ -12459,16 +12459,16 @@
       {
         "rank": 1,
         "entry": "PALACEJ",
-        "total": 0,
+        "total": -350000,
         "behind": 0,
         "cuts_made": 0,
-        "total_played": 0,
+        "total_played": 1,
         "scores": [
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Tommy Fleetwood",
+            "position": 14
           },
           {
             "status": "upcoming",
@@ -12499,14 +12499,14 @@
       {
         "rank": 1,
         "entry": "RISCHCO",
-        "total": 0,
+        "total": -350000,
         "behind": 0,
         "cuts_made": 0,
-        "total_played": 0,
+        "total_played": 1,
         "scores": [
           {
-            "status": "upcoming",
-            "points": null,
+            "status": "penalty",
+            "points": -350000,
             "golfer": null,
             "position": null
           },
@@ -12539,16 +12539,16 @@
       {
         "rank": 1,
         "entry": "RYAN4371",
-        "total": 0,
+        "total": -350000,
         "behind": 0,
         "cuts_made": 0,
-        "total_played": 0,
+        "total_played": 1,
         "scores": [
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Cameron Young",
+            "position": 47
           },
           {
             "status": "upcoming",
@@ -12579,16 +12579,16 @@
       {
         "rank": 1,
         "entry": "SEAGULL",
-        "total": 0,
+        "total": -350000,
         "behind": 0,
         "cuts_made": 0,
-        "total_played": 0,
+        "total_played": 1,
         "scores": [
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Collin Morikawa",
+            "position": 3
           },
           {
             "status": "upcoming",
@@ -12619,16 +12619,16 @@
       {
         "rank": 1,
         "entry": "STUMPCAT",
-        "total": 0,
+        "total": -350000,
         "behind": 0,
         "cuts_made": 0,
-        "total_played": 0,
+        "total_played": 1,
         "scores": [
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Matthew Fitzpatrick",
+            "position": 4
           },
           {
             "status": "upcoming",
@@ -12659,16 +12659,16 @@
       {
         "rank": 1,
         "entry": "SWITZ AND GIGGLES",
-        "total": 0,
+        "total": -350000,
         "behind": 0,
         "cuts_made": 0,
-        "total_played": 0,
+        "total_played": 1,
         "scores": [
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Matthew Fitzpatrick",
+            "position": 4
           },
           {
             "status": "upcoming",
@@ -12699,16 +12699,16 @@
       {
         "rank": 1,
         "entry": "TCRAWFORD",
-        "total": 0,
+        "total": -350000,
         "behind": 0,
         "cuts_made": 0,
-        "total_played": 0,
+        "total_played": 1,
         "scores": [
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Collin Morikawa",
+            "position": 3
           },
           {
             "status": "upcoming",
@@ -12739,16 +12739,16 @@
       {
         "rank": 1,
         "entry": "THIS FOOL RIGHT HERE",
-        "total": 0,
+        "total": -350000,
         "behind": 0,
         "cuts_made": 0,
-        "total_played": 0,
+        "total_played": 1,
         "scores": [
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Brian Harman",
+            "position": 25
           },
           {
             "status": "upcoming",
@@ -12779,16 +12779,16 @@
       {
         "rank": 1,
         "entry": "TSWANY05",
-        "total": 0,
+        "total": -350000,
         "behind": 0,
         "cuts_made": 0,
-        "total_played": 0,
+        "total_played": 1,
         "scores": [
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Samuel Stevens",
+            "position": 62
           },
           {
             "status": "upcoming",
@@ -12819,16 +12819,16 @@
       {
         "rank": 1,
         "entry": "Texastank",
-        "total": 0,
+        "total": -350000,
         "behind": 0,
         "cuts_made": 0,
-        "total_played": 0,
+        "total_played": 1,
         "scores": [
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Tommy Fleetwood",
+            "position": 14
           },
           {
             "status": "upcoming",
@@ -12859,16 +12859,16 @@
       {
         "rank": 1,
         "entry": "Therealjasondufner",
-        "total": 0,
+        "total": -350000,
         "behind": 0,
         "cuts_made": 0,
-        "total_played": 0,
+        "total_played": 1,
         "scores": [
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Alex Fitzpatrick",
+            "position": 7
           },
           {
             "status": "upcoming",
@@ -12899,16 +12899,16 @@
       {
         "rank": 1,
         "entry": "You Only LIV Twice",
-        "total": 0,
+        "total": -350000,
         "behind": 0,
         "cuts_made": 0,
-        "total_played": 0,
+        "total_played": 1,
         "scores": [
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Sam Burns",
+            "position": 12
           },
           {
             "status": "upcoming",
@@ -12939,16 +12939,16 @@
       {
         "rank": 1,
         "entry": "larrymahomes",
-        "total": 0,
+        "total": -350000,
         "behind": 0,
         "cuts_made": 0,
-        "total_played": 0,
+        "total_played": 1,
         "scores": [
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Sam Burns",
+            "position": 12
           },
           {
             "status": "upcoming",
