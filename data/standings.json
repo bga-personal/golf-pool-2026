@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-10 20:17 UTC",
+  "generated": "2026-08-17 16:36 UTC",
   "tournaments": [
     {
       "name": "Farmers Insurance Open",
@@ -279,7 +279,7 @@
       "seg": 6,
       "major": false,
       "small": false,
-      "played": false
+      "played": true
     },
     {
       "name": "BMW Championship",
@@ -297,10 +297,10 @@
       {
         "rank": 1,
         "entry": "TCRAWFORD",
-        "total": 11538066.0,
+        "total": 11665066.0,
         "behind": 0.0,
-        "cuts_made": 22,
-        "total_played": 27,
+        "cuts_made": 23,
+        "total_played": 28,
         "scores": [
           {
             "status": "penalty",
@@ -465,10 +465,10 @@
             "position": 61
           },
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "scored",
+            "points": 127000.0,
+            "golfer": "Christopher Gotterup",
+            "position": 30
           },
           {
             "status": "upcoming",
@@ -480,195 +480,11 @@
       },
       {
         "rank": 2,
-        "entry": "JBSOUTHERLAND",
-        "total": 10547435.0,
-        "behind": -990631.0,
-        "cuts_made": 25,
-        "total_played": 27,
-        "scores": [
-          {
-            "status": "scored",
-            "points": 41760.0,
-            "golfer": "Jason Day",
-            "position": 38
-          },
-          {
-            "status": "penalty",
-            "points": -350000,
-            "golfer": "Sam Burns",
-            "position": 110
-          },
-          {
-            "status": "scored",
-            "points": 78375.0,
-            "golfer": "Justin Rose",
-            "position": 37
-          },
-          {
-            "status": "scored",
-            "points": 136500.0,
-            "golfer": "Hideki Matsuyama",
-            "position": 28
-          },
-          {
-            "status": "scored",
-            "points": 324000.0,
-            "golfer": "Keith Mitchell",
-            "position": 6
-          },
-          {
-            "status": "scored",
-            "points": 702000.0,
-            "golfer": "Russell Henley",
-            "position": 6
-          },
-          {
-            "status": "scored",
-            "points": 61083.0,
-            "golfer": "Si Woo Kim",
-            "position": 50
-          },
-          {
-            "status": "scored",
-            "points": 161525.0,
-            "golfer": "Jacob Bridgeman",
-            "position": 14
-          },
-          {
-            "status": "scored",
-            "points": 59625.0,
-            "golfer": "Ben Griffin",
-            "position": 28
-          },
-          {
-            "status": "scored",
-            "points": 21364.0,
-            "golfer": "Jordan Spieth",
-            "position": 63
-          },
-          {
-            "status": "penalty",
-            "points": -525000,
-            "golfer": "Bryson DeChambeau",
-            "position": 60
-          },
-          {
-            "status": "scored",
-            "points": 3600000.0,
-            "golfer": "Matthew Fitzpatrick",
-            "position": 1
-          },
-          {
-            "status": "scored",
-            "points": 2160000.0,
-            "golfer": "Scottie Scheffler",
-            "position": 2
-          },
-          {
-            "status": "scored",
-            "points": 242100.0,
-            "golfer": "Rory McIlroy",
-            "position": 19
-          },
-          {
-            "status": "scored",
-            "points": 188284.5,
-            "golfer": "Cameron Young",
-            "position": 26
-          },
-          {
-            "status": "scored",
-            "points": 260075.0,
-            "golfer": "Sungjae Im",
-            "position": 9
-          },
-          {
-            "status": "scored",
-            "points": 193875.0,
-            "golfer": "Justin Thomas",
-            "position": 13
-          },
-          {
-            "status": "scored",
-            "points": 140000.0,
-            "golfer": "Xander Schauffele",
-            "position": 29
-          },
-          {
-            "status": "scored",
-            "points": 159250.0,
-            "golfer": "Robert MacIntyre",
-            "position": 15
-          },
-          {
-            "status": "scored",
-            "points": 608793.0,
-            "golfer": "Tommy Fleetwood",
-            "position": 11
-          },
-          {
-            "status": "scored",
-            "points": 154520.0,
-            "golfer": "Brian Harman",
-            "position": 25
-          },
-          {
-            "status": "scored",
-            "points": 1584000.0,
-            "golfer": "Christopher Gotterup",
-            "position": 1
-          },
-          {
-            "status": "scored",
-            "points": 153450.0,
-            "golfer": "Wyndham Clark",
-            "position": 13
-          },
-          {
-            "status": "scored",
-            "points": 246862.5,
-            "golfer": "Collin Morikawa",
-            "position": 18
-          },
-          {
-            "status": "scored",
-            "points": 70086.0,
-            "golfer": "Kurt Kitayama",
-            "position": 24
-          },
-          {
-            "status": "scored",
-            "points": 23860.0,
-            "golfer": "J.J. Spaun",
-            "position": 50
-          },
-          {
-            "status": "scored",
-            "points": 51047.0,
-            "golfer": "Aaron Rai",
-            "position": 29
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
-          }
-        ]
-      },
-      {
-        "rank": 3,
         "entry": "BALL_IS_LIFE",
-        "total": 10388657.5,
-        "behind": -1149408.5,
-        "cuts_made": 21,
-        "total_played": 27,
+        "total": 11548657.5,
+        "behind": -116408.5,
+        "cuts_made": 22,
+        "total_played": 28,
         "scores": [
           {
             "status": "scored",
@@ -833,10 +649,194 @@
             "position": 29
           },
           {
+            "status": "scored",
+            "points": 1160000.0,
+            "golfer": "Sam Burns",
+            "position": 3
+          },
+          {
             "status": "upcoming",
             "points": null,
             "golfer": null,
             "position": null
+          }
+        ]
+      },
+      {
+        "rank": 3,
+        "entry": "JBSOUTHERLAND",
+        "total": 10789835.0,
+        "behind": -875231.0,
+        "cuts_made": 26,
+        "total_played": 28,
+        "scores": [
+          {
+            "status": "scored",
+            "points": 41760.0,
+            "golfer": "Jason Day",
+            "position": 38
+          },
+          {
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Sam Burns",
+            "position": 110
+          },
+          {
+            "status": "scored",
+            "points": 78375.0,
+            "golfer": "Justin Rose",
+            "position": 37
+          },
+          {
+            "status": "scored",
+            "points": 136500.0,
+            "golfer": "Hideki Matsuyama",
+            "position": 28
+          },
+          {
+            "status": "scored",
+            "points": 324000.0,
+            "golfer": "Keith Mitchell",
+            "position": 6
+          },
+          {
+            "status": "scored",
+            "points": 702000.0,
+            "golfer": "Russell Henley",
+            "position": 6
+          },
+          {
+            "status": "scored",
+            "points": 61083.0,
+            "golfer": "Si Woo Kim",
+            "position": 50
+          },
+          {
+            "status": "scored",
+            "points": 161525.0,
+            "golfer": "Jacob Bridgeman",
+            "position": 14
+          },
+          {
+            "status": "scored",
+            "points": 59625.0,
+            "golfer": "Ben Griffin",
+            "position": 28
+          },
+          {
+            "status": "scored",
+            "points": 21364.0,
+            "golfer": "Jordan Spieth",
+            "position": 63
+          },
+          {
+            "status": "penalty",
+            "points": -525000,
+            "golfer": "Bryson DeChambeau",
+            "position": 60
+          },
+          {
+            "status": "scored",
+            "points": 3600000.0,
+            "golfer": "Matthew Fitzpatrick",
+            "position": 1
+          },
+          {
+            "status": "scored",
+            "points": 2160000.0,
+            "golfer": "Scottie Scheffler",
+            "position": 2
+          },
+          {
+            "status": "scored",
+            "points": 242100.0,
+            "golfer": "Rory McIlroy",
+            "position": 19
+          },
+          {
+            "status": "scored",
+            "points": 188284.5,
+            "golfer": "Cameron Young",
+            "position": 26
+          },
+          {
+            "status": "scored",
+            "points": 260075.0,
+            "golfer": "Sungjae Im",
+            "position": 9
+          },
+          {
+            "status": "scored",
+            "points": 193875.0,
+            "golfer": "Justin Thomas",
+            "position": 13
+          },
+          {
+            "status": "scored",
+            "points": 140000.0,
+            "golfer": "Xander Schauffele",
+            "position": 29
+          },
+          {
+            "status": "scored",
+            "points": 159250.0,
+            "golfer": "Robert MacIntyre",
+            "position": 15
+          },
+          {
+            "status": "scored",
+            "points": 608793.0,
+            "golfer": "Tommy Fleetwood",
+            "position": 11
+          },
+          {
+            "status": "scored",
+            "points": 154520.0,
+            "golfer": "Brian Harman",
+            "position": 25
+          },
+          {
+            "status": "scored",
+            "points": 1584000.0,
+            "golfer": "Christopher Gotterup",
+            "position": 1
+          },
+          {
+            "status": "scored",
+            "points": 153450.0,
+            "golfer": "Wyndham Clark",
+            "position": 13
+          },
+          {
+            "status": "scored",
+            "points": 246862.5,
+            "golfer": "Collin Morikawa",
+            "position": 18
+          },
+          {
+            "status": "scored",
+            "points": 70086.0,
+            "golfer": "Kurt Kitayama",
+            "position": 24
+          },
+          {
+            "status": "scored",
+            "points": 23860.0,
+            "golfer": "J.J. Spaun",
+            "position": 50
+          },
+          {
+            "status": "scored",
+            "points": 51047.0,
+            "golfer": "Aaron Rai",
+            "position": 29
+          },
+          {
+            "status": "scored",
+            "points": 242400.0,
+            "golfer": "Viktor Hovland",
+            "position": 19
           },
           {
             "status": "upcoming",
@@ -849,10 +849,10 @@
       {
         "rank": 4,
         "entry": "larrymahomes",
-        "total": 9945429.0,
-        "behind": -1592637.0,
-        "cuts_made": 22,
-        "total_played": 27,
+        "total": 10107429.0,
+        "behind": -1557637.0,
+        "cuts_made": 23,
+        "total_played": 28,
         "scores": [
           {
             "status": "penalty",
@@ -1017,10 +1017,10 @@
             "position": 7
           },
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "scored",
+            "points": 162000.0,
+            "golfer": "Ryan Gerard",
+            "position": 24
           },
           {
             "status": "upcoming",
@@ -1033,10 +1033,10 @@
       {
         "rank": 5,
         "entry": "JBSMOOVE",
-        "total": 9855266.0,
+        "total": 9982266.0,
         "behind": -1682800.0,
-        "cuts_made": 26,
-        "total_played": 27,
+        "cuts_made": 27,
+        "total_played": 28,
         "scores": [
           {
             "status": "scored",
@@ -1201,10 +1201,10 @@
             "position": 29
           },
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "scored",
+            "points": 127000.0,
+            "golfer": "Russell Henley",
+            "position": 30
           },
           {
             "status": "upcoming",
@@ -1217,10 +1217,10 @@
       {
         "rank": 6,
         "entry": "Texastank",
-        "total": 8635879.0,
-        "behind": -2902187.0,
-        "cuts_made": 22,
-        "total_played": 27,
+        "total": 9795879.0,
+        "behind": -1869187.0,
+        "cuts_made": 23,
+        "total_played": 28,
         "scores": [
           {
             "status": "scored",
@@ -1385,10 +1385,10 @@
             "position": 5
           },
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "scored",
+            "points": 1160000.0,
+            "golfer": "Sam Burns",
+            "position": 3
           },
           {
             "status": "upcoming",
@@ -1401,10 +1401,10 @@
       {
         "rank": 7,
         "entry": "KATT MUCHAR",
-        "total": 8086411.0,
-        "behind": -3451655.0,
-        "cuts_made": 24,
-        "total_played": 27,
+        "total": 9246411.0,
+        "behind": -2418655.0,
+        "cuts_made": 25,
+        "total_played": 28,
         "scores": [
           {
             "status": "scored",
@@ -1569,10 +1569,10 @@
             "position": 82
           },
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "scored",
+            "points": 1160000.0,
+            "golfer": "Sam Burns",
+            "position": 3
           },
           {
             "status": "upcoming",
@@ -1585,10 +1585,10 @@
       {
         "rank": 8,
         "entry": "BIRKSBADBOYZ",
-        "total": 7745491.5,
-        "behind": -3792574.5,
-        "cuts_made": 21,
-        "total_played": 27,
+        "total": 8905491.5,
+        "behind": -2759574.5,
+        "cuts_made": 22,
+        "total_played": 28,
         "scores": [
           {
             "status": "scored",
@@ -1753,10 +1753,10 @@
             "position": 7
           },
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "scored",
+            "points": 1160000.0,
+            "golfer": "Sam Burns",
+            "position": 3
           },
           {
             "status": "upcoming",
@@ -1769,10 +1769,10 @@
       {
         "rank": 9,
         "entry": "Therealjasondufner",
-        "total": 7536773.0,
-        "behind": -4001293.0,
-        "cuts_made": 20,
-        "total_played": 27,
+        "total": 8696773.0,
+        "behind": -2968293.0,
+        "cuts_made": 21,
+        "total_played": 28,
         "scores": [
           {
             "status": "scored",
@@ -1937,10 +1937,10 @@
             "position": null
           },
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "scored",
+            "points": 1160000.0,
+            "golfer": "Sam Burns",
+            "position": 3
           },
           {
             "status": "upcoming",
@@ -1952,379 +1952,11 @@
       },
       {
         "rank": 10,
-        "entry": "AustinAb",
-        "total": 7370214.0,
-        "behind": -4167852.0,
-        "cuts_made": 24,
-        "total_played": 27,
-        "scores": [
-          {
-            "status": "scored",
-            "points": 193029.0,
-            "golfer": "Ryan Gerard",
-            "position": 11
-          },
-          {
-            "status": "scored",
-            "points": 439680.0,
-            "golfer": "Si Woo Kim",
-            "position": 3
-          },
-          {
-            "status": "scored",
-            "points": 78375.0,
-            "golfer": "Justin Rose",
-            "position": 37
-          },
-          {
-            "status": "scored",
-            "points": 603200.0,
-            "golfer": "Tommy Fleetwood",
-            "position": 7
-          },
-          {
-            "status": "penalty",
-            "points": -350000,
-            "golfer": "Michael Thorbjornsen",
-            "position": 68
-          },
-          {
-            "status": "scored",
-            "points": 78000.0,
-            "golfer": "Matthew Fitzpatrick",
-            "position": 41
-          },
-          {
-            "status": "penalty",
-            "points": -350000,
-            "golfer": "Collin Morikawa",
-            "position": 123
-          },
-          {
-            "status": "scored",
-            "points": 161525.0,
-            "golfer": "Jacob Bridgeman",
-            "position": 14
-          },
-          {
-            "status": "scored",
-            "points": 584100.0,
-            "golfer": "Min Woo Lee",
-            "position": 3
-          },
-          {
-            "status": "scored",
-            "points": 21364.0,
-            "golfer": "Jordan Spieth",
-            "position": 63
-          },
-          {
-            "status": "penalty",
-            "points": -525000,
-            "golfer": "Bryson DeChambeau",
-            "position": 60
-          },
-          {
-            "status": "scored",
-            "points": 142750.0,
-            "golfer": "Russell Henley",
-            "position": 25
-          },
-          {
-            "status": "scored",
-            "points": 3600000.0,
-            "golfer": "Cameron Young",
-            "position": 1
-          },
-          {
-            "status": "scored",
-            "points": 42500.0,
-            "golfer": "Xander Schauffele",
-            "position": 60
-          },
-          {
-            "status": "scored",
-            "points": 547144.5,
-            "golfer": "Scottie Scheffler",
-            "position": 14
-          },
-          {
-            "status": "scored",
-            "points": 260075.0,
-            "golfer": "Max Greyserman",
-            "position": 9
-          },
-          {
-            "status": "scored",
-            "points": 69300.0,
-            "golfer": "Akshay Bhatia",
-            "position": 28
-          },
-          {
-            "status": "scored",
-            "points": 269333.0,
-            "golfer": "Justin Thomas",
-            "position": 19
-          },
-          {
-            "status": "scored",
-            "points": 218050.0,
-            "golfer": "Wyndham Clark",
-            "position": 11
-          },
-          {
-            "status": "scored",
-            "points": 193134.0,
-            "golfer": "Rory McIlroy",
-            "position": 32
-          },
-          {
-            "status": "scored",
-            "points": 440000.0,
-            "golfer": "Sam Burns",
-            "position": 12
-          },
-          {
-            "status": "scored",
-            "points": 100056.0,
-            "golfer": "Ben Griffin",
-            "position": 21
-          },
-          {
-            "status": "scored",
-            "points": 49978.0,
-            "golfer": "Jon Rahm",
-            "position": 36
-          },
-          {
-            "status": "scored",
-            "points": 154225.5,
-            "golfer": "Robert MacIntyre",
-            "position": 28
-          },
-          {
-            "status": "scored",
-            "points": 45848.0,
-            "golfer": "Maverick McNealy",
-            "position": 34
-          },
-          {
-            "status": "scored",
-            "points": 252500.0,
-            "golfer": "Patrick Cantlay",
-            "position": 8
-          },
-          {
-            "status": "scored",
-            "points": 51047.0,
-            "golfer": "Jackson Koivun",
-            "position": 29
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
-          }
-        ]
-      },
-      {
-        "rank": 11,
-        "entry": "KENBAER",
-        "total": 7000399.5,
-        "behind": -4537666.5,
-        "cuts_made": 21,
-        "total_played": 27,
-        "scores": [
-          {
-            "status": "penalty",
-            "points": -350000,
-            "golfer": "Patrick Cantlay",
-            "position": 75
-          },
-          {
-            "status": "penalty",
-            "points": -350000,
-            "golfer": "Sam Burns",
-            "position": 110
-          },
-          {
-            "status": "scored",
-            "points": 78375.0,
-            "golfer": "Ben Griffin",
-            "position": 37
-          },
-          {
-            "status": "scored",
-            "points": 603200.0,
-            "golfer": "Collin Morikawa",
-            "position": 7
-          },
-          {
-            "status": "scored",
-            "points": 726400.0,
-            "golfer": "Shane Lowry",
-            "position": 2
-          },
-          {
-            "status": "scored",
-            "points": 56000.0,
-            "golfer": "Tommy Fleetwood",
-            "position": 49
-          },
-          {
-            "status": "scored",
-            "points": 925000.0,
-            "golfer": "Jacob Bridgeman",
-            "position": 5
-          },
-          {
-            "status": "scored",
-            "points": 1638000.0,
-            "golfer": "Matthew Fitzpatrick",
-            "position": 1
-          },
-          {
-            "status": "penalty",
-            "points": -350000,
-            "golfer": "Ryan Gerard",
-            "position": 89
-          },
-          {
-            "status": "scored",
-            "points": 237650.0,
-            "golfer": "Si Woo Kim",
-            "position": 10
-          },
-          {
-            "status": "scored",
-            "points": 151875.0,
-            "golfer": "Jon Rahm",
-            "position": 38
-          },
-          {
-            "status": "penalty",
-            "points": -350000,
-            "golfer": null,
-            "position": null
-          },
-          {
-            "status": "scored",
-            "points": 46000.0,
-            "golfer": "Hideki Matsuyama",
-            "position": 53
-          },
-          {
-            "status": "scored",
-            "points": 600000.0,
-            "golfer": "Ludvig Aberg",
-            "position": 8
-          },
-          {
-            "status": "scored",
-            "points": 188284.5,
-            "golfer": "Cameron Young",
-            "position": 26
-          },
-          {
-            "status": "scored",
-            "points": 710700.0,
-            "golfer": "Scottie Scheffler",
-            "position": 3
-          },
-          {
-            "status": "scored",
-            "points": 69300.0,
-            "golfer": "Akshay Bhatia",
-            "position": 28
-          },
-          {
-            "status": "penalty",
-            "points": -350000,
-            "golfer": "Jordan Spieth",
-            "position": 54
-          },
-          {
-            "status": "penalty",
-            "points": -350000,
-            "golfer": "Justin Rose",
-            "position": 111
-          },
-          {
-            "status": "scored",
-            "points": 608793.0,
-            "golfer": "Xander Schauffele",
-            "position": 11
-          },
-          {
-            "status": "scored",
-            "points": 440000.0,
-            "golfer": "Russell Henley",
-            "position": 12
-          },
-          {
-            "status": "scored",
-            "points": 1584000.0,
-            "golfer": "Christopher Gotterup",
-            "position": 1
-          },
-          {
-            "status": "scored",
-            "points": 153450.0,
-            "golfer": "Wyndham Clark",
-            "position": 13
-          },
-          {
-            "status": "scored",
-            "points": 104625.0,
-            "golfer": "Rory McIlroy",
-            "position": 40
-          },
-          {
-            "status": "scored",
-            "points": 103840.0,
-            "golfer": "Joohyung Kim",
-            "position": 20
-          },
-          {
-            "status": "scored",
-            "points": 23860.0,
-            "golfer": "J.J. Spaun",
-            "position": 50
-          },
-          {
-            "status": "scored",
-            "points": 51047.0,
-            "golfer": "Jackson Koivun",
-            "position": 29
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
-          }
-        ]
-      },
-      {
-        "rank": 12,
         "entry": "SEAGULL",
-        "total": 6651233.5,
-        "behind": -4886832.5,
-        "cuts_made": 23,
-        "total_played": 27,
+        "total": 7811233.5,
+        "behind": -3853832.5,
+        "cuts_made": 24,
+        "total_played": 28,
         "scores": [
           {
             "status": "scored",
@@ -2489,10 +2121,10 @@
             "position": 29
           },
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "scored",
+            "points": 1160000.0,
+            "golfer": "Sam Burns",
+            "position": 3
           },
           {
             "status": "upcoming",
@@ -2503,24 +2135,208 @@
         ]
       },
       {
-        "rank": 13,
-        "entry": "Hershiness",
-        "total": 6613002.5,
-        "behind": -4925063.5,
-        "cuts_made": 24,
-        "total_played": 27,
+        "rank": 11,
+        "entry": "KENBAER",
+        "total": 7162399.5,
+        "behind": -4502666.5,
+        "cuts_made": 22,
+        "total_played": 28,
         "scores": [
           {
-            "status": "scored",
-            "points": 41760.0,
-            "golfer": "Jason Day",
-            "position": 38
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Patrick Cantlay",
+            "position": 75
+          },
+          {
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Sam Burns",
+            "position": 110
           },
           {
             "status": "scored",
-            "points": 1046400.0,
-            "golfer": "Hideki Matsuyama",
+            "points": 78375.0,
+            "golfer": "Ben Griffin",
+            "position": 37
+          },
+          {
+            "status": "scored",
+            "points": 603200.0,
+            "golfer": "Collin Morikawa",
+            "position": 7
+          },
+          {
+            "status": "scored",
+            "points": 726400.0,
+            "golfer": "Shane Lowry",
             "position": 2
+          },
+          {
+            "status": "scored",
+            "points": 56000.0,
+            "golfer": "Tommy Fleetwood",
+            "position": 49
+          },
+          {
+            "status": "scored",
+            "points": 925000.0,
+            "golfer": "Jacob Bridgeman",
+            "position": 5
+          },
+          {
+            "status": "scored",
+            "points": 1638000.0,
+            "golfer": "Matthew Fitzpatrick",
+            "position": 1
+          },
+          {
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Ryan Gerard",
+            "position": 89
+          },
+          {
+            "status": "scored",
+            "points": 237650.0,
+            "golfer": "Si Woo Kim",
+            "position": 10
+          },
+          {
+            "status": "scored",
+            "points": 151875.0,
+            "golfer": "Jon Rahm",
+            "position": 38
+          },
+          {
+            "status": "penalty",
+            "points": -350000,
+            "golfer": null,
+            "position": null
+          },
+          {
+            "status": "scored",
+            "points": 46000.0,
+            "golfer": "Hideki Matsuyama",
+            "position": 53
+          },
+          {
+            "status": "scored",
+            "points": 600000.0,
+            "golfer": "Ludvig Aberg",
+            "position": 8
+          },
+          {
+            "status": "scored",
+            "points": 188284.5,
+            "golfer": "Cameron Young",
+            "position": 26
+          },
+          {
+            "status": "scored",
+            "points": 710700.0,
+            "golfer": "Scottie Scheffler",
+            "position": 3
+          },
+          {
+            "status": "scored",
+            "points": 69300.0,
+            "golfer": "Akshay Bhatia",
+            "position": 28
+          },
+          {
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Jordan Spieth",
+            "position": 54
+          },
+          {
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Justin Rose",
+            "position": 111
+          },
+          {
+            "status": "scored",
+            "points": 608793.0,
+            "golfer": "Xander Schauffele",
+            "position": 11
+          },
+          {
+            "status": "scored",
+            "points": 440000.0,
+            "golfer": "Russell Henley",
+            "position": 12
+          },
+          {
+            "status": "scored",
+            "points": 1584000.0,
+            "golfer": "Christopher Gotterup",
+            "position": 1
+          },
+          {
+            "status": "scored",
+            "points": 153450.0,
+            "golfer": "Wyndham Clark",
+            "position": 13
+          },
+          {
+            "status": "scored",
+            "points": 104625.0,
+            "golfer": "Rory McIlroy",
+            "position": 40
+          },
+          {
+            "status": "scored",
+            "points": 103840.0,
+            "golfer": "Joohyung Kim",
+            "position": 20
+          },
+          {
+            "status": "scored",
+            "points": 23860.0,
+            "golfer": "J.J. Spaun",
+            "position": 50
+          },
+          {
+            "status": "scored",
+            "points": 51047.0,
+            "golfer": "Jackson Koivun",
+            "position": 29
+          },
+          {
+            "status": "scored",
+            "points": 162000.0,
+            "golfer": "J.T. Poston",
+            "position": 24
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "golfer": null,
+            "position": null
+          }
+        ]
+      },
+      {
+        "rank": 12,
+        "entry": "AustinAb",
+        "total": 7020214.0,
+        "behind": -4644852.0,
+        "cuts_made": 24,
+        "total_played": 28,
+        "scores": [
+          {
+            "status": "scored",
+            "points": 193029.0,
+            "golfer": "Ryan Gerard",
+            "position": 11
+          },
+          {
+            "status": "scored",
+            "points": 439680.0,
+            "golfer": "Si Woo Kim",
+            "position": 3
           },
           {
             "status": "scored",
@@ -2530,9 +2346,9 @@
           },
           {
             "status": "scored",
-            "points": 92250.0,
-            "golfer": "Patrick Cantlay",
-            "position": 37
+            "points": 603200.0,
+            "golfer": "Tommy Fleetwood",
+            "position": 7
           },
           {
             "status": "penalty",
@@ -2542,15 +2358,15 @@
           },
           {
             "status": "scored",
-            "points": 157000.0,
-            "golfer": "Robert MacIntyre",
-            "position": 24
+            "points": 78000.0,
+            "golfer": "Matthew Fitzpatrick",
+            "position": 41
           },
           {
-            "status": "scored",
-            "points": 128250.0,
-            "golfer": "Min Woo Lee",
-            "position": 32
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Collin Morikawa",
+            "position": 123
           },
           {
             "status": "scored",
@@ -2560,9 +2376,9 @@
           },
           {
             "status": "scored",
-            "points": 322988.0,
-            "golfer": "Christopher Gotterup",
-            "position": 6
+            "points": 584100.0,
+            "golfer": "Min Woo Lee",
+            "position": 3
           },
           {
             "status": "scored",
@@ -2602,39 +2418,39 @@
           },
           {
             "status": "scored",
-            "points": 100597.0,
-            "golfer": "Ryo Hisatsune",
+            "points": 260075.0,
+            "golfer": "Max Greyserman",
+            "position": 9
+          },
+          {
+            "status": "scored",
+            "points": 69300.0,
+            "golfer": "Akshay Bhatia",
+            "position": 28
+          },
+          {
+            "status": "scored",
+            "points": 269333.0,
+            "golfer": "Justin Thomas",
             "position": 19
           },
           {
             "status": "scored",
-            "points": 193875.0,
-            "golfer": "Justin Thomas",
-            "position": 13
+            "points": 218050.0,
+            "golfer": "Wyndham Clark",
+            "position": 11
           },
           {
             "status": "scored",
-            "points": 90000.0,
-            "golfer": "Ludvig Aberg",
-            "position": 39
+            "points": 193134.0,
+            "golfer": "Rory McIlroy",
+            "position": 32
           },
           {
             "status": "scored",
-            "points": 96857.0,
+            "points": 440000.0,
             "golfer": "Sam Burns",
-            "position": 20
-          },
-          {
-            "status": "scored",
-            "points": 345330.0,
-            "golfer": "Matthew Fitzpatrick",
-            "position": 22
-          },
-          {
-            "status": "scored",
-            "points": 310000.0,
-            "golfer": "Tommy Fleetwood",
-            "position": 14
+            "position": 12
           },
           {
             "status": "scored",
@@ -2650,9 +2466,9 @@
           },
           {
             "status": "scored",
-            "points": 104625.0,
-            "golfer": "Rory McIlroy",
-            "position": 40
+            "points": 154225.5,
+            "golfer": "Robert MacIntyre",
+            "position": 28
           },
           {
             "status": "scored",
@@ -2661,204 +2477,20 @@
             "position": 34
           },
           {
-            "status": "penalty",
-            "points": -350000,
-            "golfer": "Jake Knapp",
-            "position": 74
-          },
-          {
             "status": "scored",
-            "points": 18530.0,
-            "golfer": "Alex Fitzpatrick",
-            "position": 61
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "entry": "TSWANY05",
-        "total": 6596272.5,
-        "behind": -4941793.5,
-        "cuts_made": 24,
-        "total_played": 27,
-        "scores": [
-          {
-            "status": "scored",
-            "points": 132000.0,
-            "golfer": "Christopher Gotterup",
-            "position": 18
-          },
-          {
-            "status": "scored",
-            "points": 188000.0,
-            "golfer": "Maverick McNealy",
-            "position": 13
-          },
-          {
-            "status": "scored",
-            "points": 1760000.0,
-            "golfer": "Sepp Straka",
-            "position": 2
-          },
-          {
-            "status": "scored",
-            "points": 415000.0,
-            "golfer": "Min Woo Lee",
-            "position": 12
-          },
-          {
-            "status": "scored",
-            "points": 54816.0,
-            "golfer": "Daniel Berger",
-            "position": 32
-          },
-          {
-            "status": "scored",
-            "points": 1200000.0,
-            "golfer": "Ludvig Aberg",
-            "position": 3
-          },
-          {
-            "status": "scored",
-            "points": 409028.0,
-            "golfer": "Akshay Bhatia",
-            "position": 13
-          },
-          {
-            "status": "scored",
-            "points": 161525.0,
-            "golfer": "Jacob Bridgeman",
-            "position": 14
-          },
-          {
-            "status": "scored",
-            "points": 41085.0,
-            "golfer": "Tony Finau",
-            "position": 39
-          },
-          {
-            "status": "penalty",
-            "points": -350000,
-            "golfer": "Denny McCarthy",
-            "position": 71
-          },
-          {
-            "status": "scored",
-            "points": 182250.0,
-            "golfer": "Tommy Fleetwood",
-            "position": 33
-          },
-          {
-            "status": "scored",
-            "points": 555000.0,
+            "points": 252500.0,
             "golfer": "Patrick Cantlay",
             "position": 8
           },
           {
             "status": "scored",
-            "points": 500000.0,
-            "golfer": "Rickie Fowler",
-            "position": 9
-          },
-          {
-            "status": "scored",
-            "points": 41250.0,
-            "golfer": "Ben Griffin",
-            "position": 63
-          },
-          {
-            "status": "scored",
-            "points": 547144.5,
-            "golfer": "Scottie Scheffler",
-            "position": 14
-          },
-          {
-            "status": "scored",
-            "points": 260075.0,
-            "golfer": "Sungjae Im",
-            "position": 9
-          },
-          {
-            "status": "penalty",
-            "points": -350000,
-            "golfer": "Stephan Jaeger",
-            "position": 132
-          },
-          {
-            "status": "scored",
-            "points": 140000.0,
-            "golfer": "Xander Schauffele",
+            "points": 51047.0,
+            "golfer": "Jackson Koivun",
             "position": 29
           },
           {
-            "status": "scored",
-            "points": 21168.0,
-            "golfer": "Nick Taylor",
-            "position": 65
-          },
-          {
-            "status": "scored",
-            "points": 108888.0,
-            "golfer": "Cameron Young",
-            "position": 43
-          },
-          {
-            "status": "scored",
-            "points": 41533.0,
-            "golfer": "Samuel Stevens",
-            "position": 62
-          },
-          {
-            "status": "scored",
-            "points": 239800.0,
-            "golfer": "Ryo Hisatsune",
-            "position": 9
-          },
-          {
-            "status": "scored",
-            "points": 153450.0,
-            "golfer": "Wyndham Clark",
-            "position": 13
-          },
-          {
-            "status": "scored",
-            "points": 104625.0,
-            "golfer": "Rory McIlroy",
-            "position": 40
-          },
-          {
             "status": "penalty",
             "points": -350000,
-            "golfer": "Jackson Suber",
-            "position": 105
-          },
-          {
-            "status": "scored",
-            "points": 370000.0,
-            "golfer": "Hideki Matsuyama",
-            "position": 5
-          },
-          {
-            "status": "scored",
-            "points": 19635.0,
-            "golfer": "Bud Cauley",
-            "position": 54
-          },
-          {
-            "status": "upcoming",
-            "points": null,
             "golfer": null,
             "position": null
           },
@@ -2871,12 +2503,12 @@
         ]
       },
       {
-        "rank": 15,
+        "rank": 13,
         "entry": "CCRICHARDS83",
-        "total": 6316431.5,
-        "behind": -5221634.5,
-        "cuts_made": 20,
-        "total_played": 27,
+        "total": 6898431.5,
+        "behind": -4766634.5,
+        "cuts_made": 21,
+        "total_played": 28,
         "scores": [
           {
             "status": "scored",
@@ -3041,10 +2673,10 @@
             "position": 1
           },
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "scored",
+            "points": 582000.0,
+            "golfer": "Hideki Matsuyama",
+            "position": 7
           },
           {
             "status": "upcoming",
@@ -3055,54 +2687,54 @@
         ]
       },
       {
-        "rank": 16,
-        "entry": "BENHAILE",
-        "total": 6166543.5,
-        "behind": -5371522.5,
-        "cuts_made": 23,
-        "total_played": 27,
+        "rank": 14,
+        "entry": "TSWANY05",
+        "total": 6758272.5,
+        "behind": -4906793.5,
+        "cuts_made": 25,
+        "total_played": 28,
         "scores": [
           {
             "status": "scored",
-            "points": 41760.0,
-            "golfer": "Jason Day",
-            "position": 38
+            "points": 132000.0,
+            "golfer": "Christopher Gotterup",
+            "position": 18
           },
           {
             "status": "scored",
-            "points": 439680.0,
-            "golfer": "Si Woo Kim",
+            "points": 188000.0,
+            "golfer": "Maverick McNealy",
+            "position": 13
+          },
+          {
+            "status": "scored",
+            "points": 1760000.0,
+            "golfer": "Sepp Straka",
+            "position": 2
+          },
+          {
+            "status": "scored",
+            "points": 415000.0,
+            "golfer": "Min Woo Lee",
+            "position": 12
+          },
+          {
+            "status": "scored",
+            "points": 54816.0,
+            "golfer": "Daniel Berger",
+            "position": 32
+          },
+          {
+            "status": "scored",
+            "points": 1200000.0,
+            "golfer": "Ludvig Aberg",
             "position": 3
           },
           {
             "status": "scored",
-            "points": 78375.0,
-            "golfer": "Justin Rose",
-            "position": 37
-          },
-          {
-            "status": "scored",
-            "points": 92250.0,
-            "golfer": "Patrick Cantlay",
-            "position": 37
-          },
-          {
-            "status": "scored",
-            "points": 77600.0,
-            "golfer": "Ryan Gerard",
-            "position": 23
-          },
-          {
-            "status": "penalty",
-            "points": -350000,
-            "golfer": "Rory McIlroy",
-            "position": 71
-          },
-          {
-            "status": "penalty",
-            "points": -350000,
-            "golfer": "Collin Morikawa",
-            "position": 123
+            "points": 409028.0,
+            "golfer": "Akshay Bhatia",
+            "position": 13
           },
           {
             "status": "scored",
@@ -3112,39 +2744,39 @@
           },
           {
             "status": "scored",
-            "points": 21879.0,
-            "golfer": "Kurt Kitayama",
-            "position": 60
+            "points": 41085.0,
+            "golfer": "Tony Finau",
+            "position": 39
+          },
+          {
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Denny McCarthy",
+            "position": 71
           },
           {
             "status": "scored",
-            "points": 741533.0,
-            "golfer": "Robert MacIntyre",
-            "position": 2
+            "points": 182250.0,
+            "golfer": "Tommy Fleetwood",
+            "position": 33
           },
           {
             "status": "scored",
-            "points": 378000.0,
-            "golfer": "Ludvig Aberg",
-            "position": 21
+            "points": 555000.0,
+            "golfer": "Patrick Cantlay",
+            "position": 8
           },
           {
             "status": "scored",
-            "points": 399250.0,
-            "golfer": "Xander Schauffele",
-            "position": 12
+            "points": 500000.0,
+            "golfer": "Rickie Fowler",
+            "position": 9
           },
           {
             "status": "scored",
-            "points": 72182.0,
-            "golfer": "Christopher Gotterup",
-            "position": 38
-          },
-          {
-            "status": "scored",
-            "points": 45188.0,
-            "golfer": "Matthew Fitzpatrick",
-            "position": 52
+            "points": 41250.0,
+            "golfer": "Ben Griffin",
+            "position": 63
           },
           {
             "status": "scored",
@@ -3154,265 +2786,81 @@
           },
           {
             "status": "scored",
-            "points": 422300.0,
-            "golfer": "Keith Mitchell",
-            "position": 5
-          },
-          {
-            "status": "scored",
-            "points": 1782000.0,
-            "golfer": "Russell Henley",
-            "position": 1
-          },
-          {
-            "status": "scored",
-            "points": 58667.0,
-            "golfer": "Cameron Young",
-            "position": 46
-          },
-          {
-            "status": "scored",
-            "points": 96857.0,
-            "golfer": "Sam Burns",
-            "position": 20
-          },
-          {
-            "status": "penalty",
-            "points": -525000,
-            "golfer": "Jon Rahm",
-            "position": 86
-          },
-          {
-            "status": "scored",
-            "points": 310000.0,
-            "golfer": "Justin Thomas",
-            "position": 14
-          },
-          {
-            "status": "scored",
-            "points": 100056.0,
-            "golfer": "Ben Griffin",
-            "position": 21
-          },
-          {
-            "status": "scored",
-            "points": 153450.0,
-            "golfer": "Viktor Hovland",
-            "position": 13
-          },
-          {
-            "status": "scored",
-            "points": 1241250.0,
-            "golfer": "Tommy Fleetwood",
-            "position": 4
-          },
-          {
-            "status": "scored",
-            "points": 429550.0,
-            "golfer": "Hideki Matsuyama",
-            "position": 3
-          },
-          {
-            "status": "penalty",
-            "points": -350000,
-            "golfer": "Wyndham Clark",
-            "position": 129
-          },
-          {
-            "status": "scored",
-            "points": 51047.0,
-            "golfer": "Aaron Rai",
-            "position": 29
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "entry": "Lane Boy",
-        "total": 6016257.0,
-        "behind": -5521809.0,
-        "cuts_made": 18,
-        "total_played": 27,
-        "scores": [
-          {
-            "status": "penalty",
-            "points": -350000,
-            "golfer": "Ludvig Aberg",
-            "position": 141
-          },
-          {
-            "status": "scored",
-            "points": 1046400.0,
-            "golfer": "Hideki Matsuyama",
-            "position": 2
-          },
-          {
-            "status": "scored",
-            "points": 877500.0,
-            "golfer": "Tommy Fleetwood",
-            "position": 4
-          },
-          {
-            "status": "penalty",
-            "points": -350000,
-            "golfer": "Christopher Gotterup",
-            "position": 63
-          },
-          {
-            "status": "scored",
-            "points": 252000.0,
-            "golfer": "Rasmus Hojgaard",
-            "position": 9
-          },
-          {
-            "status": "penalty",
-            "points": -350000,
-            "golfer": "Rory McIlroy",
-            "position": 71
-          },
-          {
-            "status": "scored",
-            "points": 1725000.0,
-            "golfer": "Xander Schauffele",
-            "position": 3
-          },
-          {
-            "status": "penalty",
-            "points": -350000,
-            "golfer": "Viktor Hovland",
-            "position": 85
-          },
-          {
-            "status": "scored",
-            "points": 59625.0,
-            "golfer": "Shane Lowry",
-            "position": 28
-          },
-          {
-            "status": "penalty",
-            "points": -350000,
-            "golfer": "Michael Thorbjornsen",
-            "position": 87
-          },
-          {
-            "status": "scored",
-            "points": 1620000.0,
-            "golfer": "Cameron Young",
-            "position": 3
-          },
-          {
-            "status": "scored",
-            "points": 823333.0,
-            "golfer": "Collin Morikawa",
-            "position": 4
-          },
-          {
-            "status": "scored",
-            "points": 48500.0,
-            "golfer": "Russell Henley",
-            "position": 49
-          },
-          {
-            "status": "scored",
-            "points": 40250.0,
-            "golfer": "Si Woo Kim",
-            "position": 65
-          },
-          {
-            "status": "penalty",
-            "points": -525000,
-            "golfer": null,
-            "position": null
-          },
-          {
-            "status": "scored",
             "points": 260075.0,
             "golfer": "Sungjae Im",
             "position": 9
           },
           {
-            "status": "scored",
-            "points": 69300.0,
-            "golfer": "Akshay Bhatia",
-            "position": 28
-          },
-          {
-            "status": "scored",
-            "points": 401800.0,
-            "golfer": "J.J. Spaun",
-            "position": 12
-          },
-          {
-            "status": "scored",
-            "points": 96857.0,
-            "golfer": "Sam Burns",
-            "position": 20
-          },
-          {
-            "status": "scored",
-            "points": 1381323.0,
-            "golfer": "Scottie Scheffler",
-            "position": 4
-          },
-          {
-            "status": "scored",
-            "points": 310000.0,
-            "golfer": "Justin Thomas",
-            "position": 14
-          },
-          {
-            "status": "scored",
-            "points": 21359.0,
-            "golfer": "Keith Mitchell",
-            "position": 51
-          },
-          {
-            "status": "scored",
-            "points": 431888.0,
-            "golfer": "Robert MacIntyre",
-            "position": 3
-          },
-          {
-            "status": "penalty",
-            "points": -525000,
-            "golfer": "Matthew Fitzpatrick",
-            "position": 108
-          },
-          {
             "status": "penalty",
             "points": -350000,
-            "golfer": "Max Homa",
-            "position": 131
-          },
-          {
-            "status": "penalty",
-            "points": -350000,
-            "golfer": "Wyndham Clark",
-            "position": 129
+            "golfer": "Stephan Jaeger",
+            "position": 132
           },
           {
             "status": "scored",
-            "points": 51047.0,
-            "golfer": "Aaron Rai",
+            "points": 140000.0,
+            "golfer": "Xander Schauffele",
             "position": 29
           },
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "scored",
+            "points": 21168.0,
+            "golfer": "Nick Taylor",
+            "position": 65
+          },
+          {
+            "status": "scored",
+            "points": 108888.0,
+            "golfer": "Cameron Young",
+            "position": 43
+          },
+          {
+            "status": "scored",
+            "points": 41533.0,
+            "golfer": "Samuel Stevens",
+            "position": 62
+          },
+          {
+            "status": "scored",
+            "points": 239800.0,
+            "golfer": "Ryo Hisatsune",
+            "position": 9
+          },
+          {
+            "status": "scored",
+            "points": 153450.0,
+            "golfer": "Wyndham Clark",
+            "position": 13
+          },
+          {
+            "status": "scored",
+            "points": 104625.0,
+            "golfer": "Rory McIlroy",
+            "position": 40
+          },
+          {
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Jackson Suber",
+            "position": 105
+          },
+          {
+            "status": "scored",
+            "points": 370000.0,
+            "golfer": "Hideki Matsuyama",
+            "position": 5
+          },
+          {
+            "status": "scored",
+            "points": 19635.0,
+            "golfer": "Bud Cauley",
+            "position": 54
+          },
+          {
+            "status": "scored",
+            "points": 162000.0,
+            "golfer": "Ryan Gerard",
+            "position": 24
           },
           {
             "status": "upcoming",
@@ -3423,12 +2871,12 @@
         ]
       },
       {
-        "rank": 18,
+        "rank": 15,
         "entry": "You Only LIV Twice",
-        "total": 5994255.5,
-        "behind": -5543810.5,
-        "cuts_made": 20,
-        "total_played": 27,
+        "total": 6754255.5,
+        "behind": -4910810.5,
+        "cuts_made": 21,
+        "total_played": 28,
         "scores": [
           {
             "status": "scored",
@@ -3593,10 +3041,562 @@
             "position": 14
           },
           {
+            "status": "scored",
+            "points": 760000.0,
+            "golfer": "Wyndham Clark",
+            "position": 5
+          },
+          {
             "status": "upcoming",
             "points": null,
             "golfer": null,
             "position": null
+          }
+        ]
+      },
+      {
+        "rank": 16,
+        "entry": "Hershiness",
+        "total": 6660202.5,
+        "behind": -5004863.5,
+        "cuts_made": 25,
+        "total_played": 28,
+        "scores": [
+          {
+            "status": "scored",
+            "points": 41760.0,
+            "golfer": "Jason Day",
+            "position": 38
+          },
+          {
+            "status": "scored",
+            "points": 1046400.0,
+            "golfer": "Hideki Matsuyama",
+            "position": 2
+          },
+          {
+            "status": "scored",
+            "points": 78375.0,
+            "golfer": "Justin Rose",
+            "position": 37
+          },
+          {
+            "status": "scored",
+            "points": 92250.0,
+            "golfer": "Patrick Cantlay",
+            "position": 37
+          },
+          {
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Michael Thorbjornsen",
+            "position": 68
+          },
+          {
+            "status": "scored",
+            "points": 157000.0,
+            "golfer": "Robert MacIntyre",
+            "position": 24
+          },
+          {
+            "status": "scored",
+            "points": 128250.0,
+            "golfer": "Min Woo Lee",
+            "position": 32
+          },
+          {
+            "status": "scored",
+            "points": 161525.0,
+            "golfer": "Jacob Bridgeman",
+            "position": 14
+          },
+          {
+            "status": "scored",
+            "points": 322988.0,
+            "golfer": "Christopher Gotterup",
+            "position": 6
+          },
+          {
+            "status": "scored",
+            "points": 21364.0,
+            "golfer": "Jordan Spieth",
+            "position": 63
+          },
+          {
+            "status": "penalty",
+            "points": -525000,
+            "golfer": "Bryson DeChambeau",
+            "position": 60
+          },
+          {
+            "status": "scored",
+            "points": 142750.0,
+            "golfer": "Russell Henley",
+            "position": 25
+          },
+          {
+            "status": "scored",
+            "points": 3600000.0,
+            "golfer": "Cameron Young",
+            "position": 1
+          },
+          {
+            "status": "scored",
+            "points": 42500.0,
+            "golfer": "Xander Schauffele",
+            "position": 60
+          },
+          {
+            "status": "scored",
+            "points": 547144.5,
+            "golfer": "Scottie Scheffler",
+            "position": 14
+          },
+          {
+            "status": "scored",
+            "points": 100597.0,
+            "golfer": "Ryo Hisatsune",
+            "position": 19
+          },
+          {
+            "status": "scored",
+            "points": 193875.0,
+            "golfer": "Justin Thomas",
+            "position": 13
+          },
+          {
+            "status": "scored",
+            "points": 90000.0,
+            "golfer": "Ludvig Aberg",
+            "position": 39
+          },
+          {
+            "status": "scored",
+            "points": 96857.0,
+            "golfer": "Sam Burns",
+            "position": 20
+          },
+          {
+            "status": "scored",
+            "points": 345330.0,
+            "golfer": "Matthew Fitzpatrick",
+            "position": 22
+          },
+          {
+            "status": "scored",
+            "points": 310000.0,
+            "golfer": "Tommy Fleetwood",
+            "position": 14
+          },
+          {
+            "status": "scored",
+            "points": 100056.0,
+            "golfer": "Ben Griffin",
+            "position": 21
+          },
+          {
+            "status": "scored",
+            "points": 49978.0,
+            "golfer": "Jon Rahm",
+            "position": 36
+          },
+          {
+            "status": "scored",
+            "points": 104625.0,
+            "golfer": "Rory McIlroy",
+            "position": 40
+          },
+          {
+            "status": "scored",
+            "points": 45848.0,
+            "golfer": "Maverick McNealy",
+            "position": 34
+          },
+          {
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Jake Knapp",
+            "position": 74
+          },
+          {
+            "status": "scored",
+            "points": 18530.0,
+            "golfer": "Alex Fitzpatrick",
+            "position": 61
+          },
+          {
+            "status": "scored",
+            "points": 47200.0,
+            "golfer": "Collin Morikawa",
+            "position": 52
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "golfer": null,
+            "position": null
+          }
+        ]
+      },
+      {
+        "rank": 17,
+        "entry": "BENHAILE",
+        "total": 6408943.5,
+        "behind": -5256122.5,
+        "cuts_made": 24,
+        "total_played": 28,
+        "scores": [
+          {
+            "status": "scored",
+            "points": 41760.0,
+            "golfer": "Jason Day",
+            "position": 38
+          },
+          {
+            "status": "scored",
+            "points": 439680.0,
+            "golfer": "Si Woo Kim",
+            "position": 3
+          },
+          {
+            "status": "scored",
+            "points": 78375.0,
+            "golfer": "Justin Rose",
+            "position": 37
+          },
+          {
+            "status": "scored",
+            "points": 92250.0,
+            "golfer": "Patrick Cantlay",
+            "position": 37
+          },
+          {
+            "status": "scored",
+            "points": 77600.0,
+            "golfer": "Ryan Gerard",
+            "position": 23
+          },
+          {
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Rory McIlroy",
+            "position": 71
+          },
+          {
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Collin Morikawa",
+            "position": 123
+          },
+          {
+            "status": "scored",
+            "points": 161525.0,
+            "golfer": "Jacob Bridgeman",
+            "position": 14
+          },
+          {
+            "status": "scored",
+            "points": 21879.0,
+            "golfer": "Kurt Kitayama",
+            "position": 60
+          },
+          {
+            "status": "scored",
+            "points": 741533.0,
+            "golfer": "Robert MacIntyre",
+            "position": 2
+          },
+          {
+            "status": "scored",
+            "points": 378000.0,
+            "golfer": "Ludvig Aberg",
+            "position": 21
+          },
+          {
+            "status": "scored",
+            "points": 399250.0,
+            "golfer": "Xander Schauffele",
+            "position": 12
+          },
+          {
+            "status": "scored",
+            "points": 72182.0,
+            "golfer": "Christopher Gotterup",
+            "position": 38
+          },
+          {
+            "status": "scored",
+            "points": 45188.0,
+            "golfer": "Matthew Fitzpatrick",
+            "position": 52
+          },
+          {
+            "status": "scored",
+            "points": 547144.5,
+            "golfer": "Scottie Scheffler",
+            "position": 14
+          },
+          {
+            "status": "scored",
+            "points": 422300.0,
+            "golfer": "Keith Mitchell",
+            "position": 5
+          },
+          {
+            "status": "scored",
+            "points": 1782000.0,
+            "golfer": "Russell Henley",
+            "position": 1
+          },
+          {
+            "status": "scored",
+            "points": 58667.0,
+            "golfer": "Cameron Young",
+            "position": 46
+          },
+          {
+            "status": "scored",
+            "points": 96857.0,
+            "golfer": "Sam Burns",
+            "position": 20
+          },
+          {
+            "status": "penalty",
+            "points": -525000,
+            "golfer": "Jon Rahm",
+            "position": 86
+          },
+          {
+            "status": "scored",
+            "points": 310000.0,
+            "golfer": "Justin Thomas",
+            "position": 14
+          },
+          {
+            "status": "scored",
+            "points": 100056.0,
+            "golfer": "Ben Griffin",
+            "position": 21
+          },
+          {
+            "status": "scored",
+            "points": 153450.0,
+            "golfer": "Viktor Hovland",
+            "position": 13
+          },
+          {
+            "status": "scored",
+            "points": 1241250.0,
+            "golfer": "Tommy Fleetwood",
+            "position": 4
+          },
+          {
+            "status": "scored",
+            "points": 429550.0,
+            "golfer": "Hideki Matsuyama",
+            "position": 3
+          },
+          {
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Wyndham Clark",
+            "position": 129
+          },
+          {
+            "status": "scored",
+            "points": 51047.0,
+            "golfer": "Aaron Rai",
+            "position": 29
+          },
+          {
+            "status": "scored",
+            "points": 242400.0,
+            "golfer": "Jordan Spieth",
+            "position": 19
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "golfer": null,
+            "position": null
+          }
+        ]
+      },
+      {
+        "rank": 18,
+        "entry": "Lane Boy",
+        "total": 6102257.0,
+        "behind": -5562809.0,
+        "cuts_made": 19,
+        "total_played": 28,
+        "scores": [
+          {
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Ludvig Aberg",
+            "position": 141
+          },
+          {
+            "status": "scored",
+            "points": 1046400.0,
+            "golfer": "Hideki Matsuyama",
+            "position": 2
+          },
+          {
+            "status": "scored",
+            "points": 877500.0,
+            "golfer": "Tommy Fleetwood",
+            "position": 4
+          },
+          {
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Christopher Gotterup",
+            "position": 63
+          },
+          {
+            "status": "scored",
+            "points": 252000.0,
+            "golfer": "Rasmus Hojgaard",
+            "position": 9
+          },
+          {
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Rory McIlroy",
+            "position": 71
+          },
+          {
+            "status": "scored",
+            "points": 1725000.0,
+            "golfer": "Xander Schauffele",
+            "position": 3
+          },
+          {
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Viktor Hovland",
+            "position": 85
+          },
+          {
+            "status": "scored",
+            "points": 59625.0,
+            "golfer": "Shane Lowry",
+            "position": 28
+          },
+          {
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Michael Thorbjornsen",
+            "position": 87
+          },
+          {
+            "status": "scored",
+            "points": 1620000.0,
+            "golfer": "Cameron Young",
+            "position": 3
+          },
+          {
+            "status": "scored",
+            "points": 823333.0,
+            "golfer": "Collin Morikawa",
+            "position": 4
+          },
+          {
+            "status": "scored",
+            "points": 48500.0,
+            "golfer": "Russell Henley",
+            "position": 49
+          },
+          {
+            "status": "scored",
+            "points": 40250.0,
+            "golfer": "Si Woo Kim",
+            "position": 65
+          },
+          {
+            "status": "penalty",
+            "points": -525000,
+            "golfer": null,
+            "position": null
+          },
+          {
+            "status": "scored",
+            "points": 260075.0,
+            "golfer": "Sungjae Im",
+            "position": 9
+          },
+          {
+            "status": "scored",
+            "points": 69300.0,
+            "golfer": "Akshay Bhatia",
+            "position": 28
+          },
+          {
+            "status": "scored",
+            "points": 401800.0,
+            "golfer": "J.J. Spaun",
+            "position": 12
+          },
+          {
+            "status": "scored",
+            "points": 96857.0,
+            "golfer": "Sam Burns",
+            "position": 20
+          },
+          {
+            "status": "scored",
+            "points": 1381323.0,
+            "golfer": "Scottie Scheffler",
+            "position": 4
+          },
+          {
+            "status": "scored",
+            "points": 310000.0,
+            "golfer": "Justin Thomas",
+            "position": 14
+          },
+          {
+            "status": "scored",
+            "points": 21359.0,
+            "golfer": "Keith Mitchell",
+            "position": 51
+          },
+          {
+            "status": "scored",
+            "points": 431888.0,
+            "golfer": "Robert MacIntyre",
+            "position": 3
+          },
+          {
+            "status": "penalty",
+            "points": -525000,
+            "golfer": "Matthew Fitzpatrick",
+            "position": 108
+          },
+          {
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Max Homa",
+            "position": 131
+          },
+          {
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Wyndham Clark",
+            "position": 129
+          },
+          {
+            "status": "scored",
+            "points": 51047.0,
+            "golfer": "Aaron Rai",
+            "position": 29
+          },
+          {
+            "status": "scored",
+            "points": 86000.0,
+            "golfer": "Justin Rose",
+            "position": 39
           },
           {
             "status": "upcoming",
@@ -3609,10 +3609,10 @@
       {
         "rank": 19,
         "entry": "DILLY DILLY",
-        "total": 5569717.0,
-        "behind": -5968349.0,
-        "cuts_made": 23,
-        "total_played": 27,
+        "total": 5938288.0,
+        "behind": -5726778.0,
+        "cuts_made": 24,
+        "total_played": 28,
         "scores": [
           {
             "status": "scored",
@@ -3777,10 +3777,10 @@
             "position": 29
           },
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "scored",
+            "points": 368571.0,
+            "golfer": "Joohyung Kim",
+            "position": 12
           },
           {
             "status": "upcoming",
@@ -3793,10 +3793,10 @@
       {
         "rank": 20,
         "entry": "PALACEJ",
-        "total": 5226425.0,
-        "behind": -6311641.0,
-        "cuts_made": 22,
-        "total_played": 27,
+        "total": 5808425.0,
+        "behind": -5856641.0,
+        "cuts_made": 23,
+        "total_played": 28,
         "scores": [
           {
             "status": "scored",
@@ -3961,10 +3961,10 @@
             "position": 129
           },
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "scored",
+            "points": 582000.0,
+            "golfer": "Xander Schauffele",
+            "position": 7
           },
           {
             "status": "upcoming",
@@ -3977,10 +3977,10 @@
       {
         "rank": 21,
         "entry": "D_PRICE",
-        "total": 5181944.0,
-        "behind": -6356122.0,
-        "cuts_made": 23,
-        "total_played": 27,
+        "total": 5763944.0,
+        "behind": -5901122.0,
+        "cuts_made": 24,
+        "total_played": 28,
         "scores": [
           {
             "status": "penalty",
@@ -4145,10 +4145,10 @@
             "position": 82
           },
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "scored",
+            "points": 582000.0,
+            "golfer": "Xander Schauffele",
+            "position": 7
           },
           {
             "status": "upcoming",
@@ -4161,10 +4161,10 @@
       {
         "rank": 22,
         "entry": "MPRICE21",
-        "total": 5069734.0,
-        "behind": -6468332.0,
-        "cuts_made": 18,
-        "total_played": 27,
+        "total": 5651734.0,
+        "behind": -6013332.0,
+        "cuts_made": 19,
+        "total_played": 28,
         "scores": [
           {
             "status": "scored",
@@ -4329,10 +4329,10 @@
             "position": null
           },
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "scored",
+            "points": 582000.0,
+            "golfer": "Xander Schauffele",
+            "position": 7
           },
           {
             "status": "upcoming",
@@ -4344,195 +4344,11 @@
       },
       {
         "rank": 23,
-        "entry": "BIG T",
-        "total": 4995225.5,
-        "behind": -6542840.5,
-        "cuts_made": 22,
-        "total_played": 27,
-        "scores": [
-          {
-            "status": "scored",
-            "points": 41760.0,
-            "golfer": "Jason Day",
-            "position": 38
-          },
-          {
-            "status": "scored",
-            "points": 62949.0,
-            "golfer": "Ben Griffin",
-            "position": 28
-          },
-          {
-            "status": "scored",
-            "points": 125200.0,
-            "golfer": "Maverick McNealy",
-            "position": 29
-          },
-          {
-            "status": "scored",
-            "points": 603200.0,
-            "golfer": "Tommy Fleetwood",
-            "position": 7
-          },
-          {
-            "status": "scored",
-            "points": 77600.0,
-            "golfer": "Ryan Gerard",
-            "position": 23
-          },
-          {
-            "status": "scored",
-            "points": 78000.0,
-            "golfer": "Matthew Fitzpatrick",
-            "position": 41
-          },
-          {
-            "status": "scored",
-            "points": 925000.0,
-            "golfer": "Ludvig Aberg",
-            "position": 5
-          },
-          {
-            "status": "penalty",
-            "points": -350000,
-            "golfer": "J.J. Spaun",
-            "position": 107
-          },
-          {
-            "status": "penalty",
-            "points": -350000,
-            "golfer": "Wyndham Clark",
-            "position": 104
-          },
-          {
-            "status": "scored",
-            "points": 24676.0,
-            "golfer": "Tony Finau",
-            "position": 49
-          },
-          {
-            "status": "penalty",
-            "points": -525000,
-            "golfer": "Bryson DeChambeau",
-            "position": 60
-          },
-          {
-            "status": "scored",
-            "points": 555000.0,
-            "golfer": "Patrick Cantlay",
-            "position": 8
-          },
-          {
-            "status": "scored",
-            "points": 72182.0,
-            "golfer": "Sam Burns",
-            "position": 38
-          },
-          {
-            "status": "scored",
-            "points": 242100.0,
-            "golfer": "Rory McIlroy",
-            "position": 19
-          },
-          {
-            "status": "scored",
-            "points": 955575.0,
-            "golfer": "Xander Schauffele",
-            "position": 7
-          },
-          {
-            "status": "scored",
-            "points": 1122700.0,
-            "golfer": "Si Woo Kim",
-            "position": 2
-          },
-          {
-            "status": "scored",
-            "points": 524700.0,
-            "golfer": "Alex Smalley",
-            "position": 3
-          },
-          {
-            "status": "scored",
-            "points": 401800.0,
-            "golfer": "Scottie Scheffler",
-            "position": 12
-          },
-          {
-            "status": "scored",
-            "points": 96857.0,
-            "golfer": "Alex Fitzpatrick",
-            "position": 20
-          },
-          {
-            "status": "penalty",
-            "points": -525000,
-            "golfer": "Jon Rahm",
-            "position": 86
-          },
-          {
-            "status": "scored",
-            "points": 440000.0,
-            "golfer": "Russell Henley",
-            "position": 12
-          },
-          {
-            "status": "scored",
-            "points": 66189.0,
-            "golfer": "Keegan Bradley",
-            "position": 26
-          },
-          {
-            "status": "scored",
-            "points": 123750.0,
-            "golfer": "Tyrrell Hatton",
-            "position": 17
-          },
-          {
-            "status": "scored",
-            "points": 246862.5,
-            "golfer": "Collin Morikawa",
-            "position": 18
-          },
-          {
-            "status": "penalty",
-            "points": -350000,
-            "golfer": "Max Homa",
-            "position": 131
-          },
-          {
-            "status": "scored",
-            "points": 162500.0,
-            "golfer": "Sungjae Im",
-            "position": 15
-          },
-          {
-            "status": "scored",
-            "points": 146625.0,
-            "golfer": "Justin Thomas",
-            "position": 14
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
-          }
-        ]
-      },
-      {
-        "rank": 24,
         "entry": "KONRADE",
-        "total": 4453993.0,
-        "behind": -7084073.0,
-        "cuts_made": 19,
-        "total_played": 27,
+        "total": 5613993.0,
+        "behind": -6051073.0,
+        "cuts_made": 20,
+        "total_played": 28,
         "scores": [
           {
             "status": "penalty",
@@ -4697,10 +4513,194 @@
             "position": 29
           },
           {
+            "status": "scored",
+            "points": 1160000.0,
+            "golfer": "Sam Burns",
+            "position": 3
+          },
+          {
             "status": "upcoming",
             "points": null,
             "golfer": null,
             "position": null
+          }
+        ]
+      },
+      {
+        "rank": 24,
+        "entry": "BIG T",
+        "total": 5577225.5,
+        "behind": -6087840.5,
+        "cuts_made": 23,
+        "total_played": 28,
+        "scores": [
+          {
+            "status": "scored",
+            "points": 41760.0,
+            "golfer": "Jason Day",
+            "position": 38
+          },
+          {
+            "status": "scored",
+            "points": 62949.0,
+            "golfer": "Ben Griffin",
+            "position": 28
+          },
+          {
+            "status": "scored",
+            "points": 125200.0,
+            "golfer": "Maverick McNealy",
+            "position": 29
+          },
+          {
+            "status": "scored",
+            "points": 603200.0,
+            "golfer": "Tommy Fleetwood",
+            "position": 7
+          },
+          {
+            "status": "scored",
+            "points": 77600.0,
+            "golfer": "Ryan Gerard",
+            "position": 23
+          },
+          {
+            "status": "scored",
+            "points": 78000.0,
+            "golfer": "Matthew Fitzpatrick",
+            "position": 41
+          },
+          {
+            "status": "scored",
+            "points": 925000.0,
+            "golfer": "Ludvig Aberg",
+            "position": 5
+          },
+          {
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "J.J. Spaun",
+            "position": 107
+          },
+          {
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Wyndham Clark",
+            "position": 104
+          },
+          {
+            "status": "scored",
+            "points": 24676.0,
+            "golfer": "Tony Finau",
+            "position": 49
+          },
+          {
+            "status": "penalty",
+            "points": -525000,
+            "golfer": "Bryson DeChambeau",
+            "position": 60
+          },
+          {
+            "status": "scored",
+            "points": 555000.0,
+            "golfer": "Patrick Cantlay",
+            "position": 8
+          },
+          {
+            "status": "scored",
+            "points": 72182.0,
+            "golfer": "Sam Burns",
+            "position": 38
+          },
+          {
+            "status": "scored",
+            "points": 242100.0,
+            "golfer": "Rory McIlroy",
+            "position": 19
+          },
+          {
+            "status": "scored",
+            "points": 955575.0,
+            "golfer": "Xander Schauffele",
+            "position": 7
+          },
+          {
+            "status": "scored",
+            "points": 1122700.0,
+            "golfer": "Si Woo Kim",
+            "position": 2
+          },
+          {
+            "status": "scored",
+            "points": 524700.0,
+            "golfer": "Alex Smalley",
+            "position": 3
+          },
+          {
+            "status": "scored",
+            "points": 401800.0,
+            "golfer": "Scottie Scheffler",
+            "position": 12
+          },
+          {
+            "status": "scored",
+            "points": 96857.0,
+            "golfer": "Alex Fitzpatrick",
+            "position": 20
+          },
+          {
+            "status": "penalty",
+            "points": -525000,
+            "golfer": "Jon Rahm",
+            "position": 86
+          },
+          {
+            "status": "scored",
+            "points": 440000.0,
+            "golfer": "Russell Henley",
+            "position": 12
+          },
+          {
+            "status": "scored",
+            "points": 66189.0,
+            "golfer": "Keegan Bradley",
+            "position": 26
+          },
+          {
+            "status": "scored",
+            "points": 123750.0,
+            "golfer": "Tyrrell Hatton",
+            "position": 17
+          },
+          {
+            "status": "scored",
+            "points": 246862.5,
+            "golfer": "Collin Morikawa",
+            "position": 18
+          },
+          {
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Max Homa",
+            "position": 131
+          },
+          {
+            "status": "scored",
+            "points": 162500.0,
+            "golfer": "Sungjae Im",
+            "position": 15
+          },
+          {
+            "status": "scored",
+            "points": 146625.0,
+            "golfer": "Justin Thomas",
+            "position": 14
+          },
+          {
+            "status": "scored",
+            "points": 582000.0,
+            "golfer": "Hideki Matsuyama",
+            "position": 7
           },
           {
             "status": "upcoming",
@@ -4713,10 +4713,10 @@
       {
         "rank": 25,
         "entry": "J BROTHERS",
-        "total": 4008536.5,
-        "behind": -7529529.5,
-        "cuts_made": 19,
-        "total_played": 27,
+        "total": 4590536.5,
+        "behind": -7074529.5,
+        "cuts_made": 20,
+        "total_played": 28,
         "scores": [
           {
             "status": "scored",
@@ -4881,10 +4881,10 @@
             "position": 29
           },
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "scored",
+            "points": 582000.0,
+            "golfer": "Hideki Matsuyama",
+            "position": 7
           },
           {
             "status": "upcoming",
@@ -4896,379 +4896,11 @@
       },
       {
         "rank": 26,
-        "entry": "SWITZ AND GIGGLES",
-        "total": 3716312.5,
-        "behind": -7821753.5,
-        "cuts_made": 22,
-        "total_played": 27,
-        "scores": [
-          {
-            "status": "scored",
-            "points": 41760.0,
-            "golfer": "Jason Day",
-            "position": 38
-          },
-          {
-            "status": "scored",
-            "points": 1046400.0,
-            "golfer": "Hideki Matsuyama",
-            "position": 2
-          },
-          {
-            "status": "scored",
-            "points": 78375.0,
-            "golfer": "Justin Rose",
-            "position": 37
-          },
-          {
-            "status": "scored",
-            "points": 92250.0,
-            "golfer": "Patrick Cantlay",
-            "position": 37
-          },
-          {
-            "status": "scored",
-            "points": 252000.0,
-            "golfer": "Rasmus Hojgaard",
-            "position": 9
-          },
-          {
-            "status": "scored",
-            "points": 373200.0,
-            "golfer": "Sepp Straka",
-            "position": 13
-          },
-          {
-            "status": "scored",
-            "points": 731250.0,
-            "golfer": "Tommy Fleetwood",
-            "position": 8
-          },
-          {
-            "status": "scored",
-            "points": 51142.0,
-            "golfer": "Ryo Hisatsune",
-            "position": 30
-          },
-          {
-            "status": "scored",
-            "points": 21879.0,
-            "golfer": "Sungjae Im",
-            "position": 60
-          },
-          {
-            "status": "penalty",
-            "points": -350000,
-            "golfer": "Rickie Fowler",
-            "position": 104
-          },
-          {
-            "status": "scored",
-            "points": 378000.0,
-            "golfer": "Ludvig Aberg",
-            "position": 21
-          },
-          {
-            "status": "scored",
-            "points": 142750.0,
-            "golfer": "Russell Henley",
-            "position": 25
-          },
-          {
-            "status": "scored",
-            "points": 72182.0,
-            "golfer": "Viktor Hovland",
-            "position": 38
-          },
-          {
-            "status": "scored",
-            "points": 42500.0,
-            "golfer": "Xander Schauffele",
-            "position": 60
-          },
-          {
-            "status": "scored",
-            "points": 547144.5,
-            "golfer": "Scottie Scheffler",
-            "position": 14
-          },
-          {
-            "status": "scored",
-            "points": 100597.0,
-            "golfer": "Jordan Spieth",
-            "position": 19
-          },
-          {
-            "status": "scored",
-            "points": 19899.0,
-            "golfer": "Tom Hoge",
-            "position": 71
-          },
-          {
-            "status": "penalty",
-            "points": -350000,
-            "golfer": "Akshay Bhatia",
-            "position": 66
-          },
-          {
-            "status": "scored",
-            "points": 218050.0,
-            "golfer": "Wyndham Clark",
-            "position": 11
-          },
-          {
-            "status": "penalty",
-            "points": -525000,
-            "golfer": "Brooks Koepka",
-            "position": 126
-          },
-          {
-            "status": "scored",
-            "points": 960000.0,
-            "golfer": "Matthew Fitzpatrick",
-            "position": 4
-          },
-          {
-            "status": "scored",
-            "points": 21359.0,
-            "golfer": "Keith Mitchell",
-            "position": 51
-          },
-          {
-            "status": "scored",
-            "points": 123750.0,
-            "golfer": "Tyrrell Hatton",
-            "position": 17
-          },
-          {
-            "status": "scored",
-            "points": 104625.0,
-            "golfer": "Rory McIlroy",
-            "position": 40
-          },
-          {
-            "status": "scored",
-            "points": 222200.0,
-            "golfer": "Gary Woodland",
-            "position": 10
-          },
-          {
-            "status": "penalty",
-            "points": -350000,
-            "golfer": "Christopher Gotterup",
-            "position": 105
-          },
-          {
-            "status": "penalty",
-            "points": -350000,
-            "golfer": null,
-            "position": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
-          }
-        ]
-      },
-      {
-        "rank": 27,
-        "entry": "FRUSCH",
-        "total": 3614458.5,
-        "behind": -7923607.5,
-        "cuts_made": 18,
-        "total_played": 27,
-        "scores": [
-          {
-            "status": "scored",
-            "points": 41760.0,
-            "golfer": "Jason Day",
-            "position": 38
-          },
-          {
-            "status": "scored",
-            "points": 1046400.0,
-            "golfer": "Hideki Matsuyama",
-            "position": 2
-          },
-          {
-            "status": "scored",
-            "points": 125200.0,
-            "golfer": "Maverick McNealy",
-            "position": 29
-          },
-          {
-            "status": "scored",
-            "points": 1800000.0,
-            "golfer": "Rory McIlroy",
-            "position": 2
-          },
-          {
-            "status": "scored",
-            "points": 726400.0,
-            "golfer": "Shane Lowry",
-            "position": 2
-          },
-          {
-            "status": "scored",
-            "points": 56000.0,
-            "golfer": "Tommy Fleetwood",
-            "position": 49
-          },
-          {
-            "status": "scored",
-            "points": 61083.0,
-            "golfer": "Si Woo Kim",
-            "position": 50
-          },
-          {
-            "status": "scored",
-            "points": 161525.0,
-            "golfer": "Jacob Bridgeman",
-            "position": 14
-          },
-          {
-            "status": "penalty",
-            "points": -350000,
-            "golfer": "Brooks Koepka",
-            "position": 116
-          },
-          {
-            "status": "scored",
-            "points": 741533.0,
-            "golfer": "Robert MacIntyre",
-            "position": 2
-          },
-          {
-            "status": "penalty",
-            "points": -525000,
-            "golfer": "Bryson DeChambeau",
-            "position": 60
-          },
-          {
-            "status": "penalty",
-            "points": -350000,
-            "golfer": null,
-            "position": null
-          },
-          {
-            "status": "scored",
-            "points": 39083.0,
-            "golfer": "Justin Rose",
-            "position": 65
-          },
-          {
-            "status": "scored",
-            "points": 600000.0,
-            "golfer": "Ludvig Aberg",
-            "position": 8
-          },
-          {
-            "status": "scored",
-            "points": 547144.5,
-            "golfer": "Scottie Scheffler",
-            "position": 14
-          },
-          {
-            "status": "scored",
-            "points": 100597.0,
-            "golfer": "Jordan Spieth",
-            "position": 19
-          },
-          {
-            "status": "scored",
-            "points": 322988.0,
-            "golfer": "J.J. Spaun",
-            "position": 6
-          },
-          {
-            "status": "scored",
-            "points": 99000.0,
-            "golfer": "Matthew Fitzpatrick",
-            "position": 36
-          },
-          {
-            "status": "scored",
-            "points": 96857.0,
-            "golfer": "Sam Burns",
-            "position": 20
-          },
-          {
-            "status": "scored",
-            "points": 108888.0,
-            "golfer": "Cameron Young",
-            "position": 43
-          },
-          {
-            "status": "scored",
-            "points": 440000.0,
-            "golfer": "Russell Henley",
-            "position": 12
-          },
-          {
-            "status": "penalty",
-            "points": -350000,
-            "golfer": null,
-            "position": null
-          },
-          {
-            "status": "penalty",
-            "points": -350000,
-            "golfer": null,
-            "position": null
-          },
-          {
-            "status": "penalty",
-            "points": -525000,
-            "golfer": null,
-            "position": null
-          },
-          {
-            "status": "penalty",
-            "points": -350000,
-            "golfer": null,
-            "position": null
-          },
-          {
-            "status": "penalty",
-            "points": -350000,
-            "golfer": null,
-            "position": null
-          },
-          {
-            "status": "penalty",
-            "points": -350000,
-            "golfer": null,
-            "position": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
-          }
-        ]
-      },
-      {
-        "rank": 28,
         "entry": "ADAHMER",
-        "total": 3175050.5,
-        "behind": -8363015.5,
-        "cuts_made": 19,
-        "total_played": 27,
+        "total": 3935050.5,
+        "behind": -7730015.5,
+        "cuts_made": 20,
+        "total_played": 28,
         "scores": [
           {
             "status": "penalty",
@@ -5433,8 +5065,376 @@
             "position": 82
           },
           {
+            "status": "scored",
+            "points": 760000.0,
+            "golfer": "Wyndham Clark",
+            "position": 5
+          },
+          {
             "status": "upcoming",
             "points": null,
+            "golfer": null,
+            "position": null
+          }
+        ]
+      },
+      {
+        "rank": 27,
+        "entry": "SWITZ AND GIGGLES",
+        "total": 3802312.5,
+        "behind": -7862753.5,
+        "cuts_made": 23,
+        "total_played": 28,
+        "scores": [
+          {
+            "status": "scored",
+            "points": 41760.0,
+            "golfer": "Jason Day",
+            "position": 38
+          },
+          {
+            "status": "scored",
+            "points": 1046400.0,
+            "golfer": "Hideki Matsuyama",
+            "position": 2
+          },
+          {
+            "status": "scored",
+            "points": 78375.0,
+            "golfer": "Justin Rose",
+            "position": 37
+          },
+          {
+            "status": "scored",
+            "points": 92250.0,
+            "golfer": "Patrick Cantlay",
+            "position": 37
+          },
+          {
+            "status": "scored",
+            "points": 252000.0,
+            "golfer": "Rasmus Hojgaard",
+            "position": 9
+          },
+          {
+            "status": "scored",
+            "points": 373200.0,
+            "golfer": "Sepp Straka",
+            "position": 13
+          },
+          {
+            "status": "scored",
+            "points": 731250.0,
+            "golfer": "Tommy Fleetwood",
+            "position": 8
+          },
+          {
+            "status": "scored",
+            "points": 51142.0,
+            "golfer": "Ryo Hisatsune",
+            "position": 30
+          },
+          {
+            "status": "scored",
+            "points": 21879.0,
+            "golfer": "Sungjae Im",
+            "position": 60
+          },
+          {
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Rickie Fowler",
+            "position": 104
+          },
+          {
+            "status": "scored",
+            "points": 378000.0,
+            "golfer": "Ludvig Aberg",
+            "position": 21
+          },
+          {
+            "status": "scored",
+            "points": 142750.0,
+            "golfer": "Russell Henley",
+            "position": 25
+          },
+          {
+            "status": "scored",
+            "points": 72182.0,
+            "golfer": "Viktor Hovland",
+            "position": 38
+          },
+          {
+            "status": "scored",
+            "points": 42500.0,
+            "golfer": "Xander Schauffele",
+            "position": 60
+          },
+          {
+            "status": "scored",
+            "points": 547144.5,
+            "golfer": "Scottie Scheffler",
+            "position": 14
+          },
+          {
+            "status": "scored",
+            "points": 100597.0,
+            "golfer": "Jordan Spieth",
+            "position": 19
+          },
+          {
+            "status": "scored",
+            "points": 19899.0,
+            "golfer": "Tom Hoge",
+            "position": 71
+          },
+          {
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Akshay Bhatia",
+            "position": 66
+          },
+          {
+            "status": "scored",
+            "points": 218050.0,
+            "golfer": "Wyndham Clark",
+            "position": 11
+          },
+          {
+            "status": "penalty",
+            "points": -525000,
+            "golfer": "Brooks Koepka",
+            "position": 126
+          },
+          {
+            "status": "scored",
+            "points": 960000.0,
+            "golfer": "Matthew Fitzpatrick",
+            "position": 4
+          },
+          {
+            "status": "scored",
+            "points": 21359.0,
+            "golfer": "Keith Mitchell",
+            "position": 51
+          },
+          {
+            "status": "scored",
+            "points": 123750.0,
+            "golfer": "Tyrrell Hatton",
+            "position": 17
+          },
+          {
+            "status": "scored",
+            "points": 104625.0,
+            "golfer": "Rory McIlroy",
+            "position": 40
+          },
+          {
+            "status": "scored",
+            "points": 222200.0,
+            "golfer": "Gary Woodland",
+            "position": 10
+          },
+          {
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Christopher Gotterup",
+            "position": 105
+          },
+          {
+            "status": "penalty",
+            "points": -350000,
+            "golfer": null,
+            "position": null
+          },
+          {
+            "status": "scored",
+            "points": 86000.0,
+            "golfer": "Cameron Young",
+            "position": 39
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "golfer": null,
+            "position": null
+          }
+        ]
+      },
+      {
+        "rank": 28,
+        "entry": "FRUSCH",
+        "total": 3264458.5,
+        "behind": -8400607.5,
+        "cuts_made": 18,
+        "total_played": 28,
+        "scores": [
+          {
+            "status": "scored",
+            "points": 41760.0,
+            "golfer": "Jason Day",
+            "position": 38
+          },
+          {
+            "status": "scored",
+            "points": 1046400.0,
+            "golfer": "Hideki Matsuyama",
+            "position": 2
+          },
+          {
+            "status": "scored",
+            "points": 125200.0,
+            "golfer": "Maverick McNealy",
+            "position": 29
+          },
+          {
+            "status": "scored",
+            "points": 1800000.0,
+            "golfer": "Rory McIlroy",
+            "position": 2
+          },
+          {
+            "status": "scored",
+            "points": 726400.0,
+            "golfer": "Shane Lowry",
+            "position": 2
+          },
+          {
+            "status": "scored",
+            "points": 56000.0,
+            "golfer": "Tommy Fleetwood",
+            "position": 49
+          },
+          {
+            "status": "scored",
+            "points": 61083.0,
+            "golfer": "Si Woo Kim",
+            "position": 50
+          },
+          {
+            "status": "scored",
+            "points": 161525.0,
+            "golfer": "Jacob Bridgeman",
+            "position": 14
+          },
+          {
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Brooks Koepka",
+            "position": 116
+          },
+          {
+            "status": "scored",
+            "points": 741533.0,
+            "golfer": "Robert MacIntyre",
+            "position": 2
+          },
+          {
+            "status": "penalty",
+            "points": -525000,
+            "golfer": "Bryson DeChambeau",
+            "position": 60
+          },
+          {
+            "status": "penalty",
+            "points": -350000,
+            "golfer": null,
+            "position": null
+          },
+          {
+            "status": "scored",
+            "points": 39083.0,
+            "golfer": "Justin Rose",
+            "position": 65
+          },
+          {
+            "status": "scored",
+            "points": 600000.0,
+            "golfer": "Ludvig Aberg",
+            "position": 8
+          },
+          {
+            "status": "scored",
+            "points": 547144.5,
+            "golfer": "Scottie Scheffler",
+            "position": 14
+          },
+          {
+            "status": "scored",
+            "points": 100597.0,
+            "golfer": "Jordan Spieth",
+            "position": 19
+          },
+          {
+            "status": "scored",
+            "points": 322988.0,
+            "golfer": "J.J. Spaun",
+            "position": 6
+          },
+          {
+            "status": "scored",
+            "points": 99000.0,
+            "golfer": "Matthew Fitzpatrick",
+            "position": 36
+          },
+          {
+            "status": "scored",
+            "points": 96857.0,
+            "golfer": "Sam Burns",
+            "position": 20
+          },
+          {
+            "status": "scored",
+            "points": 108888.0,
+            "golfer": "Cameron Young",
+            "position": 43
+          },
+          {
+            "status": "scored",
+            "points": 440000.0,
+            "golfer": "Russell Henley",
+            "position": 12
+          },
+          {
+            "status": "penalty",
+            "points": -350000,
+            "golfer": null,
+            "position": null
+          },
+          {
+            "status": "penalty",
+            "points": -350000,
+            "golfer": null,
+            "position": null
+          },
+          {
+            "status": "penalty",
+            "points": -525000,
+            "golfer": null,
+            "position": null
+          },
+          {
+            "status": "penalty",
+            "points": -350000,
+            "golfer": null,
+            "position": null
+          },
+          {
+            "status": "penalty",
+            "points": -350000,
+            "golfer": null,
+            "position": null
+          },
+          {
+            "status": "penalty",
+            "points": -350000,
+            "golfer": null,
+            "position": null
+          },
+          {
+            "status": "penalty",
+            "points": -350000,
             "golfer": null,
             "position": null
           },
@@ -5449,10 +5449,10 @@
       {
         "rank": 29,
         "entry": "STUMPCAT",
-        "total": 2935786.5,
-        "behind": -8602279.5,
-        "cuts_made": 20,
-        "total_played": 27,
+        "total": 3178186.5,
+        "behind": -8486879.5,
+        "cuts_made": 21,
+        "total_played": 28,
         "scores": [
           {
             "status": "scored",
@@ -5617,10 +5617,10 @@
             "position": 123
           },
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "scored",
+            "points": 242400.0,
+            "golfer": "Viktor Hovland",
+            "position": 19
           },
           {
             "status": "upcoming",
@@ -5633,10 +5633,10 @@
       {
         "rank": 30,
         "entry": "THIS FOOL RIGHT HERE",
-        "total": 1874847.5,
-        "behind": -9663218.5,
-        "cuts_made": 19,
-        "total_played": 27,
+        "total": 2117247.5,
+        "behind": -9547818.5,
+        "cuts_made": 20,
+        "total_played": 28,
         "scores": [
           {
             "status": "penalty",
@@ -5801,10 +5801,10 @@
             "position": 82
           },
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "scored",
+            "points": 242400.0,
+            "golfer": "Viktor Hovland",
+            "position": 19
           },
           {
             "status": "upcoming",
@@ -5817,10 +5817,10 @@
       {
         "rank": 31,
         "entry": "RYAN4371",
-        "total": 952582.5,
-        "behind": -10585483.5,
-        "cuts_made": 20,
-        "total_played": 27,
+        "total": 2112582.5,
+        "behind": -9552483.5,
+        "cuts_made": 21,
+        "total_played": 28,
         "scores": [
           {
             "status": "scored",
@@ -5985,10 +5985,10 @@
             "position": null
           },
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "scored",
+            "points": 1160000.0,
+            "golfer": "Sam Burns",
+            "position": 3
           },
           {
             "status": "upcoming",
@@ -6001,10 +6001,10 @@
       {
         "rank": 32,
         "entry": "RISCHCO",
-        "total": -2424262.0,
-        "behind": -13962328.0,
+        "total": -2774262.0,
+        "behind": -14439328.0,
         "cuts_made": 12,
-        "total_played": 27,
+        "total_played": 28,
         "scores": [
           {
             "status": "penalty",
@@ -6169,8 +6169,8 @@
             "position": null
           },
           {
-            "status": "upcoming",
-            "points": null,
+            "status": "penalty",
+            "points": -350000,
             "golfer": null,
             "position": null
           },
@@ -6185,10 +6185,10 @@
       {
         "rank": 33,
         "entry": "KNBETHUNE",
-        "total": -8195875.0,
-        "behind": -19733941.0,
+        "total": -8545875.0,
+        "behind": -20210941.0,
         "cuts_made": 4,
-        "total_played": 27,
+        "total_played": 28,
         "scores": [
           {
             "status": "penalty",
@@ -6353,8 +6353,8 @@
             "position": null
           },
           {
-            "status": "upcoming",
-            "points": null,
+            "status": "penalty",
+            "points": -350000,
             "golfer": null,
             "position": null
           },
@@ -12980,79 +12980,11 @@
     "seg6": [
       {
         "rank": 1,
-        "entry": "CCRICHARDS83",
-        "total": 1180000.0,
-        "behind": 0.0,
-        "cuts_made": 1,
-        "total_played": 2,
-        "scores": [
-          {
-            "status": "penalty",
-            "points": -350000,
-            "golfer": "Wyndham Clark",
-            "position": 129
-          },
-          {
-            "status": "scored",
-            "points": 1530000.0,
-            "golfer": "Michael Brennan",
-            "position": 1
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
-          }
-        ]
-      },
-      {
-        "rank": 2,
-        "entry": "TCRAWFORD",
-        "total": 1108530.0,
-        "behind": -71470.0,
-        "cuts_made": 2,
-        "total_played": 2,
-        "scores": [
-          {
-            "status": "scored",
-            "points": 1090000.0,
-            "golfer": "Xander Schauffele",
-            "position": 2
-          },
-          {
-            "status": "scored",
-            "points": 18530.0,
-            "golfer": "Cameron Young",
-            "position": 61
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
-          }
-        ]
-      },
-      {
-        "rank": 3,
         "entry": "Texastank",
-        "total": 698313.0,
-        "behind": -481687.0,
-        "cuts_made": 2,
-        "total_played": 2,
+        "total": 1858313.0,
+        "behind": 0.0,
+        "cuts_made": 3,
+        "total_played": 3,
         "scores": [
           {
             "status": "scored",
@@ -13067,10 +12999,78 @@
             "position": 5
           },
           {
+            "status": "scored",
+            "points": 1160000.0,
+            "golfer": "Sam Burns",
+            "position": 3
+          },
+          {
             "status": "upcoming",
             "points": null,
             "golfer": null,
             "position": null
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "entry": "CCRICHARDS83",
+        "total": 1762000.0,
+        "behind": -96313.0,
+        "cuts_made": 2,
+        "total_played": 3,
+        "scores": [
+          {
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Wyndham Clark",
+            "position": 129
+          },
+          {
+            "status": "scored",
+            "points": 1530000.0,
+            "golfer": "Michael Brennan",
+            "position": 1
+          },
+          {
+            "status": "scored",
+            "points": 582000.0,
+            "golfer": "Hideki Matsuyama",
+            "position": 7
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "golfer": null,
+            "position": null
+          }
+        ]
+      },
+      {
+        "rank": 3,
+        "entry": "KONRADE",
+        "total": 1463547.0,
+        "behind": -394766.0,
+        "cuts_made": 3,
+        "total_played": 3,
+        "scores": [
+          {
+            "status": "scored",
+            "points": 252500.0,
+            "golfer": "Cameron Young",
+            "position": 8
+          },
+          {
+            "status": "scored",
+            "points": 51047.0,
+            "golfer": "Jackson Koivun",
+            "position": 29
+          },
+          {
+            "status": "scored",
+            "points": 1160000.0,
+            "golfer": "Sam Burns",
+            "position": 3
           },
           {
             "status": "upcoming",
@@ -13082,11 +13082,79 @@
       },
       {
         "rank": 4,
+        "entry": "TCRAWFORD",
+        "total": 1235530.0,
+        "behind": -622783.0,
+        "cuts_made": 3,
+        "total_played": 3,
+        "scores": [
+          {
+            "status": "scored",
+            "points": 1090000.0,
+            "golfer": "Xander Schauffele",
+            "position": 2
+          },
+          {
+            "status": "scored",
+            "points": 18530.0,
+            "golfer": "Cameron Young",
+            "position": 61
+          },
+          {
+            "status": "scored",
+            "points": 127000.0,
+            "golfer": "Christopher Gotterup",
+            "position": 30
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "golfer": null,
+            "position": null
+          }
+        ]
+      },
+      {
+        "rank": 5,
+        "entry": "SEAGULL",
+        "total": 1234907.0,
+        "behind": -623406.0,
+        "cuts_made": 3,
+        "total_played": 3,
+        "scores": [
+          {
+            "status": "scored",
+            "points": 23860.0,
+            "golfer": "J.J. Spaun",
+            "position": 50
+          },
+          {
+            "status": "scored",
+            "points": 51047.0,
+            "golfer": "Jackson Koivun",
+            "position": 29
+          },
+          {
+            "status": "scored",
+            "points": 1160000.0,
+            "golfer": "Sam Burns",
+            "position": 3
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "golfer": null,
+            "position": null
+          }
+        ]
+      },
+      {
+        "rank": 6,
         "entry": "You Only LIV Twice",
-        "total": 399125.0,
-        "behind": -780875.0,
-        "cuts_made": 2,
-        "total_played": 2,
+        "total": 1159125.0,
+        "behind": -699188.0,
+        "cuts_made": 3,
+        "total_played": 3,
         "scores": [
           {
             "status": "scored",
@@ -13101,44 +13169,44 @@
             "position": 14
           },
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
-          }
-        ]
-      },
-      {
-        "rank": 5,
-        "entry": "TSWANY05",
-        "total": 389635.0,
-        "behind": -790365.0,
-        "cuts_made": 2,
-        "total_played": 2,
-        "scores": [
-          {
             "status": "scored",
-            "points": 370000.0,
-            "golfer": "Hideki Matsuyama",
+            "points": 760000.0,
+            "golfer": "Wyndham Clark",
             "position": 5
           },
           {
-            "status": "scored",
-            "points": 19635.0,
-            "golfer": "Bud Cauley",
-            "position": 54
-          },
-          {
             "status": "upcoming",
             "points": null,
             "golfer": null,
             "position": null
+          }
+        ]
+      },
+      {
+        "rank": 7,
+        "entry": "BIRKSBADBOYZ",
+        "total": 1059475.0,
+        "behind": -798838.0,
+        "cuts_made": 2,
+        "total_played": 3,
+        "scores": [
+          {
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Akshay Bhatia",
+            "position": 86
+          },
+          {
+            "status": "scored",
+            "points": 249475.0,
+            "golfer": "Hideki Matsuyama",
+            "position": 7
+          },
+          {
+            "status": "scored",
+            "points": 1160000.0,
+            "golfer": "Sam Burns",
+            "position": 3
           },
           {
             "status": "upcoming",
@@ -13149,12 +13217,12 @@
         ]
       },
       {
-        "rank": 6,
+        "rank": 8,
         "entry": "BIG T",
-        "total": 309125.0,
-        "behind": -870875.0,
-        "cuts_made": 2,
-        "total_played": 2,
+        "total": 891125.0,
+        "behind": -967188.0,
+        "cuts_made": 3,
+        "total_played": 3,
         "scores": [
           {
             "status": "scored",
@@ -13169,274 +13237,8 @@
             "position": 14
           },
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "entry": "AustinAb",
-        "total": 303547.0,
-        "behind": -876453.0,
-        "cuts_made": 2,
-        "total_played": 2,
-        "scores": [
-          {
             "status": "scored",
-            "points": 252500.0,
-            "golfer": "Patrick Cantlay",
-            "position": 8
-          },
-          {
-            "status": "scored",
-            "points": 51047.0,
-            "golfer": "Jackson Koivun",
-            "position": 29
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "entry": "JBSMOOVE",
-        "total": 303547.0,
-        "behind": -876453.0,
-        "cuts_made": 2,
-        "total_played": 2,
-        "scores": [
-          {
-            "status": "scored",
-            "points": 252500.0,
-            "golfer": "Cameron Young",
-            "position": 8
-          },
-          {
-            "status": "scored",
-            "points": 51047.0,
-            "golfer": "Jackson Koivun",
-            "position": 29
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
-          }
-        ]
-      },
-      {
-        "rank": 7,
-        "entry": "KONRADE",
-        "total": 303547.0,
-        "behind": -876453.0,
-        "cuts_made": 2,
-        "total_played": 2,
-        "scores": [
-          {
-            "status": "scored",
-            "points": 252500.0,
-            "golfer": "Cameron Young",
-            "position": 8
-          },
-          {
-            "status": "scored",
-            "points": 51047.0,
-            "golfer": "Jackson Koivun",
-            "position": 29
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "entry": "JBSOUTHERLAND",
-        "total": 74907.0,
-        "behind": -1105093.0,
-        "cuts_made": 2,
-        "total_played": 2,
-        "scores": [
-          {
-            "status": "scored",
-            "points": 23860.0,
-            "golfer": "J.J. Spaun",
-            "position": 50
-          },
-          {
-            "status": "scored",
-            "points": 51047.0,
-            "golfer": "Aaron Rai",
-            "position": 29
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "entry": "KENBAER",
-        "total": 74907.0,
-        "behind": -1105093.0,
-        "cuts_made": 2,
-        "total_played": 2,
-        "scores": [
-          {
-            "status": "scored",
-            "points": 23860.0,
-            "golfer": "J.J. Spaun",
-            "position": 50
-          },
-          {
-            "status": "scored",
-            "points": 51047.0,
-            "golfer": "Jackson Koivun",
-            "position": 29
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
-          }
-        ]
-      },
-      {
-        "rank": 10,
-        "entry": "SEAGULL",
-        "total": 74907.0,
-        "behind": -1105093.0,
-        "cuts_made": 2,
-        "total_played": 2,
-        "scores": [
-          {
-            "status": "scored",
-            "points": 23860.0,
-            "golfer": "J.J. Spaun",
-            "position": 50
-          },
-          {
-            "status": "scored",
-            "points": 51047.0,
-            "golfer": "Jackson Koivun",
-            "position": 29
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
-          }
-        ]
-      },
-      {
-        "rank": 13,
-        "entry": "D_PRICE",
-        "total": -97500.0,
-        "behind": -1277500.0,
-        "cuts_made": 1,
-        "total_played": 2,
-        "scores": [
-          {
-            "status": "scored",
-            "points": 252500.0,
-            "golfer": "Patrick Cantlay",
-            "position": 8
-          },
-          {
-            "status": "penalty",
-            "points": -350000,
-            "golfer": "Ryan Gerard",
-            "position": 82
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
-          }
-        ]
-      },
-      {
-        "rank": 14,
-        "entry": "BIRKSBADBOYZ",
-        "total": -100525.0,
-        "behind": -1280525.0,
-        "cuts_made": 1,
-        "total_played": 2,
-        "scores": [
-          {
-            "status": "penalty",
-            "points": -350000,
-            "golfer": "Akshay Bhatia",
-            "position": 86
-          },
-          {
-            "status": "scored",
-            "points": 249475.0,
+            "points": 582000.0,
             "golfer": "Hideki Matsuyama",
             "position": 7
           },
@@ -13445,56 +13247,16 @@
             "points": null,
             "golfer": null,
             "position": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
           }
         ]
       },
       {
-        "rank": 14,
-        "entry": "larrymahomes",
-        "total": -100525.0,
-        "behind": -1280525.0,
-        "cuts_made": 1,
-        "total_played": 2,
-        "scores": [
-          {
-            "status": "penalty",
-            "points": -350000,
-            "golfer": "Wyndham Clark",
-            "position": 129
-          },
-          {
-            "status": "scored",
-            "points": 249475.0,
-            "golfer": "Hideki Matsuyama",
-            "position": 7
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
-          }
-        ]
-      },
-      {
-        "rank": 16,
+        "rank": 9,
         "entry": "Therealjasondufner",
-        "total": -292786.0,
-        "behind": -1472786.0,
-        "cuts_made": 1,
-        "total_played": 2,
+        "total": 867214.0,
+        "behind": -991099.0,
+        "cuts_made": 2,
+        "total_played": 3,
         "scores": [
           {
             "status": "scored",
@@ -13509,10 +13271,10 @@
             "position": null
           },
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "scored",
+            "points": 1160000.0,
+            "golfer": "Sam Burns",
+            "position": 3
           },
           {
             "status": "upcoming",
@@ -13523,12 +13285,12 @@
         ]
       },
       {
-        "rank": 17,
+        "rank": 10,
         "entry": "BALL_IS_LIFE",
-        "total": -298953.0,
-        "behind": -1478953.0,
-        "cuts_made": 1,
-        "total_played": 2,
+        "total": 861047.0,
+        "behind": -997266.0,
+        "cuts_made": 2,
+        "total_played": 3,
         "scores": [
           {
             "status": "penalty",
@@ -13543,78 +13305,10 @@
             "position": 29
           },
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "entry": "BENHAILE",
-        "total": -298953.0,
-        "behind": -1478953.0,
-        "cuts_made": 1,
-        "total_played": 2,
-        "scores": [
-          {
-            "status": "penalty",
-            "points": -350000,
-            "golfer": "Wyndham Clark",
-            "position": 129
-          },
-          {
             "status": "scored",
-            "points": 51047.0,
-            "golfer": "Aaron Rai",
-            "position": 29
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "entry": "DILLY DILLY",
-        "total": -298953.0,
-        "behind": -1478953.0,
-        "cuts_made": 1,
-        "total_played": 2,
-        "scores": [
-          {
-            "status": "penalty",
-            "points": -350000,
-            "golfer": "Christopher Gotterup",
-            "position": 105
-          },
-          {
-            "status": "scored",
-            "points": 51047.0,
-            "golfer": "Jackson Koivun",
-            "position": 29
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "points": 1160000.0,
+            "golfer": "Sam Burns",
+            "position": 3
           },
           {
             "status": "upcoming",
@@ -13625,80 +13319,12 @@
         ]
       },
       {
-        "rank": 17,
-        "entry": "J BROTHERS",
-        "total": -298953.0,
-        "behind": -1478953.0,
-        "cuts_made": 1,
-        "total_played": 2,
-        "scores": [
-          {
-            "status": "penalty",
-            "points": -350000,
-            "golfer": "Akshay Bhatia",
-            "position": 86
-          },
-          {
-            "status": "scored",
-            "points": 51047.0,
-            "golfer": "Jackson Koivun",
-            "position": 29
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
-          }
-        ]
-      },
-      {
-        "rank": 17,
-        "entry": "Lane Boy",
-        "total": -298953.0,
-        "behind": -1478953.0,
-        "cuts_made": 1,
-        "total_played": 2,
-        "scores": [
-          {
-            "status": "penalty",
-            "points": -350000,
-            "golfer": "Wyndham Clark",
-            "position": 129
-          },
-          {
-            "status": "scored",
-            "points": 51047.0,
-            "golfer": "Aaron Rai",
-            "position": 29
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
-          }
-        ]
-      },
-      {
-        "rank": 22,
+        "rank": 11,
         "entry": "RYAN4371",
-        "total": -312500.0,
-        "behind": -1492500.0,
-        "cuts_made": 1,
-        "total_played": 2,
+        "total": 847500.0,
+        "behind": -1010813.0,
+        "cuts_made": 2,
+        "total_played": 3,
         "scores": [
           {
             "status": "scored",
@@ -13713,10 +13339,10 @@
             "position": null
           },
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "scored",
+            "points": 1160000.0,
+            "golfer": "Sam Burns",
+            "position": 3
           },
           {
             "status": "upcoming",
@@ -13727,30 +13353,30 @@
         ]
       },
       {
-        "rank": 23,
-        "entry": "Hershiness",
-        "total": -331470.0,
-        "behind": -1511470.0,
-        "cuts_made": 1,
-        "total_played": 2,
+        "rank": 12,
+        "entry": "TSWANY05",
+        "total": 551635.0,
+        "behind": -1306678.0,
+        "cuts_made": 3,
+        "total_played": 3,
         "scores": [
           {
-            "status": "penalty",
-            "points": -350000,
-            "golfer": "Jake Knapp",
-            "position": 74
+            "status": "scored",
+            "points": 370000.0,
+            "golfer": "Hideki Matsuyama",
+            "position": 5
           },
           {
             "status": "scored",
-            "points": 18530.0,
-            "golfer": "Alex Fitzpatrick",
-            "position": 61
+            "points": 19635.0,
+            "golfer": "Bud Cauley",
+            "position": 54
           },
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "scored",
+            "points": 162000.0,
+            "golfer": "Ryan Gerard",
+            "position": 24
           },
           {
             "status": "upcoming",
@@ -13761,30 +13387,30 @@
         ]
       },
       {
-        "rank": 24,
-        "entry": "ADAHMER",
-        "total": -700000,
-        "behind": -1880000.0,
-        "cuts_made": 0,
-        "total_played": 2,
+        "rank": 13,
+        "entry": "D_PRICE",
+        "total": 484500.0,
+        "behind": -1373813.0,
+        "cuts_made": 2,
+        "total_played": 3,
         "scores": [
           {
-            "status": "penalty",
-            "points": -350000,
-            "golfer": "Jake Knapp",
-            "position": 74
+            "status": "scored",
+            "points": 252500.0,
+            "golfer": "Patrick Cantlay",
+            "position": 8
           },
           {
             "status": "penalty",
             "points": -350000,
-            "golfer": "Ben Griffin",
+            "golfer": "Ryan Gerard",
             "position": 82
           },
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "scored",
+            "points": 582000.0,
+            "golfer": "Xander Schauffele",
+            "position": 7
           },
           {
             "status": "upcoming",
@@ -13795,46 +13421,12 @@
         ]
       },
       {
-        "rank": 24,
-        "entry": "FRUSCH",
-        "total": -700000,
-        "behind": -1880000.0,
-        "cuts_made": 0,
-        "total_played": 2,
-        "scores": [
-          {
-            "status": "penalty",
-            "points": -350000,
-            "golfer": null,
-            "position": null
-          },
-          {
-            "status": "penalty",
-            "points": -350000,
-            "golfer": null,
-            "position": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
-          }
-        ]
-      },
-      {
-        "rank": 24,
+        "rank": 14,
         "entry": "KATT MUCHAR",
-        "total": -700000,
-        "behind": -1880000.0,
-        "cuts_made": 0,
-        "total_played": 2,
+        "total": 460000.0,
+        "behind": -1398313.0,
+        "cuts_made": 1,
+        "total_played": 3,
         "scores": [
           {
             "status": "penalty",
@@ -13849,8 +13441,280 @@
             "position": 82
           },
           {
+            "status": "scored",
+            "points": 1160000.0,
+            "golfer": "Sam Burns",
+            "position": 3
+          },
+          {
             "status": "upcoming",
             "points": null,
+            "golfer": null,
+            "position": null
+          }
+        ]
+      },
+      {
+        "rank": 15,
+        "entry": "JBSMOOVE",
+        "total": 430547.0,
+        "behind": -1427766.0,
+        "cuts_made": 3,
+        "total_played": 3,
+        "scores": [
+          {
+            "status": "scored",
+            "points": 252500.0,
+            "golfer": "Cameron Young",
+            "position": 8
+          },
+          {
+            "status": "scored",
+            "points": 51047.0,
+            "golfer": "Jackson Koivun",
+            "position": 29
+          },
+          {
+            "status": "scored",
+            "points": 127000.0,
+            "golfer": "Russell Henley",
+            "position": 30
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "golfer": null,
+            "position": null
+          }
+        ]
+      },
+      {
+        "rank": 16,
+        "entry": "JBSOUTHERLAND",
+        "total": 317307.0,
+        "behind": -1541006.0,
+        "cuts_made": 3,
+        "total_played": 3,
+        "scores": [
+          {
+            "status": "scored",
+            "points": 23860.0,
+            "golfer": "J.J. Spaun",
+            "position": 50
+          },
+          {
+            "status": "scored",
+            "points": 51047.0,
+            "golfer": "Aaron Rai",
+            "position": 29
+          },
+          {
+            "status": "scored",
+            "points": 242400.0,
+            "golfer": "Viktor Hovland",
+            "position": 19
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "golfer": null,
+            "position": null
+          }
+        ]
+      },
+      {
+        "rank": 17,
+        "entry": "J BROTHERS",
+        "total": 283047.0,
+        "behind": -1575266.0,
+        "cuts_made": 2,
+        "total_played": 3,
+        "scores": [
+          {
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Akshay Bhatia",
+            "position": 86
+          },
+          {
+            "status": "scored",
+            "points": 51047.0,
+            "golfer": "Jackson Koivun",
+            "position": 29
+          },
+          {
+            "status": "scored",
+            "points": 582000.0,
+            "golfer": "Hideki Matsuyama",
+            "position": 7
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "golfer": null,
+            "position": null
+          }
+        ]
+      },
+      {
+        "rank": 18,
+        "entry": "KENBAER",
+        "total": 236907.0,
+        "behind": -1621406.0,
+        "cuts_made": 3,
+        "total_played": 3,
+        "scores": [
+          {
+            "status": "scored",
+            "points": 23860.0,
+            "golfer": "J.J. Spaun",
+            "position": 50
+          },
+          {
+            "status": "scored",
+            "points": 51047.0,
+            "golfer": "Jackson Koivun",
+            "position": 29
+          },
+          {
+            "status": "scored",
+            "points": 162000.0,
+            "golfer": "J.T. Poston",
+            "position": 24
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "golfer": null,
+            "position": null
+          }
+        ]
+      },
+      {
+        "rank": 19,
+        "entry": "DILLY DILLY",
+        "total": 69618.0,
+        "behind": -1788695.0,
+        "cuts_made": 2,
+        "total_played": 3,
+        "scores": [
+          {
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Christopher Gotterup",
+            "position": 105
+          },
+          {
+            "status": "scored",
+            "points": 51047.0,
+            "golfer": "Jackson Koivun",
+            "position": 29
+          },
+          {
+            "status": "scored",
+            "points": 368571.0,
+            "golfer": "Joohyung Kim",
+            "position": 12
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "golfer": null,
+            "position": null
+          }
+        ]
+      },
+      {
+        "rank": 20,
+        "entry": "larrymahomes",
+        "total": 61475.0,
+        "behind": -1796838.0,
+        "cuts_made": 2,
+        "total_played": 3,
+        "scores": [
+          {
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Wyndham Clark",
+            "position": 129
+          },
+          {
+            "status": "scored",
+            "points": 249475.0,
+            "golfer": "Hideki Matsuyama",
+            "position": 7
+          },
+          {
+            "status": "scored",
+            "points": 162000.0,
+            "golfer": "Ryan Gerard",
+            "position": 24
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "golfer": null,
+            "position": null
+          }
+        ]
+      },
+      {
+        "rank": 21,
+        "entry": "ADAHMER",
+        "total": 60000.0,
+        "behind": -1798313.0,
+        "cuts_made": 1,
+        "total_played": 3,
+        "scores": [
+          {
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Jake Knapp",
+            "position": 74
+          },
+          {
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Ben Griffin",
+            "position": 82
+          },
+          {
+            "status": "scored",
+            "points": 760000.0,
+            "golfer": "Wyndham Clark",
+            "position": 5
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "golfer": null,
+            "position": null
+          }
+        ]
+      },
+      {
+        "rank": 22,
+        "entry": "AustinAb",
+        "total": -46453.0,
+        "behind": -1904766.0,
+        "cuts_made": 2,
+        "total_played": 3,
+        "scores": [
+          {
+            "status": "scored",
+            "points": 252500.0,
+            "golfer": "Patrick Cantlay",
+            "position": 8
+          },
+          {
+            "status": "scored",
+            "points": 51047.0,
+            "golfer": "Jackson Koivun",
+            "position": 29
+          },
+          {
+            "status": "penalty",
+            "points": -350000,
             "golfer": null,
             "position": null
           },
@@ -13863,30 +13727,30 @@
         ]
       },
       {
-        "rank": 24,
-        "entry": "KNBETHUNE",
-        "total": -700000,
-        "behind": -1880000.0,
-        "cuts_made": 0,
-        "total_played": 2,
+        "rank": 23,
+        "entry": "BENHAILE",
+        "total": -56553.0,
+        "behind": -1914866.0,
+        "cuts_made": 2,
+        "total_played": 3,
         "scores": [
           {
             "status": "penalty",
             "points": -350000,
-            "golfer": null,
-            "position": null
+            "golfer": "Wyndham Clark",
+            "position": 129
           },
           {
-            "status": "penalty",
-            "points": -350000,
-            "golfer": null,
-            "position": null
+            "status": "scored",
+            "points": 51047.0,
+            "golfer": "Aaron Rai",
+            "position": 29
           },
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "scored",
+            "points": 242400.0,
+            "golfer": "Jordan Spieth",
+            "position": 19
           },
           {
             "status": "upcoming",
@@ -13899,10 +13763,10 @@
       {
         "rank": 24,
         "entry": "MPRICE21",
-        "total": -700000,
-        "behind": -1880000.0,
-        "cuts_made": 0,
-        "total_played": 2,
+        "total": -118000.0,
+        "behind": -1976313.0,
+        "cuts_made": 1,
+        "total_played": 3,
         "scores": [
           {
             "status": "penalty",
@@ -13917,10 +13781,10 @@
             "position": null
           },
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "scored",
+            "points": 582000.0,
+            "golfer": "Xander Schauffele",
+            "position": 7
           },
           {
             "status": "upcoming",
@@ -13933,10 +13797,10 @@
       {
         "rank": 24,
         "entry": "PALACEJ",
-        "total": -700000,
-        "behind": -1880000.0,
-        "cuts_made": 0,
-        "total_played": 2,
+        "total": -118000.0,
+        "behind": -1976313.0,
+        "cuts_made": 1,
+        "total_played": 3,
         "scores": [
           {
             "status": "penalty",
@@ -13951,10 +13815,10 @@
             "position": 129
           },
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "scored",
+            "points": 582000.0,
+            "golfer": "Xander Schauffele",
+            "position": 7
           },
           {
             "status": "upcoming",
@@ -13965,30 +13829,30 @@
         ]
       },
       {
-        "rank": 24,
-        "entry": "RISCHCO",
-        "total": -700000,
-        "behind": -1880000.0,
-        "cuts_made": 0,
-        "total_played": 2,
+        "rank": 26,
+        "entry": "Lane Boy",
+        "total": -212953.0,
+        "behind": -2071266.0,
+        "cuts_made": 2,
+        "total_played": 3,
         "scores": [
           {
             "status": "penalty",
             "points": -350000,
-            "golfer": null,
-            "position": null
+            "golfer": "Wyndham Clark",
+            "position": 129
           },
           {
-            "status": "penalty",
-            "points": -350000,
-            "golfer": null,
-            "position": null
+            "status": "scored",
+            "points": 51047.0,
+            "golfer": "Aaron Rai",
+            "position": 29
           },
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "scored",
+            "points": 86000.0,
+            "golfer": "Justin Rose",
+            "position": 39
           },
           {
             "status": "upcoming",
@@ -13999,12 +13863,46 @@
         ]
       },
       {
-        "rank": 24,
+        "rank": 27,
+        "entry": "Hershiness",
+        "total": -284270.0,
+        "behind": -2142583.0,
+        "cuts_made": 2,
+        "total_played": 3,
+        "scores": [
+          {
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Jake Knapp",
+            "position": 74
+          },
+          {
+            "status": "scored",
+            "points": 18530.0,
+            "golfer": "Alex Fitzpatrick",
+            "position": 61
+          },
+          {
+            "status": "scored",
+            "points": 47200.0,
+            "golfer": "Collin Morikawa",
+            "position": 52
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "golfer": null,
+            "position": null
+          }
+        ]
+      },
+      {
+        "rank": 28,
         "entry": "STUMPCAT",
-        "total": -700000,
-        "behind": -1880000.0,
-        "cuts_made": 0,
-        "total_played": 2,
+        "total": -457600.0,
+        "behind": -2315913.0,
+        "cuts_made": 1,
+        "total_played": 3,
         "scores": [
           {
             "status": "penalty",
@@ -14019,10 +13917,10 @@
             "position": 123
           },
           {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
+            "status": "scored",
+            "points": 242400.0,
+            "golfer": "Viktor Hovland",
+            "position": 19
           },
           {
             "status": "upcoming",
@@ -14033,46 +13931,12 @@
         ]
       },
       {
-        "rank": 24,
-        "entry": "SWITZ AND GIGGLES",
-        "total": -700000,
-        "behind": -1880000.0,
-        "cuts_made": 0,
-        "total_played": 2,
-        "scores": [
-          {
-            "status": "penalty",
-            "points": -350000,
-            "golfer": "Christopher Gotterup",
-            "position": 105
-          },
-          {
-            "status": "penalty",
-            "points": -350000,
-            "golfer": null,
-            "position": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
-          },
-          {
-            "status": "upcoming",
-            "points": null,
-            "golfer": null,
-            "position": null
-          }
-        ]
-      },
-      {
-        "rank": 24,
+        "rank": 28,
         "entry": "THIS FOOL RIGHT HERE",
-        "total": -700000,
-        "behind": -1880000.0,
-        "cuts_made": 0,
-        "total_played": 2,
+        "total": -457600.0,
+        "behind": -2315913.0,
+        "cuts_made": 1,
+        "total_played": 3,
         "scores": [
           {
             "status": "penalty",
@@ -14087,8 +13951,144 @@
             "position": 82
           },
           {
+            "status": "scored",
+            "points": 242400.0,
+            "golfer": "Viktor Hovland",
+            "position": 19
+          },
+          {
             "status": "upcoming",
             "points": null,
+            "golfer": null,
+            "position": null
+          }
+        ]
+      },
+      {
+        "rank": 30,
+        "entry": "SWITZ AND GIGGLES",
+        "total": -614000.0,
+        "behind": -2472313.0,
+        "cuts_made": 1,
+        "total_played": 3,
+        "scores": [
+          {
+            "status": "penalty",
+            "points": -350000,
+            "golfer": "Christopher Gotterup",
+            "position": 105
+          },
+          {
+            "status": "penalty",
+            "points": -350000,
+            "golfer": null,
+            "position": null
+          },
+          {
+            "status": "scored",
+            "points": 86000.0,
+            "golfer": "Cameron Young",
+            "position": 39
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "golfer": null,
+            "position": null
+          }
+        ]
+      },
+      {
+        "rank": 31,
+        "entry": "FRUSCH",
+        "total": -1050000,
+        "behind": -2908313.0,
+        "cuts_made": 0,
+        "total_played": 3,
+        "scores": [
+          {
+            "status": "penalty",
+            "points": -350000,
+            "golfer": null,
+            "position": null
+          },
+          {
+            "status": "penalty",
+            "points": -350000,
+            "golfer": null,
+            "position": null
+          },
+          {
+            "status": "penalty",
+            "points": -350000,
+            "golfer": null,
+            "position": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "golfer": null,
+            "position": null
+          }
+        ]
+      },
+      {
+        "rank": 31,
+        "entry": "KNBETHUNE",
+        "total": -1050000,
+        "behind": -2908313.0,
+        "cuts_made": 0,
+        "total_played": 3,
+        "scores": [
+          {
+            "status": "penalty",
+            "points": -350000,
+            "golfer": null,
+            "position": null
+          },
+          {
+            "status": "penalty",
+            "points": -350000,
+            "golfer": null,
+            "position": null
+          },
+          {
+            "status": "penalty",
+            "points": -350000,
+            "golfer": null,
+            "position": null
+          },
+          {
+            "status": "upcoming",
+            "points": null,
+            "golfer": null,
+            "position": null
+          }
+        ]
+      },
+      {
+        "rank": 31,
+        "entry": "RISCHCO",
+        "total": -1050000,
+        "behind": -2908313.0,
+        "cuts_made": 0,
+        "total_played": 3,
+        "scores": [
+          {
+            "status": "penalty",
+            "points": -350000,
+            "golfer": null,
+            "position": null
+          },
+          {
+            "status": "penalty",
+            "points": -350000,
+            "golfer": null,
+            "position": null
+          },
+          {
+            "status": "penalty",
+            "points": -350000,
             "golfer": null,
             "position": null
           },
